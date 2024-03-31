@@ -1,0 +1,11 @@
+{
+  "package_name": "my_robot_interfaces",
+  "output_dir": "/home/asd/ros2_ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces",
+  "idl_tuples": [
+    "/home/asd/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/TargetCoordinates.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/iron/share/geometry_msgs",
+    "std_msgs:/opt/ros/iron/share/std_msgs"
+  ]
+}

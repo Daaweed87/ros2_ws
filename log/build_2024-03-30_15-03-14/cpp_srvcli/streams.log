@@ -1,0 +1,29 @@
+[0.072s] Invoking command in '/home/asd/ros2_ws/build/cpp_srvcli': /usr/bin/cmake --build /home/asd/ros2_ws/build/cpp_srvcli -- -j4 -l4
+[0.251s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.256s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.329s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.343s] [ 75%] Built target client
+[16.649s] [100%] [32m[1mLinking CXX executable server[0m
+[17.386s] [100%] Built target server
+[17.421s] Invoked command in '/home/asd/ros2_ws/build/cpp_srvcli' returned '0': /usr/bin/cmake --build /home/asd/ros2_ws/build/cpp_srvcli -- -j4 -l4
+[17.536s] Invoking command in '/home/asd/ros2_ws/build/cpp_srvcli': /usr/bin/cmake --install /home/asd/ros2_ws/build/cpp_srvcli
+[17.561s] -- Install configuration: ""
+[17.561s] -- Installing: /home/asd/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[17.564s] -- Set runtime path of "/home/asd/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[17.564s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[17.565s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[17.566s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[17.566s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[17.567s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[17.567s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[17.568s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[17.568s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[17.569s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[17.569s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[17.569s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[17.569s] -- Installing: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[17.570s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[17.570s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[17.570s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[17.571s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[17.574s] Invoked command in '/home/asd/ros2_ws/build/cpp_srvcli' returned '0': /usr/bin/cmake --install /home/asd/ros2_ws/build/cpp_srvcli

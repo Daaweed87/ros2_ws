@@ -1,0 +1,224 @@
+[0.000000] (-) TimerEvent: {}
+[0.000519] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000601] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.027632] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.028987] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.031651] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/cpp_srvcli', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('SYSTEMD_EXEC_PID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1371,unix/asd:/tmp/.ICE-unix/1371'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9368e10d_480b_4835_b125_a3a89a00e87c'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9HEOL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.445'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.097427] (-) TimerEvent: {}
+[0.198309] (-) TimerEvent: {}
+[0.217295] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[0.264073] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] Built target server\n'}
+[0.298872] (-) TimerEvent: {}
+[0.303224] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[0.400020] (-) TimerEvent: {}
+[0.501549] (-) TimerEvent: {}
+[0.602107] (-) TimerEvent: {}
+[0.703622] (-) TimerEvent: {}
+[0.805158] (-) TimerEvent: {}
+[0.906714] (-) TimerEvent: {}
+[1.008279] (-) TimerEvent: {}
+[1.109827] (-) TimerEvent: {}
+[1.210304] (-) TimerEvent: {}
+[1.310997] (-) TimerEvent: {}
+[1.412424] (-) TimerEvent: {}
+[1.512971] (-) TimerEvent: {}
+[1.613602] (-) TimerEvent: {}
+[1.715062] (-) TimerEvent: {}
+[1.815593] (-) TimerEvent: {}
+[1.916221] (-) TimerEvent: {}
+[2.016755] (-) TimerEvent: {}
+[2.117974] (-) TimerEvent: {}
+[2.219837] (-) TimerEvent: {}
+[2.320394] (-) TimerEvent: {}
+[2.420987] (-) TimerEvent: {}
+[2.521514] (-) TimerEvent: {}
+[2.623001] (-) TimerEvent: {}
+[2.723583] (-) TimerEvent: {}
+[2.824159] (-) TimerEvent: {}
+[2.924717] (-) TimerEvent: {}
+[3.026286] (-) TimerEvent: {}
+[3.127000] (-) TimerEvent: {}
+[3.228375] (-) TimerEvent: {}
+[3.328947] (-) TimerEvent: {}
+[3.429826] (-) TimerEvent: {}
+[3.530952] (-) TimerEvent: {}
+[3.631561] (-) TimerEvent: {}
+[3.732051] (-) TimerEvent: {}
+[3.832640] (-) TimerEvent: {}
+[3.934243] (-) TimerEvent: {}
+[4.035737] (-) TimerEvent: {}
+[4.136243] (-) TimerEvent: {}
+[4.236883] (-) TimerEvent: {}
+[4.338050] (-) TimerEvent: {}
+[4.438595] (-) TimerEvent: {}
+[4.540500] (-) TimerEvent: {}
+[4.642082] (-) TimerEvent: {}
+[4.743532] (-) TimerEvent: {}
+[4.844119] (-) TimerEvent: {}
+[4.944673] (-) TimerEvent: {}
+[5.045274] (-) TimerEvent: {}
+[5.146053] (-) TimerEvent: {}
+[5.247332] (-) TimerEvent: {}
+[5.347886] (-) TimerEvent: {}
+[5.448443] (-) TimerEvent: {}
+[5.549030] (-) TimerEvent: {}
+[5.649637] (-) TimerEvent: {}
+[5.751087] (-) TimerEvent: {}
+[5.851642] (-) TimerEvent: {}
+[5.953214] (-) TimerEvent: {}
+[6.054727] (-) TimerEvent: {}
+[6.155964] (-) TimerEvent: {}
+[6.256803] (-) TimerEvent: {}
+[6.363232] (-) TimerEvent: {}
+[6.463797] (-) TimerEvent: {}
+[6.566343] (-) TimerEvent: {}
+[6.667867] (-) TimerEvent: {}
+[6.769534] (-) TimerEvent: {}
+[6.870889] (-) TimerEvent: {}
+[6.971472] (-) TimerEvent: {}
+[7.072024] (-) TimerEvent: {}
+[7.172552] (-) TimerEvent: {}
+[7.274161] (-) TimerEvent: {}
+[7.374683] (-) TimerEvent: {}
+[7.476209] (-) TimerEvent: {}
+[7.576769] (-) TimerEvent: {}
+[7.679278] (-) TimerEvent: {}
+[7.780884] (-) TimerEvent: {}
+[7.882163] (-) TimerEvent: {}
+[7.982903] (-) TimerEvent: {}
+[8.084420] (-) TimerEvent: {}
+[8.185165] (-) TimerEvent: {}
+[8.286551] (-) TimerEvent: {}
+[8.387081] (-) TimerEvent: {}
+[8.487612] (-) TimerEvent: {}
+[8.589230] (-) TimerEvent: {}
+[8.690675] (-) TimerEvent: {}
+[8.792230] (-) TimerEvent: {}
+[8.892875] (-) TimerEvent: {}
+[8.994368] (-) TimerEvent: {}
+[9.095867] (-) TimerEvent: {}
+[9.196429] (-) TimerEvent: {}
+[9.297032] (-) TimerEvent: {}
+[9.397617] (-) TimerEvent: {}
+[9.499086] (-) TimerEvent: {}
+[9.599657] (-) TimerEvent: {}
+[9.700188] (-) TimerEvent: {}
+[9.729919] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.730417] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:14:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kisdigit(char*&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.730707] (cpp_srvcli) StderrLine: {'line': b'   14 |   if (argc != 3 || !\x1b[01;31m\x1b[Kstd::isdigit(argv[1])\x1b[m\x1b[K || !std::isdigit(argv[2])) {\n'}
+[9.730976] (cpp_srvcli) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.757004] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_ios.h:37\x1b[m\x1b[K,\n'}
+[9.757635] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:44\x1b[m\x1b[K,\n'}
+[9.757845] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[9.758133] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[9.758399] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[9.758689] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[9.758999] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[9.759265] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[9.759526] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[9.759789] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/locale_facets.h:2632:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT> bool std::isdigit(_CharT, const std::locale&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.760087] (cpp_srvcli) StderrLine: {'line': b' 2632 |     \x1b[01;36m\x1b[Kisdigit\x1b[m\x1b[K(_CharT __c, const locale& __loc)\n'}
+[9.760348] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.760607] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/locale_facets.h:2632:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.761864] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:14:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[9.762184] (cpp_srvcli) StderrLine: {'line': b'   14 |   if (argc != 3 || !\x1b[01;36m\x1b[Kstd::isdigit(argv[1])\x1b[m\x1b[K || !std::isdigit(argv[2])) {\n'}
+[9.762450] (cpp_srvcli) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.762713] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cctype:42\x1b[m\x1b[K,\n'}
+[9.763002] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/localefwd.h:42\x1b[m\x1b[K,\n'}
+[9.763261] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:43\x1b[m\x1b[K,\n'}
+[9.763520] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[9.763800] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[9.764059] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[9.764317] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[9.764574] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[9.764853] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[9.765135] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[9.765394] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ctype.h:111:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kint isdigit(int)\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[9.765747] (cpp_srvcli) StderrLine: {'line': b'  111 | \x1b[01;36m\x1b[K__exctype\x1b[m\x1b[K (isdigit);\n'}
+[9.766009] (cpp_srvcli) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.766266] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ctype.h:111:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[9.766525] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:14:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.766817] (cpp_srvcli) StderrLine: {'line': b'   14 |   if (argc != 3 || !std::isdigit(\x1b[01;31m\x1b[Kargv[1]\x1b[m\x1b[K) || !std::isdigit(argv[2])) {\n'}
+[9.767103] (cpp_srvcli) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K~~~~~~^\x1b[m\x1b[K\n'}
+[9.767362] (cpp_srvcli) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[9.767621] (cpp_srvcli) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[9.767901] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:14:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kisdigit(char*&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.768162] (cpp_srvcli) StderrLine: {'line': b'   14 |   if (argc != 3 || !std::isdigit(argv[1]) || !\x1b[01;31m\x1b[Kstd::isdigit(argv[2])\x1b[m\x1b[K) {\n'}
+[9.768435] (cpp_srvcli) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.768713] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_ios.h:37\x1b[m\x1b[K,\n'}
+[9.768969] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:44\x1b[m\x1b[K,\n'}
+[9.769240] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[9.769548] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[9.769842] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[9.770098] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[9.770355] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[9.770633] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[9.770891] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[9.771147] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/locale_facets.h:2632:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT> bool std::isdigit(_CharT, const std::locale&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.771420] (cpp_srvcli) StderrLine: {'line': b' 2632 |     \x1b[01;36m\x1b[Kisdigit\x1b[m\x1b[K(_CharT __c, const locale& __loc)\n'}
+[9.771701] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[9.771957] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/locale_facets.h:2632:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.772216] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:14:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[9.772475] (cpp_srvcli) StderrLine: {'line': b'   14 |   if (argc != 3 || !std::isdigit(argv[1]) || !\x1b[01;36m\x1b[Kstd::isdigit(argv[2])\x1b[m\x1b[K) {\n'}
+[9.772757] (cpp_srvcli) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.773014] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cctype:42\x1b[m\x1b[K,\n'}
+[9.773270] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/localefwd.h:42\x1b[m\x1b[K,\n'}
+[9.773598] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:43\x1b[m\x1b[K,\n'}
+[9.773862] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/stdexcept:39\x1b[m\x1b[K,\n'}
+[9.774118] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/system_error:41\x1b[m\x1b[K,\n'}
+[9.774375] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:42\x1b[m\x1b[K,\n'}
+[9.774655] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[9.774913] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[9.775169] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[9.775425] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[9.775708] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ctype.h:111:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kint isdigit(int)\x1b[m\x1b[K\xe2\x80\x99 (near match)\n'}
+[9.775966] (cpp_srvcli) StderrLine: {'line': b'  111 | \x1b[01;36m\x1b[K__exctype\x1b[m\x1b[K (isdigit);\n'}
+[9.776222] (cpp_srvcli) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[9.776498] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/ctype.h:111:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  conversion of argument 1 would be ill-formed:\n'}
+[9.776757] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:14:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.777022] (cpp_srvcli) StderrLine: {'line': b'   14 |   if (argc != 3 || !std::isdigit(argv[1]) || !std::isdigit(\x1b[01;31m\x1b[Kargv[2]\x1b[m\x1b[K)) {\n'}
+[9.777279] (cpp_srvcli) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K~~~~~~^\x1b[m\x1b[K\n'}
+[9.777613] (cpp_srvcli) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[9.777894] (cpp_srvcli) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[9.800594] (-) TimerEvent: {}
+[9.901549] (-) TimerEvent: {}
+[10.003144] (-) TimerEvent: {}
+[10.103750] (-) TimerEvent: {}
+[10.204302] (-) TimerEvent: {}
+[10.306902] (-) TimerEvent: {}
+[10.408369] (-) TimerEvent: {}
+[10.509907] (-) TimerEvent: {}
+[10.612397] (-) TimerEvent: {}
+[10.713905] (-) TimerEvent: {}
+[10.815469] (-) TimerEvent: {}
+[10.917113] (-) TimerEvent: {}
+[11.018538] (-) TimerEvent: {}
+[11.121053] (-) TimerEvent: {}
+[11.222574] (-) TimerEvent: {}
+[11.323167] (-) TimerEvent: {}
+[11.423727] (-) TimerEvent: {}
+[11.526232] (-) TimerEvent: {}
+[11.627727] (-) TimerEvent: {}
+[11.729292] (-) TimerEvent: {}
+[11.830812] (-) TimerEvent: {}
+[11.932371] (-) TimerEvent: {}
+[12.033949] (-) TimerEvent: {}
+[12.134448] (-) TimerEvent: {}
+[12.235965] (-) TimerEvent: {}
+[12.336564] (-) TimerEvent: {}
+[12.437096] (-) TimerEvent: {}
+[12.539788] (-) TimerEvent: {}
+[12.642158] (-) TimerEvent: {}
+[12.742653] (-) TimerEvent: {}
+[12.844206] (-) TimerEvent: {}
+[12.944785] (-) TimerEvent: {}
+[13.046291] (-) TimerEvent: {}
+[13.146872] (-) TimerEvent: {}
+[13.247435] (-) TimerEvent: {}
+[13.289123] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1\n'}
+[13.291025] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2\n'}
+[13.291558] (cpp_srvcli) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.296605] (cpp_srvcli) CommandEnded: {'returncode': 2}
+[13.347637] (-) TimerEvent: {}
+[13.436070] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 2}
+[13.447498] (-) EventReactorShutdown: {}

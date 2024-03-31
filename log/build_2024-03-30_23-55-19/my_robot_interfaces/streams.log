@@ -1,0 +1,21 @@
+[0.023s] Invoking command in '/home/asd/ros2_ws/build/my_robot_interfaces': /usr/bin/cmake /home/asd/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/my_robot_interfaces
+[0.104s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[0.104s]   By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.105s]   project has asked CMake to find a package configuration file provided by
+[0.105s]   "example_interfaces", but CMake did not find one.
+[0.105s] 
+[0.106s]   Could not find a package configuration file provided by
+[0.106s]   "example_interfaces" with any of the following names:
+[0.106s] 
+[0.107s]     example_interfacesConfig.cmake
+[0.107s]     example_interfaces-config.cmake
+[0.107s] 
+[0.107s]   Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or
+[0.108s]   set "example_interfaces_DIR" to a directory containing one of the above
+[0.108s]   files.  If "example_interfaces" provides a separate development package or
+[0.109s]   SDK, be sure it has been installed.
+[0.109s] 
+[0.110s] [0m
+[0.110s] -- Configuring incomplete, errors occurred!
+[0.111s] See also "/home/asd/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.116s] Invoked command in '/home/asd/ros2_ws/build/my_robot_interfaces' returned '1': /usr/bin/cmake /home/asd/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/my_robot_interfaces

@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.010154] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.010245] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.010330] (-) EventReactorShutdown: {}

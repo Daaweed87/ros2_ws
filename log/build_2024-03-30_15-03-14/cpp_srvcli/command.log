@@ -1,0 +1,4 @@
+Invoking command in '/home/asd/ros2_ws/build/cpp_srvcli': /usr/bin/cmake --build /home/asd/ros2_ws/build/cpp_srvcli -- -j4 -l4
+Invoked command in '/home/asd/ros2_ws/build/cpp_srvcli' returned '0': /usr/bin/cmake --build /home/asd/ros2_ws/build/cpp_srvcli -- -j4 -l4
+Invoking command in '/home/asd/ros2_ws/build/cpp_srvcli': /usr/bin/cmake --install /home/asd/ros2_ws/build/cpp_srvcli
+Invoked command in '/home/asd/ros2_ws/build/cpp_srvcli' returned '0': /usr/bin/cmake --install /home/asd/ros2_ws/build/cpp_srvcli

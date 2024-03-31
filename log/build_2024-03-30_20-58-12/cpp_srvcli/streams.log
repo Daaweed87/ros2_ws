@@ -1,0 +1,51 @@
+[0.040s] Invoking command in '/home/asd/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/cpp_srvcli -- -j4 -l4
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.250s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.278s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[9.767s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.767s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[9.768s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.768s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.768s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.768s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.769s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.769s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.769s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.770s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.770s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.770s]                  from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:1[m[K:
+[9.770s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[9.771s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:36:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.771s]    36 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"sending back response: [%f]"[m[K, [32m[Kresponse->sum[m[K);
+[9.771s]       |                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~[m[K
+[9.771s]       |                                                                                        [32m[K|[m[K
+[9.772s]       |                                                                                        [32m[Kexample_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >::_sum_type {aka long int}[m[K
+[9.772s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:36:73:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.772s]    36 | NFO(rclcpp::get_logger("rclcpp"), "sending back response: [[01;36m[K%f[m[K]", response->sum);
+[9.772s]       |                                                            [01;36m[K~^[m[K
+[9.773s]       |                                                             [01;36m[K|[m[K
+[9.773s]       |                                                             [01;36m[Kdouble[m[K
+[9.773s]       |                                                            [32m[K%ld[m[K
+[9.797s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.797s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:59:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kstod[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::__cxx11::stod[m[K’?
+[9.797s]    59 |     request->a = [01;31m[Kstod[m[K(argv[1]);
+[9.798s]       |                  [01;31m[K^~~~[m[K
+[9.798s]       |                  [32m[Kstd::__cxx11::stod[m[K
+[9.799s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[9.799s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[9.799s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[9.799s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[9.800s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[9.800s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[9.800s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.801s]                  from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1[m[K:
+[9.801s] [01m[K/usr/include/c++/11/bits/basic_string.h:6780:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::__cxx11::stod[m[K’ declared here
+[9.801s]  6780 |   [01;36m[Kstod[m[K(const wstring& __str, size_t* __idx = 0)
+[9.801s]       |   [01;36m[K^~~~[m[K
+[13.554s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+[13.555s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[13.555s] gmake[1]: *** Waiting for unfinished jobs....
+[14.822s] [ 75%] [32m[1mLinking CXX executable server[0m
+[16.410s] [ 75%] Built target server
+[16.413s] gmake: *** [Makefile:146: all] Error 2
+[16.419s] Invoked command in '/home/asd/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/cpp_srvcli -- -j4 -l4

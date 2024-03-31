@@ -1,0 +1,441 @@
+[0.000000] (-) TimerEvent: {}
+[0.000271] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000366] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.054136] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.065744] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.069334] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/cpp_srvcli', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('SYSTEMD_EXEC_PID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1371,unix/asd:/tmp/.ICE-unix/1371'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf2e53dc_e1d3_47c2_843b_1f2cdad98f87'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9HEOL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.572'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.097558] (-) TimerEvent: {}
+[0.198092] (-) TimerEvent: {}
+[0.236875] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[0.266530] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[0.298340] (-) TimerEvent: {}
+[0.313246] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[0.344459] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[0.399377] (-) TimerEvent: {}
+[0.500563] (-) TimerEvent: {}
+[0.601154] (-) TimerEvent: {}
+[0.702190] (-) TimerEvent: {}
+[0.813180] (-) TimerEvent: {}
+[0.913790] (-) TimerEvent: {}
+[1.015990] (-) TimerEvent: {}
+[1.116677] (-) TimerEvent: {}
+[1.221734] (-) TimerEvent: {}
+[1.323729] (-) TimerEvent: {}
+[1.424506] (-) TimerEvent: {}
+[1.526036] (-) TimerEvent: {}
+[1.627142] (-) TimerEvent: {}
+[1.728694] (-) TimerEvent: {}
+[1.829229] (-) TimerEvent: {}
+[1.932646] (-) TimerEvent: {}
+[2.036104] (-) TimerEvent: {}
+[2.139187] (-) TimerEvent: {}
+[2.240673] (-) TimerEvent: {}
+[2.347917] (-) TimerEvent: {}
+[2.448518] (-) TimerEvent: {}
+[2.549068] (-) TimerEvent: {}
+[2.649670] (-) TimerEvent: {}
+[2.750269] (-) TimerEvent: {}
+[2.851064] (-) TimerEvent: {}
+[2.951841] (-) TimerEvent: {}
+[3.052427] (-) TimerEvent: {}
+[3.153057] (-) TimerEvent: {}
+[3.253679] (-) TimerEvent: {}
+[3.354347] (-) TimerEvent: {}
+[3.455041] (-) TimerEvent: {}
+[3.555859] (-) TimerEvent: {}
+[3.656471] (-) TimerEvent: {}
+[3.757077] (-) TimerEvent: {}
+[3.857683] (-) TimerEvent: {}
+[3.958275] (-) TimerEvent: {}
+[4.058890] (-) TimerEvent: {}
+[4.159592] (-) TimerEvent: {}
+[4.260153] (-) TimerEvent: {}
+[4.361387] (-) TimerEvent: {}
+[4.461994] (-) TimerEvent: {}
+[4.562670] (-) TimerEvent: {}
+[4.663408] (-) TimerEvent: {}
+[4.764172] (-) TimerEvent: {}
+[4.865165] (-) TimerEvent: {}
+[4.965836] (-) TimerEvent: {}
+[5.066449] (-) TimerEvent: {}
+[5.167300] (-) TimerEvent: {}
+[5.268164] (-) TimerEvent: {}
+[5.369026] (-) TimerEvent: {}
+[5.469612] (-) TimerEvent: {}
+[5.570300] (-) TimerEvent: {}
+[5.670989] (-) TimerEvent: {}
+[5.771681] (-) TimerEvent: {}
+[5.872399] (-) TimerEvent: {}
+[5.973270] (-) TimerEvent: {}
+[6.073816] (-) TimerEvent: {}
+[6.174498] (-) TimerEvent: {}
+[6.275139] (-) TimerEvent: {}
+[6.375955] (-) TimerEvent: {}
+[6.476734] (-) TimerEvent: {}
+[6.577963] (-) TimerEvent: {}
+[6.678703] (-) TimerEvent: {}
+[6.779412] (-) TimerEvent: {}
+[6.880229] (-) TimerEvent: {}
+[6.980966] (-) TimerEvent: {}
+[7.081847] (-) TimerEvent: {}
+[7.182461] (-) TimerEvent: {}
+[7.283108] (-) TimerEvent: {}
+[7.383854] (-) TimerEvent: {}
+[7.484531] (-) TimerEvent: {}
+[7.585127] (-) TimerEvent: {}
+[7.685740] (-) TimerEvent: {}
+[7.786314] (-) TimerEvent: {}
+[7.886862] (-) TimerEvent: {}
+[7.987409] (-) TimerEvent: {}
+[8.087985] (-) TimerEvent: {}
+[8.188599] (-) TimerEvent: {}
+[8.289115] (-) TimerEvent: {}
+[8.389831] (-) TimerEvent: {}
+[8.490480] (-) TimerEvent: {}
+[8.591036] (-) TimerEvent: {}
+[8.691902] (-) TimerEvent: {}
+[8.792730] (-) TimerEvent: {}
+[8.893353] (-) TimerEvent: {}
+[8.994047] (-) TimerEvent: {}
+[9.094732] (-) TimerEvent: {}
+[9.195424] (-) TimerEvent: {}
+[9.296136] (-) TimerEvent: {}
+[9.396869] (-) TimerEvent: {}
+[9.497614] (-) TimerEvent: {}
+[9.598314] (-) TimerEvent: {}
+[9.699007] (-) TimerEvent: {}
+[9.799723] (-) TimerEvent: {}
+[9.900368] (-) TimerEvent: {}
+[10.001027] (-) TimerEvent: {}
+[10.102013] (-) TimerEvent: {}
+[10.202846] (-) TimerEvent: {}
+[10.303431] (-) TimerEvent: {}
+[10.404081] (-) TimerEvent: {}
+[10.504713] (-) TimerEvent: {}
+[10.605345] (-) TimerEvent: {}
+[10.706075] (-) TimerEvent: {}
+[10.806822] (-) TimerEvent: {}
+[10.907420] (-) TimerEvent: {}
+[11.008072] (-) TimerEvent: {}
+[11.108659] (-) TimerEvent: {}
+[11.209279] (-) TimerEvent: {}
+[11.286467] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7\x1b[m\x1b[K,\n'}
+[11.286831] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2\x1b[m\x1b[K:\n'}
+[11.287020] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:59:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfloat_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.287382] (cpp_srvcli) StderrLine: {'line': b'   59 |     \x1b[01;31m\x1b[Kfloat64_t\x1b[m\x1b[K;\n'}
+[11.287649] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.287906] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kfloat_t\x1b[m\x1b[K\n'}
+[11.291740] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:60:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_a_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[11.292097] (cpp_srvcli) StderrLine: {'line': b'   60 |   \x1b[01;31m\x1b[K_a_type\x1b[m\x1b[K a;\n'}
+[11.292360] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.296801] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:62:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfloat_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.297250] (cpp_srvcli) StderrLine: {'line': b'   62 |     \x1b[01;31m\x1b[Kfloat64_t\x1b[m\x1b[K;\n'}
+[11.297517] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.301066] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kfloat_t\x1b[m\x1b[K\n'}
+[11.302143] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:63:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_b_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[11.302498] (cpp_srvcli) StderrLine: {'line': b'   63 |   \x1b[01;31m\x1b[K_b_type\x1b[m\x1b[K b;\n'}
+[11.309089] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.309436] (-) TimerEvent: {}
+[11.318818] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:67:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfloat_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.319152] (cpp_srvcli) StderrLine: {'line': b'   67 |     const \x1b[01;31m\x1b[Kfloat64_t\x1b[m\x1b[K & _arg)\n'}
+[11.325061] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.325385] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[32m\x1b[Kfloat_t\x1b[m\x1b[K\n'}
+[11.325647] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:73:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfloat_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.325937] (cpp_srvcli) StderrLine: {'line': b'   73 |     const \x1b[01;31m\x1b[Kfloat64_t\x1b[m\x1b[K & _arg)\n'}
+[11.326233] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.326531] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[32m\x1b[Kfloat_t\x1b[m\x1b[K\n'}
+[11.326839] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:185:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfloat_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.327186] (cpp_srvcli) StderrLine: {'line': b'  185 |     \x1b[01;31m\x1b[Kfloat64_t\x1b[m\x1b[K;\n'}
+[11.327547] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.327854] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kfloat_t\x1b[m\x1b[K\n'}
+[11.328387] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:186:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_sum_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[11.328616] (cpp_srvcli) StderrLine: {'line': b'  186 |   \x1b[01;31m\x1b[K_sum_type\x1b[m\x1b[K sum;\n'}
+[11.328802] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.332140] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:190:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfloat_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.332434] (cpp_srvcli) StderrLine: {'line': b'  190 |     const \x1b[01;31m\x1b[Kfloat64_t\x1b[m\x1b[K & _arg)\n'}
+[11.332621] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.332803] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[32m\x1b[Kfloat_t\x1b[m\x1b[K\n'}
+[11.374239] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7\x1b[m\x1b[K,\n'}
+[11.374719] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:2\x1b[m\x1b[K:\n'}
+[11.375550] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:59:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfloat_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.375941] (cpp_srvcli) StderrLine: {'line': b'   59 |     \x1b[01;31m\x1b[Kfloat64_t\x1b[m\x1b[K;\n'}
+[11.376236] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.376531] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kfloat_t\x1b[m\x1b[K\n'}
+[11.376799] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:60:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_a_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[11.377191] (cpp_srvcli) StderrLine: {'line': b'   60 |   \x1b[01;31m\x1b[K_a_type\x1b[m\x1b[K a;\n'}
+[11.377447] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.381277] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:62:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfloat_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.381729] (cpp_srvcli) StderrLine: {'line': b'   62 |     \x1b[01;31m\x1b[Kfloat64_t\x1b[m\x1b[K;\n'}
+[11.382027] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.382284] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kfloat_t\x1b[m\x1b[K\n'}
+[11.386608] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:63:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_b_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[11.387034] (cpp_srvcli) StderrLine: {'line': b'   63 |   \x1b[01;31m\x1b[K_b_type\x1b[m\x1b[K b;\n'}
+[11.387329] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[11.391680] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:67:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfloat_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.391986] (cpp_srvcli) StderrLine: {'line': b'   67 |     const \x1b[01;31m\x1b[Kfloat64_t\x1b[m\x1b[K & _arg)\n'}
+[11.392173] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.392354] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[32m\x1b[Kfloat_t\x1b[m\x1b[K\n'}
+[11.397163] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:73:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfloat_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.397613] (cpp_srvcli) StderrLine: {'line': b'   73 |     const \x1b[01;31m\x1b[Kfloat64_t\x1b[m\x1b[K & _arg)\n'}
+[11.397875] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.398134] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[32m\x1b[Kfloat_t\x1b[m\x1b[K\n'}
+[11.403824] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:185:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfloat_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.404098] (cpp_srvcli) StderrLine: {'line': b'  185 |     \x1b[01;31m\x1b[Kfloat64_t\x1b[m\x1b[K;\n'}
+[11.404337] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.404576] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kfloat_t\x1b[m\x1b[K\n'}
+[11.409661] (-) TimerEvent: {}
+[11.410891] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:186:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_sum_type\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[11.411205] (cpp_srvcli) StderrLine: {'line': b'  186 |   \x1b[01;31m\x1b[K_sum_type\x1b[m\x1b[K sum;\n'}
+[11.411508] (cpp_srvcli) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.416072] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:190:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfloat64_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kfloat_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[11.416396] (cpp_srvcli) StderrLine: {'line': b'  190 |     const \x1b[01;31m\x1b[Kfloat64_t\x1b[m\x1b[K & _arg)\n'}
+[11.416638] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.416877] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[32m\x1b[Kfloat_t\x1b[m\x1b[K\n'}
+[11.510887] (-) TimerEvent: {}
+[11.626858] (-) TimerEvent: {}
+[11.658681] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:8\x1b[m\x1b[K,\n'}
+[11.659039] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2\x1b[m\x1b[K:\n'}
+[11.659593] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:30:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request::_b_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[11.659907] (cpp_srvcli) StderrLine: {'line': b'   30 |   ::example_interfaces::srv::AddTwoInts_Request b(\x1b[01;31m\x1b[K::\x1b[m\x1b[Kexample_interfaces::srv::AddTwoInts_Request::_b_type arg)\n'}
+[11.660486] (cpp_srvcli) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.660825] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:8\x1b[m\x1b[K,\n'}
+[11.661137] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:2\x1b[m\x1b[K:\n'}
+[11.661447] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:30:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request::_b_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[11.661796] (cpp_srvcli) StderrLine: {'line': b'   30 |   ::example_interfaces::srv::AddTwoInts_Request b(\x1b[01;31m\x1b[K::\x1b[m\x1b[Kexample_interfaces::srv::AddTwoInts_Request::_b_type arg)\n'}
+[11.662104] (cpp_srvcli) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.662410] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request example_interfaces::srv::builder::Init_AddTwoInts_Request_b::b(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.662763] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:32:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing AddTwoInts_Request = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.663095] (cpp_srvcli) StderrLine: {'line': b'   32 |     msg_.\x1b[01;31m\x1b[Kb\x1b[m\x1b[K = std::move(arg);\n'}
+[11.663837] (cpp_srvcli) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.664033] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:\x1b[m\x1b[K At global scope:\n'}
+[11.664232] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:46:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request::_a_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[11.664503] (cpp_srvcli) StderrLine: {'line': b'   46 |   Init_AddTwoInts_Request_b a(\x1b[01;31m\x1b[K::\x1b[m\x1b[Kexample_interfaces::srv::AddTwoInts_Request::_a_type arg)\n'}
+[11.664812] (cpp_srvcli) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.665134] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request example_interfaces::srv::builder::Init_AddTwoInts_Request_b::b(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.665466] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:32:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing AddTwoInts_Request = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.665786] (cpp_srvcli) StderrLine: {'line': b'   32 |     msg_.\x1b[01;31m\x1b[Kb\x1b[m\x1b[K = std::move(arg);\n'}
+[11.666090] (cpp_srvcli) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.666420] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::builder::Init_AddTwoInts_Request_b example_interfaces::srv::builder::Init_AddTwoInts_Request_a::a(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.666733] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:48:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing AddTwoInts_Request = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.667047] (cpp_srvcli) StderrLine: {'line': b'   48 |     msg_.\x1b[01;31m\x1b[Ka\x1b[m\x1b[K = std::move(arg);\n'}
+[11.667424] (cpp_srvcli) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.667735] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:\x1b[m\x1b[K At global scope:\n'}
+[11.668040] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:46:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request::_a_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[11.668385] (cpp_srvcli) StderrLine: {'line': b'   46 |   Init_AddTwoInts_Request_b a(\x1b[01;31m\x1b[K::\x1b[m\x1b[Kexample_interfaces::srv::AddTwoInts_Request::_a_type arg)\n'}
+[11.668715] (cpp_srvcli) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.669025] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:\x1b[m\x1b[K At global scope:\n'}
+[11.669362] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:88:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Response::_sum_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[11.669675] (cpp_srvcli) StderrLine: {'line': b'   88 |   ::example_interfaces::srv::AddTwoInts_Response sum(\x1b[01;31m\x1b[K::\x1b[m\x1b[Kexample_interfaces::srv::AddTwoInts_Response::_sum_type arg)\n'}
+[11.669982] (cpp_srvcli) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.670287] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Response example_interfaces::srv::builder::Init_AddTwoInts_Response_sum::sum(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.670636] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:90:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing AddTwoInts_Response = struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksum\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.670985] (cpp_srvcli) StderrLine: {'line': b'   90 |     msg_.\x1b[01;31m\x1b[Ksum\x1b[m\x1b[K = std::move(arg);\n'}
+[11.671420] (cpp_srvcli) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.671750] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::builder::Init_AddTwoInts_Request_b example_interfaces::srv::builder::Init_AddTwoInts_Request_a::a(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.672088] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:48:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing AddTwoInts_Request = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.672444] (cpp_srvcli) StderrLine: {'line': b'   48 |     msg_.\x1b[01;31m\x1b[Ka\x1b[m\x1b[K = std::move(arg);\n'}
+[11.672747] (cpp_srvcli) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.673273] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:\x1b[m\x1b[K At global scope:\n'}
+[11.675895] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:88:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Response::_sum_type\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[11.676481] (cpp_srvcli) StderrLine: {'line': b'   88 |   ::example_interfaces::srv::AddTwoInts_Response sum(\x1b[01;31m\x1b[K::\x1b[m\x1b[Kexample_interfaces::srv::AddTwoInts_Response::_sum_type arg)\n'}
+[11.676798] (cpp_srvcli) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[11.677067] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Response example_interfaces::srv::builder::Init_AddTwoInts_Response_sum::sum(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.677387] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:90:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing AddTwoInts_Response = struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksum\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.677688] (cpp_srvcli) StderrLine: {'line': b'   90 |     msg_.\x1b[01;31m\x1b[Ksum\x1b[m\x1b[K = std::move(arg);\n'}
+[11.677974] (cpp_srvcli) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.692208] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:9\x1b[m\x1b[K,\n'}
+[11.692782] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2\x1b[m\x1b[K:\n'}
+[11.693069] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid example_interfaces::srv::to_flow_style_yaml(const AddTwoInts_Request&, std::ostream&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.693336] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:31:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst AddTwoInts_Request\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.693616] (cpp_srvcli) StderrLine: {'line': b'   31 |     rosidl_generator_traits::value_to_yaml(msg.\x1b[01;31m\x1b[Ka\x1b[m\x1b[K, out);\n'}
+[11.693898] (cpp_srvcli) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.694368] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:38:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst AddTwoInts_Request\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.694648] (cpp_srvcli) StderrLine: {'line': b'   38 |     rosidl_generator_traits::value_to_yaml(msg.\x1b[01;31m\x1b[Kb\x1b[m\x1b[K, out);\n'}
+[11.694935] (cpp_srvcli) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.695194] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid example_interfaces::srv::to_block_style_yaml(const AddTwoInts_Request&, std::ostream&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.695797] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:53:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst AddTwoInts_Request\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.696082] (cpp_srvcli) StderrLine: {'line': b'   53 |     rosidl_generator_traits::value_to_yaml(msg.\x1b[01;31m\x1b[Ka\x1b[m\x1b[K, out);\n'}
+[11.696342] (cpp_srvcli) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.696599] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:63:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst AddTwoInts_Request\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.696901] (cpp_srvcli) StderrLine: {'line': b'   63 |     rosidl_generator_traits::value_to_yaml(msg.\x1b[01;31m\x1b[Kb\x1b[m\x1b[K, out);\n'}
+[11.697156] (cpp_srvcli) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.697742] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid example_interfaces::srv::to_flow_style_yaml(const AddTwoInts_Response&, std::ostream&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.698040] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:140:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst AddTwoInts_Response\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksum\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.698324] (cpp_srvcli) StderrLine: {'line': b'  140 |     rosidl_generator_traits::value_to_yaml(msg.\x1b[01;31m\x1b[Ksum\x1b[m\x1b[K, out);\n'}
+[11.698583] (cpp_srvcli) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.699171] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid example_interfaces::srv::to_block_style_yaml(const AddTwoInts_Response&, std::ostream&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.699528] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:155:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst AddTwoInts_Response\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksum\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.699843] (cpp_srvcli) StderrLine: {'line': b'  155 |     rosidl_generator_traits::value_to_yaml(msg.\x1b[01;31m\x1b[Ksum\x1b[m\x1b[K, out);\n'}
+[11.700103] (cpp_srvcli) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.701999] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:9\x1b[m\x1b[K,\n'}
+[11.702305] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:2\x1b[m\x1b[K:\n'}
+[11.702593] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid example_interfaces::srv::to_flow_style_yaml(const AddTwoInts_Request&, std::ostream&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.702897] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:31:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst AddTwoInts_Request\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.703215] (cpp_srvcli) StderrLine: {'line': b'   31 |     rosidl_generator_traits::value_to_yaml(msg.\x1b[01;31m\x1b[Ka\x1b[m\x1b[K, out);\n'}
+[11.703605] (cpp_srvcli) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.704125] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:38:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst AddTwoInts_Request\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.704452] (cpp_srvcli) StderrLine: {'line': b'   38 |     rosidl_generator_traits::value_to_yaml(msg.\x1b[01;31m\x1b[Kb\x1b[m\x1b[K, out);\n'}
+[11.704739] (cpp_srvcli) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.705291] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid example_interfaces::srv::to_block_style_yaml(const AddTwoInts_Request&, std::ostream&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.705633] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:53:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst AddTwoInts_Request\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.705919] (cpp_srvcli) StderrLine: {'line': b'   53 |     rosidl_generator_traits::value_to_yaml(msg.\x1b[01;31m\x1b[Ka\x1b[m\x1b[K, out);\n'}
+[11.706177] (cpp_srvcli) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.706689] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:63:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst AddTwoInts_Request\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.706990] (cpp_srvcli) StderrLine: {'line': b'   63 |     rosidl_generator_traits::value_to_yaml(msg.\x1b[01;31m\x1b[Kb\x1b[m\x1b[K, out);\n'}
+[11.707319] (cpp_srvcli) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.709197] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid example_interfaces::srv::to_flow_style_yaml(const AddTwoInts_Response&, std::ostream&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.709505] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:140:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst AddTwoInts_Response\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksum\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.709772] (cpp_srvcli) StderrLine: {'line': b'  140 |     rosidl_generator_traits::value_to_yaml(msg.\x1b[01;31m\x1b[Ksum\x1b[m\x1b[K, out);\n'}
+[11.710029] (cpp_srvcli) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.710711] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid example_interfaces::srv::to_block_style_yaml(const AddTwoInts_Response&, std::ostream&, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.710999] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:155:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst AddTwoInts_Response\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksum\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.711366] (cpp_srvcli) StderrLine: {'line': b'  155 |     rosidl_generator_traits::value_to_yaml(msg.\x1b[01;31m\x1b[Ksum\x1b[m\x1b[K, out);\n'}
+[11.711634] (cpp_srvcli) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.727194] (-) TimerEvent: {}
+[11.741864] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid add(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.742298] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:13:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksum\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.742650] (cpp_srvcli) StderrLine: {'line': b'   13 |     response->\x1b[01;31m\x1b[Ksum\x1b[m\x1b[K = request->a / request->b;\n'}
+[11.742906] (cpp_srvcli) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.743162] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:13:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.743492] (cpp_srvcli) StderrLine: {'line': b'   13 |     response->sum = request->\x1b[01;31m\x1b[Ka\x1b[m\x1b[K / request->b;\n'}
+[11.743772] (cpp_srvcli) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.744037] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:13:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.744324] (cpp_srvcli) StderrLine: {'line': b'   13 |     response->sum = request->a / request->\x1b[01;31m\x1b[Kb\x1b[m\x1b[K;\n'}
+[11.744604] (cpp_srvcli) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.748766] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.749063] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[11.749241] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.749496] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.752861] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.753162] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.753442] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.753697] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.753951] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.754207] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.754485] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[11.754738] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:1\x1b[m\x1b[K:\n'}
+[11.754993] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:15:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.755328] (cpp_srvcli) StderrLine: {'line': b'   15 |         request->\x1b[01;31m\x1b[Ka\x1b[m\x1b[K, request->b);\n'}
+[11.755595] (cpp_srvcli) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.755872] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:15:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.756136] (cpp_srvcli) StderrLine: {'line': b'   15 |         request->a, request->\x1b[01;31m\x1b[Kb\x1b[m\x1b[K);\n'}
+[11.756487] (cpp_srvcli) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.756746] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:16:96:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksum\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.757084] (cpp_srvcli) StderrLine: {'line': b'   16 | ogger("rclcpp"), "sending back response: [%f]", (double)response->\x1b[01;31m\x1b[Ksum\x1b[m\x1b[K);\n'}
+[11.757478] (cpp_srvcli) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.757749] (cpp_srvcli) StderrLine: {'line': b'\n'}
+[11.827397] (-) TimerEvent: {}
+[11.928224] (-) TimerEvent: {}
+[11.940800] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.941225] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:59:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.941500] (cpp_srvcli) StderrLine: {'line': b'   59 |     request->\x1b[01;31m\x1b[Ka\x1b[m\x1b[K = std::stod(argv[1]);\n'}
+[11.941826] (cpp_srvcli) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.942132] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:60:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.942449] (cpp_srvcli) StderrLine: {'line': b'   60 |     request->\x1b[01;31m\x1b[Kb\x1b[m\x1b[K = std::stod(argv[2]);\n'}
+[11.942776] (cpp_srvcli) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.943560] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.943909] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[11.944172] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.944432] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.944728] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.944986] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.945248] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.945583] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.945862] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.946119] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.946374] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[11.946649] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[11.946905] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:62:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.947174] (cpp_srvcli) StderrLine: {'line': b'   62 |         request->\x1b[01;31m\x1b[Ka\x1b[m\x1b[K, request->b);\n'}
+[11.947509] (cpp_srvcli) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.947792] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:62:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.948070] (cpp_srvcli) StderrLine: {'line': b'   62 |         request->a, request->\x1b[01;31m\x1b[Kb\x1b[m\x1b[K);\n'}
+[11.948324] (cpp_srvcli) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.962561] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:77:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksum\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.962978] (cpp_srvcli) StderrLine: {'line': b'   77 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sum: %ld", result.get()->\x1b[01;31m\x1b[Ksum\x1b[m\x1b[K);\n'}
+[11.963312] (cpp_srvcli) StderrLine: {'line': b'      |                                                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[12.028773] (-) TimerEvent: {}
+[12.129691] (-) TimerEvent: {}
+[12.224141] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7\x1b[m\x1b[K,\n'}
+[12.224517] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:2\x1b[m\x1b[K:\n'}
+[12.224750] (cpp_srvcli) StderrLine: {'line': b'/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<ContainerAllocator>::AddTwoInts_Request_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.225137] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:44:5:\x1b[m\x1b[K   required from here\n'}
+[12.225510] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:41:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.225853] (cpp_srvcli) StderrLine: {'line': b'   41 |       \x1b[01;31m\x1b[Kthis->a\x1b[m\x1b[K = 0ll;\n'}
+[12.226171] (cpp_srvcli) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~^\x1b[m\x1b[K\n'}
+[12.226771] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:42:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.227093] (cpp_srvcli) StderrLine: {'line': b'   42 |       \x1b[01;31m\x1b[Kthis->b\x1b[m\x1b[K = 0ll;\n'}
+[12.227449] (cpp_srvcli) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~^\x1b[m\x1b[K\n'}
+[12.227711] (cpp_srvcli) StderrLine: {'line': b'/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<ContainerAllocator>::AddTwoInts_Response_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.228041] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:86:5:\x1b[m\x1b[K   required from here\n'}
+[12.228321] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:169:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ksum\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.228586] (cpp_srvcli) StderrLine: {'line': b'  169 |       \x1b[01;31m\x1b[Kthis->sum\x1b[m\x1b[K = 0ll;\n'}
+[12.228869] (cpp_srvcli) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[12.229897] (-) TimerEvent: {}
+[12.326929] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7\x1b[m\x1b[K,\n'}
+[12.327575] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2\x1b[m\x1b[K:\n'}
+[12.327845] (cpp_srvcli) StderrLine: {'line': b'/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<ContainerAllocator>::AddTwoInts_Request_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.328114] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:44:5:\x1b[m\x1b[K   required from here\n'}
+[12.328467] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:41:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ka\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.328732] (cpp_srvcli) StderrLine: {'line': b'   41 |       \x1b[01;31m\x1b[Kthis->a\x1b[m\x1b[K = 0ll;\n'}
+[12.328988] (cpp_srvcli) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~^\x1b[m\x1b[K\n'}
+[12.329241] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:42:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kb\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.329533] (cpp_srvcli) StderrLine: {'line': b'   42 |       \x1b[01;31m\x1b[Kthis->b\x1b[m\x1b[K = 0ll;\n'}
+[12.329789] (cpp_srvcli) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~^\x1b[m\x1b[K\n'}
+[12.330035] (-) TimerEvent: {}
+[12.330313] (cpp_srvcli) StderrLine: {'line': b'/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Response_<ContainerAllocator>::AddTwoInts_Response_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.330584] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:86:5:\x1b[m\x1b[K   required from here\n'}
+[12.330843] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:169:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ksum\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.331122] (cpp_srvcli) StderrLine: {'line': b'  169 |       \x1b[01;31m\x1b[Kthis->sum\x1b[m\x1b[K = 0ll;\n'}
+[12.331436] (cpp_srvcli) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[12.430279] (-) TimerEvent: {}
+[12.530877] (-) TimerEvent: {}
+[12.631410] (-) TimerEvent: {}
+[12.732019] (-) TimerEvent: {}
+[12.832587] (-) TimerEvent: {}
+[12.933174] (-) TimerEvent: {}
+[13.034430] (-) TimerEvent: {}
+[13.135051] (-) TimerEvent: {}
+[13.235861] (-) TimerEvent: {}
+[13.336474] (-) TimerEvent: {}
+[13.437138] (-) TimerEvent: {}
+[13.537859] (-) TimerEvent: {}
+[13.638657] (-) TimerEvent: {}
+[13.739312] (-) TimerEvent: {}
+[13.839986] (-) TimerEvent: {}
+[13.940571] (-) TimerEvent: {}
+[14.053610] (-) TimerEvent: {}
+[14.154241] (-) TimerEvent: {}
+[14.255187] (-) TimerEvent: {}
+[14.355957] (-) TimerEvent: {}
+[14.456751] (-) TimerEvent: {}
+[14.557535] (-) TimerEvent: {}
+[14.658088] (-) TimerEvent: {}
+[14.758757] (-) TimerEvent: {}
+[14.859891] (-) TimerEvent: {}
+[14.960617] (-) TimerEvent: {}
+[15.061347] (-) TimerEvent: {}
+[15.162081] (-) TimerEvent: {}
+[15.262763] (-) TimerEvent: {}
+[15.368707] (-) TimerEvent: {}
+[15.469272] (-) TimerEvent: {}
+[15.572986] (-) TimerEvent: {}
+[15.673757] (-) TimerEvent: {}
+[15.767040] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1\n'}
+[15.767559] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1\n'}
+[15.768029] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2\n'}
+[15.768325] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[15.768616] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2\n'}
+[15.769774] (cpp_srvcli) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.775127] (-) TimerEvent: {}
+[15.822670] (cpp_srvcli) CommandEnded: {'returncode': 2}
+[15.877722] (-) TimerEvent: {}
+[15.983293] (-) TimerEvent: {}
+[16.086473] (-) TimerEvent: {}
+[16.193540] (-) TimerEvent: {}
+[16.294181] (-) TimerEvent: {}
+[16.395123] (-) TimerEvent: {}
+[16.496306] (-) TimerEvent: {}
+[16.588582] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 2}
+[16.596470] (-) TimerEvent: {}
+[16.599727] (-) EventReactorShutdown: {}

@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target server[0m
+[ 50%] Built target client
+[ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:44:1:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+   44 | 
+      | [01;31m[K^[m[K
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   22 |         [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp"), "nem szám",
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:22:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   22 |         RCLCPP_INFO[01;31m[K([m[Krclcpp::get_logger("rclcpp"), "nem szám",
+      |                    [01;31m[K^[m[K
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:19:48:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   19 |     if (!isValidInput(request->a, request->b)) [01;36m[K{[m[K
+      |                                                [01;36m[K^[m[K
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:22:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   22 |         RCLCPP_INFO[01;31m[K([m[Krclcpp::get_logger("rclcpp"), "nem szám",
+      |                    [01;31m[K^[m[K
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:18:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   18 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

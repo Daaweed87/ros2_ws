@@ -1,0 +1,30 @@
+[0.031s] Invoking command in '/home/asd/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/asd/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/my_package
+[0.253s] -- The C compiler identification is GNU 11.4.0
+[0.576s] -- The CXX compiler identification is GNU 11.4.0
+[0.605s] -- Detecting C compiler ABI info
+[0.917s] -- Detecting C compiler ABI info - done
+[0.968s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.969s] -- Detecting C compile features
+[0.971s] -- Detecting C compile features - done
+[0.984s] -- Detecting CXX compiler ABI info
+[1.284s] -- Detecting CXX compiler ABI info - done
+[1.357s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.359s] -- Detecting CXX compile features
+[1.361s] -- Detecting CXX compile features - done
+[1.369s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.970s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.271s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[2.289s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.698s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[2.744s] [31mCMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[2.744s]   rosidl_generate_interfaces() the passed file 'msg/AddTwoInts2.msg' doesn't
+[2.744s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[2.745s]   '/home/asd/ros2_ws/src/my_package'
+[2.745s] Call Stack (most recent call first):
+[2.745s]   CMakeLists.txt:8 (rosidl_generate_interfaces)
+[2.746s] 
+[2.746s] [0m
+[2.748s] -- Configuring incomplete, errors occurred!
+[2.748s] See also "/home/asd/ros2_ws/build/my_package/CMakeFiles/CMakeOutput.log".
+[2.768s] Invoked command in '/home/asd/ros2_ws/build/my_package' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/asd/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/my_package

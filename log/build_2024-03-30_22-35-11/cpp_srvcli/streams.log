@@ -1,0 +1,30 @@
+[0.041s] Invoking command in '/home/asd/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/cpp_srvcli -- -j4 -l4
+[0.252s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.254s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.328s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.344s] [ 75%] Built target client
+[14.526s] [100%] [32m[1mLinking CXX executable server[0m
+[15.201s] [100%] Built target server
+[15.239s] Invoked command in '/home/asd/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/cpp_srvcli -- -j4 -l4
+[15.372s] Invoking command in '/home/asd/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/asd/ros2_ws/build/cpp_srvcli
+[15.395s] -- Install configuration: ""
+[15.396s] -- Installing: /home/asd/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[15.401s] -- Set runtime path of "/home/asd/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[15.401s] -- Installing: /home/asd/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[15.407s] -- Set runtime path of "/home/asd/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[15.408s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[15.408s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[15.409s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[15.409s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[15.410s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[15.410s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[15.410s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[15.411s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[15.411s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[15.411s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[15.411s] -- Installing: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[15.412s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[15.412s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[15.412s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[15.412s] -- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[15.416s] Invoked command in '/home/asd/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/asd/ros2_ws/build/cpp_srvcli

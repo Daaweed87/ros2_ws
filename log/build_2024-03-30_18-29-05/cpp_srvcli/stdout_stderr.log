@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target server[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[ 75%] Built target server
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:26:22:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar*[m[K’ to ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   26 |   request->a = [01;31m[Kargv[1][m[K;
+      |                [01;31m[K~~~~~~^[m[K
+      |                      [01;31m[K|[m[K
+      |                      [01;31m[Kchar*[m[K
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:27:22:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar*[m[K’ to ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   27 |   request->b = [01;31m[Kargv[2][m[K;
+      |                [01;31m[K~~~~~~^[m[K
+      |                      [01;31m[K|[m[K
+      |                      [01;31m[Kchar*[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

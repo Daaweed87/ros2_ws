@@ -1,0 +1,55 @@
+[0.056s] Invoking command in '/home/asd/ros2_ws/build/div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/asd/ros2_ws/src/div -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/div
+[0.332s] -- The C compiler identification is GNU 11.4.0
+[0.588s] -- The CXX compiler identification is GNU 11.4.0
+[0.617s] -- Detecting C compiler ABI info
+[0.882s] -- Detecting C compiler ABI info - done
+[0.930s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.931s] -- Detecting C compile features
+[0.934s] -- Detecting C compile features - done
+[0.952s] -- Detecting CXX compiler ABI info
+[1.288s] -- Detecting CXX compiler ABI info - done
+[1.337s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.339s] -- Detecting CXX compile features
+[1.342s] -- Detecting CXX compile features - done
+[1.351s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.927s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.607s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[2.863s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[2.923s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[3.008s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.558s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[4.591s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[5.303s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.460s] -- Found FastRTPS: /opt/ros/iron/include  
+[5.677s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.228s] -- Found my_package: 0.0.0 (/home/asd/ros2_ws/install/my_package/share/my_package/cmake)
+[7.540s] -- Configuring done
+[7.550s] [31mCMake Error at CMakeLists.txt:8 (add_executable):
+[7.551s]   Cannot find source file:
+[7.551s] 
+[7.551s]     src/add_two_ints_server.cpp
+[7.551s] 
+[7.552s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[7.552s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[7.552s] 
+[7.552s] [0m
+[7.558s] [31mCMake Error at CMakeLists.txt:11 (add_executable):
+[7.559s]   Cannot find source file:
+[7.559s] 
+[7.559s]     src/add_two_ints_client.cpp
+[7.560s] 
+[7.560s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[7.560s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[7.560s] 
+[7.561s] [0m
+[7.561s] [31mCMake Error at CMakeLists.txt:8 (add_executable):
+[7.562s]   No SOURCES given to target: server
+[7.562s] 
+[7.562s] [0m
+[7.562s] [31mCMake Error at CMakeLists.txt:11 (add_executable):
+[7.563s]   No SOURCES given to target: client
+[7.563s] 
+[7.563s] [0m
+[7.564s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[7.587s] Invoked command in '/home/asd/ros2_ws/build/div' returned '1': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/asd/ros2_ws/src/div -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/div

@@ -1,0 +1,47 @@
+[0.029s] Invoking command in '/home/asd/ros2_ws/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/asd/ros2_ws/src/example_interfaces -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/example_interfaces
+[0.285s] -- The C compiler identification is GNU 11.4.0
+[0.520s] -- The CXX compiler identification is GNU 11.4.0
+[0.553s] -- Detecting C compiler ABI info
+[0.818s] -- Detecting C compiler ABI info - done
+[0.876s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.877s] -- Detecting C compile features
+[0.879s] -- Detecting C compile features - done
+[0.905s] -- Detecting CXX compiler ABI info
+[1.254s] -- Detecting CXX compiler ABI info - done
+[1.303s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.305s] -- Detecting CXX compile features
+[1.307s] -- Detecting CXX compile features - done
+[1.315s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.881s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.551s] -- Found ament_lint_auto: 0.14.3 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.959s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.959s] -- Configured cppcheck include dirs: 
+[2.960s] -- Configured cppcheck exclude dirs and/or files: 
+[2.989s] -- Added test 'lint_cmake' to check CMake code style
+[3.109s] -- Added test 'uncrustify' to check C / C++ code style
+[3.109s] -- Configured uncrustify additional arguments: 
+[3.120s] -- Added test 'xmllint' to check XML markup files
+[3.124s] -- Configuring done
+[3.135s] -- Generating done
+[3.140s] -- Build files have been written to: /home/asd/ros2_ws/build/example_interfaces
+[3.153s] Invoked command in '/home/asd/ros2_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/asd/ros2_ws/src/example_interfaces -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/example_interfaces
+[3.164s] Invoking command in '/home/asd/ros2_ws/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/example_interfaces -- -j4 -l4
+[3.305s] Invoked command in '/home/asd/ros2_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/example_interfaces -- -j4 -l4
+[3.405s] Invoking command in '/home/asd/ros2_ws/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/asd/ros2_ws/build/example_interfaces
+[3.429s] -- Install configuration: ""
+[3.431s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/ament_index/resource_index/package_run_dependencies/example_interfaces
+[3.431s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/ament_index/resource_index/parent_prefix_path/example_interfaces
+[3.431s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.sh
+[3.432s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.dsv
+[3.432s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/environment/path.sh
+[3.433s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/environment/path.dsv
+[3.434s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/local_setup.bash
+[3.434s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/local_setup.sh
+[3.435s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/local_setup.zsh
+[3.435s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/local_setup.dsv
+[3.436s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/package.dsv
+[3.436s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/ament_index/resource_index/packages/example_interfaces
+[3.437s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig.cmake
+[3.438s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig-version.cmake
+[3.438s] -- Installing: /home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/package.xml
+[3.444s] Invoked command in '/home/asd/ros2_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/asd/ros2_ws/build/example_interfaces

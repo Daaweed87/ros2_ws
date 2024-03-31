@@ -1,0 +1,15 @@
+/home/asd/ros2_ws/install/example_interfaces/share/ament_index/resource_index/package_run_dependencies/example_interfaces
+/home/asd/ros2_ws/install/example_interfaces/share/ament_index/resource_index/parent_prefix_path/example_interfaces
+/home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.sh
+/home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/environment/ament_prefix_path.dsv
+/home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/environment/path.sh
+/home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/environment/path.dsv
+/home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/local_setup.bash
+/home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/local_setup.sh
+/home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/local_setup.zsh
+/home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/local_setup.dsv
+/home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/package.dsv
+/home/asd/ros2_ws/install/example_interfaces/share/ament_index/resource_index/packages/example_interfaces
+/home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig.cmake
+/home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/cmake/example_interfacesConfig-version.cmake
+/home/asd/ros2_ws/install/example_interfaces/share/example_interfaces/package.xml

@@ -1,0 +1,6 @@
+Invoking command in '/home/asd/ros2_ws/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/asd/ros2_ws/src/example_interfaces -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/example_interfaces
+Invoked command in '/home/asd/ros2_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/asd/ros2_ws/src/example_interfaces -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/example_interfaces
+Invoking command in '/home/asd/ros2_ws/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/example_interfaces -- -j4 -l4
+Invoked command in '/home/asd/ros2_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/example_interfaces -- -j4 -l4
+Invoking command in '/home/asd/ros2_ws/build/example_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/asd/ros2_ws/build/example_interfaces
+Invoked command in '/home/asd/ros2_ws/build/example_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/asd/ros2_ws/build/example_interfaces

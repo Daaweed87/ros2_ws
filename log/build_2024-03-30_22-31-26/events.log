@@ -1,0 +1,314 @@
+[0.000000] (-) TimerEvent: {}
+[0.000423] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000539] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.025489] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.049781] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.049945] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/cpp_srvcli', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('SYSTEMD_EXEC_PID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1371,unix/asd:/tmp/.ICE-unix/1371'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf2e53dc_e1d3_47c2_843b_1f2cdad98f87'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9HEOL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.572'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.097916] (-) TimerEvent: {}
+[0.198547] (-) TimerEvent: {}
+[0.258778] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[0.269124] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[0.299168] (-) TimerEvent: {}
+[0.343987] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o\x1b[0m\n'}
+[0.393308] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[0.400042] (-) TimerEvent: {}
+[0.501972] (-) TimerEvent: {}
+[0.603172] (-) TimerEvent: {}
+[0.704210] (-) TimerEvent: {}
+[0.805465] (-) TimerEvent: {}
+[0.907070] (-) TimerEvent: {}
+[1.007900] (-) TimerEvent: {}
+[1.108613] (-) TimerEvent: {}
+[1.211490] (-) TimerEvent: {}
+[1.312630] (-) TimerEvent: {}
+[1.413667] (-) TimerEvent: {}
+[1.514163] (-) TimerEvent: {}
+[1.615109] (-) TimerEvent: {}
+[1.716895] (-) TimerEvent: {}
+[1.818560] (-) TimerEvent: {}
+[1.919836] (-) TimerEvent: {}
+[2.020634] (-) TimerEvent: {}
+[2.121484] (-) TimerEvent: {}
+[2.222284] (-) TimerEvent: {}
+[2.323550] (-) TimerEvent: {}
+[2.424227] (-) TimerEvent: {}
+[2.525342] (-) TimerEvent: {}
+[2.625916] (-) TimerEvent: {}
+[2.727183] (-) TimerEvent: {}
+[2.827900] (-) TimerEvent: {}
+[2.928561] (-) TimerEvent: {}
+[3.029172] (-) TimerEvent: {}
+[3.129727] (-) TimerEvent: {}
+[3.231133] (-) TimerEvent: {}
+[3.332631] (-) TimerEvent: {}
+[3.433118] (-) TimerEvent: {}
+[3.533938] (-) TimerEvent: {}
+[3.634779] (-) TimerEvent: {}
+[3.735293] (-) TimerEvent: {}
+[3.835845] (-) TimerEvent: {}
+[3.936357] (-) TimerEvent: {}
+[4.037105] (-) TimerEvent: {}
+[4.137946] (-) TimerEvent: {}
+[4.239025] (-) TimerEvent: {}
+[4.339601] (-) TimerEvent: {}
+[4.440586] (-) TimerEvent: {}
+[4.541134] (-) TimerEvent: {}
+[4.641980] (-) TimerEvent: {}
+[4.742797] (-) TimerEvent: {}
+[4.843854] (-) TimerEvent: {}
+[4.944912] (-) TimerEvent: {}
+[5.045663] (-) TimerEvent: {}
+[5.146455] (-) TimerEvent: {}
+[5.247483] (-) TimerEvent: {}
+[5.348267] (-) TimerEvent: {}
+[5.449111] (-) TimerEvent: {}
+[5.549670] (-) TimerEvent: {}
+[5.650263] (-) TimerEvent: {}
+[5.751322] (-) TimerEvent: {}
+[5.851890] (-) TimerEvent: {}
+[5.952438] (-) TimerEvent: {}
+[6.053178] (-) TimerEvent: {}
+[6.153754] (-) TimerEvent: {}
+[6.254747] (-) TimerEvent: {}
+[6.355685] (-) TimerEvent: {}
+[6.456515] (-) TimerEvent: {}
+[6.557598] (-) TimerEvent: {}
+[6.658436] (-) TimerEvent: {}
+[6.759070] (-) TimerEvent: {}
+[6.859902] (-) TimerEvent: {}
+[6.960907] (-) TimerEvent: {}
+[7.061562] (-) TimerEvent: {}
+[7.162074] (-) TimerEvent: {}
+[7.263044] (-) TimerEvent: {}
+[7.363897] (-) TimerEvent: {}
+[7.464929] (-) TimerEvent: {}
+[7.565762] (-) TimerEvent: {}
+[7.666364] (-) TimerEvent: {}
+[7.767064] (-) TimerEvent: {}
+[7.867990] (-) TimerEvent: {}
+[7.968598] (-) TimerEvent: {}
+[8.069136] (-) TimerEvent: {}
+[8.169983] (-) TimerEvent: {}
+[8.270609] (-) TimerEvent: {}
+[8.371236] (-) TimerEvent: {}
+[8.472321] (-) TimerEvent: {}
+[8.573023] (-) TimerEvent: {}
+[8.673582] (-) TimerEvent: {}
+[8.774555] (-) TimerEvent: {}
+[8.875323] (-) TimerEvent: {}
+[8.976293] (-) TimerEvent: {}
+[9.077152] (-) TimerEvent: {}
+[9.177777] (-) TimerEvent: {}
+[9.278749] (-) TimerEvent: {}
+[9.379863] (-) TimerEvent: {}
+[9.480938] (-) TimerEvent: {}
+[9.581489] (-) TimerEvent: {}
+[9.682347] (-) TimerEvent: {}
+[9.783037] (-) TimerEvent: {}
+[9.884181] (-) TimerEvent: {}
+[9.984748] (-) TimerEvent: {}
+[10.085635] (-) TimerEvent: {}
+[10.186811] (-) TimerEvent: {}
+[10.288164] (-) TimerEvent: {}
+[10.389048] (-) TimerEvent: {}
+[10.490036] (-) TimerEvent: {}
+[10.590859] (-) TimerEvent: {}
+[10.691614] (-) TimerEvent: {}
+[10.792177] (-) TimerEvent: {}
+[10.892722] (-) TimerEvent: {}
+[10.993455] (-) TimerEvent: {}
+[11.094590] (-) TimerEvent: {}
+[11.195257] (-) TimerEvent: {}
+[11.296036] (-) TimerEvent: {}
+[11.396873] (-) TimerEvent: {}
+[11.497942] (-) TimerEvent: {}
+[11.598470] (-) TimerEvent: {}
+[11.699284] (-) TimerEvent: {}
+[11.799971] (-) TimerEvent: {}
+[11.837671] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.838198] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[11.838558] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.838853] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.839174] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.839529] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.839848] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.840156] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.840569] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.840897] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.841158] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[11.841487] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:1\x1b[m\x1b[K:\n'}
+[11.841774] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid add(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.842211] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:14:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%ld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.842529] (cpp_srvcli) StderrLine: {'line': b'   14 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Incoming request\\na: %ld" " b: %ld"\x1b[m\x1b[K,\n'}
+[11.842788] (cpp_srvcli) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.843047] (cpp_srvcli) StderrLine: {'line': b'   15 |         \x1b[32m\x1b[Krequest->a\x1b[m\x1b[K, request->b);\n'}
+[11.844007] (cpp_srvcli) StderrLine: {'line': b'      |         \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K                             \n'}
+[11.844455] (cpp_srvcli) StderrLine: {'line': b'      |                  \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.844727] (cpp_srvcli) StderrLine: {'line': b'      |                  \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[11.845017] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:14:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.845355] (cpp_srvcli) StderrLine: {'line': b'   14 | _INFO(rclcpp::get_logger("rclcpp"), "Incoming request\\na: \x1b[01;36m\x1b[K%ld\x1b[m\x1b[K" " b: %ld",\n'}
+[11.845771] (cpp_srvcli) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K~~^\x1b[m\x1b[K\n'}
+[11.846337] (cpp_srvcli) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.846776] (cpp_srvcli) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Klong int\x1b[m\x1b[K\n'}
+[11.847246] (cpp_srvcli) StderrLine: {'line': b'      |                                                           \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[11.847627] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.847954] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[11.848250] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.848628] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.849017] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.849399] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.849769] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.850211] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.850600] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.851028] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.851446] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[11.851729] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:1\x1b[m\x1b[K:\n'}
+[11.852012] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:14:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%ld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.852297] (cpp_srvcli) StderrLine: {'line': b'   14 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Incoming request\\na: %ld" " b: %ld"\x1b[m\x1b[K,\n'}
+[11.852556] (cpp_srvcli) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.852813] (cpp_srvcli) StderrLine: {'line': b'   15 |         request->a, \x1b[32m\x1b[Krequest->b\x1b[m\x1b[K);\n'}
+[11.853095] (cpp_srvcli) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K                 \n'}
+[11.853351] (cpp_srvcli) StderrLine: {'line': b'      |                              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.853620] (cpp_srvcli) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[11.853875] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:14:81:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.854157] (cpp_srvcli) StderrLine: {'line': b'   14 | NFO(rclcpp::get_logger("rclcpp"), "Incoming request\\na: %ld" " b: \x1b[01;36m\x1b[K%ld\x1b[m\x1b[K",\n'}
+[11.854413] (cpp_srvcli) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[K~~^\x1b[m\x1b[K\n'}
+[11.854669] (cpp_srvcli) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.854947] (cpp_srvcli) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Klong int\x1b[m\x1b[K\n'}
+[11.855263] (cpp_srvcli) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[11.900487] (-) TimerEvent: {}
+[12.001983] (-) TimerEvent: {}
+[12.092228] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[12.092781] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[12.093047] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[12.093337] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[12.093596] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[12.093855] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[12.094135] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[12.094393] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[12.094649] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[12.094906] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[12.095227] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[12.095491] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[12.095748] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.096006] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:77:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%ld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[12.096306] (cpp_srvcli) StderrLine: {'line': b'   77 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), \x1b[01;35m\x1b[K"Sum: %ld"\x1b[m\x1b[K, \x1b[32m\x1b[Kresult.get()->sum\x1b[m\x1b[K);\n'}
+[12.096608] (cpp_srvcli) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.096867] (cpp_srvcli) StderrLine: {'line': b'      |                                                                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[12.097201] (cpp_srvcli) StderrLine: {'line': b'      |                                                                             \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[12.097532] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:77:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[12.097791] (cpp_srvcli) StderrLine: {'line': b'   77 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sum: \x1b[01;36m\x1b[K%ld\x1b[m\x1b[K", result.get()->sum);\n'}
+[12.098073] (cpp_srvcli) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K~~^\x1b[m\x1b[K\n'}
+[12.098335] (cpp_srvcli) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[12.098591] (cpp_srvcli) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[Klong int\x1b[m\x1b[K\n'}
+[12.098866] (cpp_srvcli) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[12.102181] (-) TimerEvent: {}
+[12.202723] (-) TimerEvent: {}
+[12.303657] (-) TimerEvent: {}
+[12.404640] (-) TimerEvent: {}
+[12.505752] (-) TimerEvent: {}
+[12.606292] (-) TimerEvent: {}
+[12.706883] (-) TimerEvent: {}
+[12.807741] (-) TimerEvent: {}
+[12.908806] (-) TimerEvent: {}
+[13.009558] (-) TimerEvent: {}
+[13.110586] (-) TimerEvent: {}
+[13.211245] (-) TimerEvent: {}
+[13.312273] (-) TimerEvent: {}
+[13.413261] (-) TimerEvent: {}
+[13.514122] (-) TimerEvent: {}
+[13.614705] (-) TimerEvent: {}
+[13.715251] (-) TimerEvent: {}
+[13.816257] (-) TimerEvent: {}
+[13.917269] (-) TimerEvent: {}
+[14.018127] (-) TimerEvent: {}
+[14.118976] (-) TimerEvent: {}
+[14.219987] (-) TimerEvent: {}
+[14.321103] (-) TimerEvent: {}
+[14.421773] (-) TimerEvent: {}
+[14.522322] (-) TimerEvent: {}
+[14.622883] (-) TimerEvent: {}
+[14.723962] (-) TimerEvent: {}
+[14.825226] (-) TimerEvent: {}
+[14.926195] (-) TimerEvent: {}
+[15.026841] (-) TimerEvent: {}
+[15.127635] (-) TimerEvent: {}
+[15.228248] (-) TimerEvent: {}
+[15.328937] (-) TimerEvent: {}
+[15.429455] (-) TimerEvent: {}
+[15.530055] (-) TimerEvent: {}
+[15.630627] (-) TimerEvent: {}
+[15.731295] (-) TimerEvent: {}
+[15.831795] (-) TimerEvent: {}
+[15.932453] (-) TimerEvent: {}
+[16.033032] (-) TimerEvent: {}
+[16.133951] (-) TimerEvent: {}
+[16.234579] (-) TimerEvent: {}
+[16.335306] (-) TimerEvent: {}
+[16.435919] (-) TimerEvent: {}
+[16.536469] (-) TimerEvent: {}
+[16.637363] (-) TimerEvent: {}
+[16.738557] (-) TimerEvent: {}
+[16.839080] (-) TimerEvent: {}
+[16.939713] (-) TimerEvent: {}
+[17.040259] (-) TimerEvent: {}
+[17.141149] (-) TimerEvent: {}
+[17.190475] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[17.241366] (-) TimerEvent: {}
+[17.342260] (-) TimerEvent: {}
+[17.442859] (-) TimerEvent: {}
+[17.543689] (-) TimerEvent: {}
+[17.545675] (cpp_srvcli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[17.644210] (-) TimerEvent: {}
+[17.745058] (-) TimerEvent: {}
+[17.846656] (-) TimerEvent: {}
+[17.947854] (-) TimerEvent: {}
+[18.048876] (-) TimerEvent: {}
+[18.155028] (-) TimerEvent: {}
+[18.256788] (-) TimerEvent: {}
+[18.358339] (-) TimerEvent: {}
+[18.460737] (-) TimerEvent: {}
+[18.561490] (-) TimerEvent: {}
+[18.665052] (-) TimerEvent: {}
+[18.766700] (-) TimerEvent: {}
+[18.867408] (-) TimerEvent: {}
+[18.968305] (-) TimerEvent: {}
+[19.068882] (-) TimerEvent: {}
+[19.170822] (-) TimerEvent: {}
+[19.272426] (-) TimerEvent: {}
+[19.373254] (-) TimerEvent: {}
+[19.474056] (-) TimerEvent: {}
+[19.574858] (-) TimerEvent: {}
+[19.612062] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target server\n'}
+[19.623557] (cpp_srvcli) StdoutLine: {'line': b'[100%] Built target client\n'}
+[19.675710] (-) TimerEvent: {}
+[19.680583] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[19.771902] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'install'}
+[19.776086] (-) TimerEvent: {}
+[19.821408] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/asd/ros2_ws/build/cpp_srvcli'], 'cwd': '/home/asd/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('SYSTEMD_EXEC_PID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1371,unix/asd:/tmp/.ICE-unix/1371'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/bf2e53dc_e1d3_47c2_843b_1f2cdad98f87'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9HEOL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.572'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[19.877400] (-) TimerEvent: {}
+[19.901890] (cpp_srvcli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.928917] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server\n'}
+[19.933939] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""\n'}
+[19.947470] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client\n'}
+[19.953068] (cpp_srvcli) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""\n'}
+[19.964273] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli\n'}
+[19.964897] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli\n'}
+[19.965431] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh\n'}
+[19.965955] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv\n'}
+[19.966517] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh\n'}
+[19.967072] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv\n'}
+[19.967676] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash\n'}
+[19.968244] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh\n'}
+[19.968775] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh\n'}
+[19.969266] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv\n'}
+[19.969775] (cpp_srvcli) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv\n'}
+[19.977571] (-) TimerEvent: {}
+[19.978091] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli\n'}
+[19.978728] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake\n'}
+[19.979028] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake\n'}
+[19.979670] (cpp_srvcli) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml\n'}
+[19.996050] (cpp_srvcli) CommandEnded: {'returncode': 0}
+[20.078005] (-) TimerEvent: {}
+[20.139935] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 0}
+[20.140942] (-) EventReactorShutdown: {}

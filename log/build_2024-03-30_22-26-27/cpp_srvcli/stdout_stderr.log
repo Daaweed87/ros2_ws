@@ -1,0 +1,268 @@
+[35m[1mConsolidate compiler generated dependencies of target server[0m
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+In file included from [01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7[m[K,
+                 from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2[m[K:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:59:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64_t[m[K’ does not name a type; did you mean ‘[01m[Kfloat_t[m[K’?
+   59 |     [01;31m[Kfloat64_t[m[K;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Kfloat_t[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:60:3:[m[K [01;31m[Kerror: [m[K‘[01m[K_a_type[m[K’ does not name a type
+   60 |   [01;31m[K_a_type[m[K a;
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64_t[m[K’ does not name a type; did you mean ‘[01m[Kfloat_t[m[K’?
+   62 |     [01;31m[Kfloat64_t[m[K;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Kfloat_t[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[K_b_type[m[K’ does not name a type
+   63 |   [01;31m[K_b_type[m[K b;
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:67:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64_t[m[K’ does not name a type; did you mean ‘[01m[Kfloat_t[m[K’?
+   67 |     const [01;31m[Kfloat64_t[m[K & _arg)
+      |           [01;31m[K^~~~~~~~~[m[K
+      |           [32m[Kfloat_t[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:73:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64_t[m[K’ does not name a type; did you mean ‘[01m[Kfloat_t[m[K’?
+   73 |     const [01;31m[Kfloat64_t[m[K & _arg)
+      |           [01;31m[K^~~~~~~~~[m[K
+      |           [32m[Kfloat_t[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:185:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64_t[m[K’ does not name a type; did you mean ‘[01m[Kfloat_t[m[K’?
+  185 |     [01;31m[Kfloat64_t[m[K;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Kfloat_t[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:186:3:[m[K [01;31m[Kerror: [m[K‘[01m[K_sum_type[m[K’ does not name a type
+  186 |   [01;31m[K_sum_type[m[K sum;
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:190:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64_t[m[K’ does not name a type; did you mean ‘[01m[Kfloat_t[m[K’?
+  190 |     const [01;31m[Kfloat64_t[m[K & _arg)
+      |           [01;31m[K^~~~~~~~~[m[K
+      |           [32m[Kfloat_t[m[K
+In file included from [01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7[m[K,
+                 from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:2[m[K:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:59:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64_t[m[K’ does not name a type; did you mean ‘[01m[Kfloat_t[m[K’?
+   59 |     [01;31m[Kfloat64_t[m[K;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Kfloat_t[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:60:3:[m[K [01;31m[Kerror: [m[K‘[01m[K_a_type[m[K’ does not name a type
+   60 |   [01;31m[K_a_type[m[K a;
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64_t[m[K’ does not name a type; did you mean ‘[01m[Kfloat_t[m[K’?
+   62 |     [01;31m[Kfloat64_t[m[K;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Kfloat_t[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[K_b_type[m[K’ does not name a type
+   63 |   [01;31m[K_b_type[m[K b;
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:67:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64_t[m[K’ does not name a type; did you mean ‘[01m[Kfloat_t[m[K’?
+   67 |     const [01;31m[Kfloat64_t[m[K & _arg)
+      |           [01;31m[K^~~~~~~~~[m[K
+      |           [32m[Kfloat_t[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:73:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64_t[m[K’ does not name a type; did you mean ‘[01m[Kfloat_t[m[K’?
+   73 |     const [01;31m[Kfloat64_t[m[K & _arg)
+      |           [01;31m[K^~~~~~~~~[m[K
+      |           [32m[Kfloat_t[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:185:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64_t[m[K’ does not name a type; did you mean ‘[01m[Kfloat_t[m[K’?
+  185 |     [01;31m[Kfloat64_t[m[K;
+      |     [01;31m[K^~~~~~~~~[m[K
+      |     [32m[Kfloat_t[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:186:3:[m[K [01;31m[Kerror: [m[K‘[01m[K_sum_type[m[K’ does not name a type
+  186 |   [01;31m[K_sum_type[m[K sum;
+      |   [01;31m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:190:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloat64_t[m[K’ does not name a type; did you mean ‘[01m[Kfloat_t[m[K’?
+  190 |     const [01;31m[Kfloat64_t[m[K & _arg)
+      |           [01;31m[K^~~~~~~~~[m[K
+      |           [32m[Kfloat_t[m[K
+In file included from [01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:8[m[K,
+                 from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2[m[K:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:30:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces::srv::AddTwoInts_Request::_b_type[m[K’ has not been declared
+   30 |   ::example_interfaces::srv::AddTwoInts_Request b([01;31m[K::[m[Kexample_interfaces::srv::AddTwoInts_Request::_b_type arg)
+      |                                                   [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:8[m[K,
+                 from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:2[m[K:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:30:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces::srv::AddTwoInts_Request::_b_type[m[K’ has not been declared
+   30 |   ::example_interfaces::srv::AddTwoInts_Request b([01;31m[K::[m[Kexample_interfaces::srv::AddTwoInts_Request::_b_type arg)
+      |                                                   [01;31m[K^~[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:[m[K In member function ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request example_interfaces::srv::builder::Init_AddTwoInts_Request_b::b(int)[m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:32:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing AddTwoInts_Request = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kb[m[K’
+   32 |     msg_.[01;31m[Kb[m[K = std::move(arg);
+      |          [01;31m[K^[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:[m[K At global scope:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:46:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces::srv::AddTwoInts_Request::_a_type[m[K’ has not been declared
+   46 |   Init_AddTwoInts_Request_b a([01;31m[K::[m[Kexample_interfaces::srv::AddTwoInts_Request::_a_type arg)
+      |                               [01;31m[K^~[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:[m[K In member function ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request example_interfaces::srv::builder::Init_AddTwoInts_Request_b::b(int)[m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:32:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing AddTwoInts_Request = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kb[m[K’
+   32 |     msg_.[01;31m[Kb[m[K = std::move(arg);
+      |          [01;31m[K^[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:[m[K In member function ‘[01m[Kexample_interfaces::srv::builder::Init_AddTwoInts_Request_b example_interfaces::srv::builder::Init_AddTwoInts_Request_a::a(int)[m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:48:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing AddTwoInts_Request = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+   48 |     msg_.[01;31m[Ka[m[K = std::move(arg);
+      |          [01;31m[K^[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:[m[K At global scope:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:46:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces::srv::AddTwoInts_Request::_a_type[m[K’ has not been declared
+   46 |   Init_AddTwoInts_Request_b a([01;31m[K::[m[Kexample_interfaces::srv::AddTwoInts_Request::_a_type arg)
+      |                               [01;31m[K^~[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:[m[K At global scope:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:88:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces::srv::AddTwoInts_Response::_sum_type[m[K’ has not been declared
+   88 |   ::example_interfaces::srv::AddTwoInts_Response sum([01;31m[K::[m[Kexample_interfaces::srv::AddTwoInts_Response::_sum_type arg)
+      |                                                      [01;31m[K^~[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:[m[K In member function ‘[01m[Kexample_interfaces::srv::AddTwoInts_Response example_interfaces::srv::builder::Init_AddTwoInts_Response_sum::sum(int)[m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:90:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing AddTwoInts_Response = struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksum[m[K’
+   90 |     msg_.[01;31m[Ksum[m[K = std::move(arg);
+      |          [01;31m[K^~~[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:[m[K In member function ‘[01m[Kexample_interfaces::srv::builder::Init_AddTwoInts_Request_b example_interfaces::srv::builder::Init_AddTwoInts_Request_a::a(int)[m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:48:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing AddTwoInts_Request = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+   48 |     msg_.[01;31m[Ka[m[K = std::move(arg);
+      |          [01;31m[K^[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:[m[K At global scope:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:88:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces::srv::AddTwoInts_Response::_sum_type[m[K’ has not been declared
+   88 |   ::example_interfaces::srv::AddTwoInts_Response sum([01;31m[K::[m[Kexample_interfaces::srv::AddTwoInts_Response::_sum_type arg)
+      |                                                      [01;31m[K^~[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:[m[K In member function ‘[01m[Kexample_interfaces::srv::AddTwoInts_Response example_interfaces::srv::builder::Init_AddTwoInts_Response_sum::sum(int)[m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:90:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing AddTwoInts_Response = struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksum[m[K’
+   90 |     msg_.[01;31m[Ksum[m[K = std::move(arg);
+      |          [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:9[m[K,
+                 from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2[m[K:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:[m[K In function ‘[01m[Kvoid example_interfaces::srv::to_flow_style_yaml(const AddTwoInts_Request&, std::ostream&)[m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:31:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst AddTwoInts_Request[m[K’ {aka ‘[01m[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+   31 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Ka[m[K, out);
+      |                                                [01;31m[K^[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:38:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst AddTwoInts_Request[m[K’ {aka ‘[01m[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kb[m[K’
+   38 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kb[m[K, out);
+      |                                                [01;31m[K^[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:[m[K In function ‘[01m[Kvoid example_interfaces::srv::to_block_style_yaml(const AddTwoInts_Request&, std::ostream&, size_t)[m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:53:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst AddTwoInts_Request[m[K’ {aka ‘[01m[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+   53 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Ka[m[K, out);
+      |                                                [01;31m[K^[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:63:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst AddTwoInts_Request[m[K’ {aka ‘[01m[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kb[m[K’
+   63 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kb[m[K, out);
+      |                                                [01;31m[K^[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:[m[K In function ‘[01m[Kvoid example_interfaces::srv::to_flow_style_yaml(const AddTwoInts_Response&, std::ostream&)[m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:140:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst AddTwoInts_Response[m[K’ {aka ‘[01m[Kconst struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksum[m[K’
+  140 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Ksum[m[K, out);
+      |                                                [01;31m[K^~~[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:[m[K In function ‘[01m[Kvoid example_interfaces::srv::to_block_style_yaml(const AddTwoInts_Response&, std::ostream&, size_t)[m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:155:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst AddTwoInts_Response[m[K’ {aka ‘[01m[Kconst struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksum[m[K’
+  155 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Ksum[m[K, out);
+      |                                                [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:9[m[K,
+                 from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:2[m[K:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:[m[K In function ‘[01m[Kvoid example_interfaces::srv::to_flow_style_yaml(const AddTwoInts_Request&, std::ostream&)[m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:31:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst AddTwoInts_Request[m[K’ {aka ‘[01m[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+   31 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Ka[m[K, out);
+      |                                                [01;31m[K^[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:38:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst AddTwoInts_Request[m[K’ {aka ‘[01m[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kb[m[K’
+   38 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kb[m[K, out);
+      |                                                [01;31m[K^[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:[m[K In function ‘[01m[Kvoid example_interfaces::srv::to_block_style_yaml(const AddTwoInts_Request&, std::ostream&, size_t)[m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:53:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst AddTwoInts_Request[m[K’ {aka ‘[01m[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+   53 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Ka[m[K, out);
+      |                                                [01;31m[K^[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:63:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst AddTwoInts_Request[m[K’ {aka ‘[01m[Kconst struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kb[m[K’
+   63 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Kb[m[K, out);
+      |                                                [01;31m[K^[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:[m[K In function ‘[01m[Kvoid example_interfaces::srv::to_flow_style_yaml(const AddTwoInts_Response&, std::ostream&)[m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:140:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst AddTwoInts_Response[m[K’ {aka ‘[01m[Kconst struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksum[m[K’
+  140 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Ksum[m[K, out);
+      |                                                [01;31m[K^~~[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:[m[K In function ‘[01m[Kvoid example_interfaces::srv::to_block_style_yaml(const AddTwoInts_Response&, std::ostream&, size_t)[m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:155:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst AddTwoInts_Response[m[K’ {aka ‘[01m[Kconst struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksum[m[K’
+  155 |     rosidl_generator_traits::value_to_yaml(msg.[01;31m[Ksum[m[K, out);
+      |                                                [01;31m[K^~~[m[K
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:13:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksum[m[K’
+   13 |     response->[01;31m[Ksum[m[K = request->a / request->b;
+      |               [01;31m[K^~~[m[K
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:13:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+   13 |     response->sum = request->[01;31m[Ka[m[K / request->b;
+      |                              [01;31m[K^[m[K
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:13:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kb[m[K’
+   13 |     response->sum = request->a / request->[01;31m[Kb[m[K;
+      |                                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:1[m[K:
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:15:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+   15 |         request->[01;31m[Ka[m[K, request->b);
+      |                  [01;31m[K^[m[K
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:15:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kb[m[K’
+   15 |         request->a, request->[01;31m[Kb[m[K);
+      |                              [01;31m[K^[m[K
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:16:96:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksum[m[K’
+   16 | ogger("rclcpp"), "sending back response: [%f]", (double)response->[01;31m[Ksum[m[K);
+      |                                                                   [01;31m[K^~~[m[K
+
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:59:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+   59 |     request->[01;31m[Ka[m[K = std::stod(argv[1]);
+      |              [01;31m[K^[m[K
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:60:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kb[m[K’
+   60 |     request->[01;31m[Kb[m[K = std::stod(argv[2]);
+      |              [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1[m[K:
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:62:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ka[m[K’
+   62 |         request->[01;31m[Ka[m[K, request->b);
+      |                  [01;31m[K^[m[K
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:62:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kb[m[K’
+   62 |         request->a, request->[01;31m[Kb[m[K);
+      |                              [01;31m[K^[m[K
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:77:77:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksum[m[K’
+   77 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sum: %ld", result.get()->[01;31m[Ksum[m[K);
+      |                                                                             [01;31m[K^~~[m[K
+In file included from [01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7[m[K,
+                 from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:2[m[K:
+/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp: In instantiation of ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<ContainerAllocator>::AddTwoInts_Request_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:44:5:[m[K   required from here
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:41:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ka[m[K’
+   41 |       [01;31m[Kthis->a[m[K = 0ll;
+      |       [01;31m[K~~~~~~^[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:42:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kb[m[K’
+   42 |       [01;31m[Kthis->b[m[K = 0ll;
+      |       [01;31m[K~~~~~~^[m[K
+/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp: In instantiation of ‘[01m[Kexample_interfaces::srv::AddTwoInts_Response_<ContainerAllocator>::AddTwoInts_Response_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:86:5:[m[K   required from here
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:169:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ksum[m[K’
+  169 |       [01;31m[Kthis->sum[m[K = 0ll;
+      |       [01;31m[K~~~~~~^~~[m[K
+In file included from [01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7[m[K,
+                 from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:2[m[K:
+/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp: In instantiation of ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<ContainerAllocator>::AddTwoInts_Request_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:44:5:[m[K   required from here
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:41:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ka[m[K’
+   41 |       [01;31m[Kthis->a[m[K = 0ll;
+      |       [01;31m[K~~~~~~^[m[K
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:42:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kb[m[K’
+   42 |       [01;31m[Kthis->b[m[K = 0ll;
+      |       [01;31m[K~~~~~~^[m[K
+/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp: In instantiation of ‘[01m[Kexample_interfaces::srv::AddTwoInts_Response_<ContainerAllocator>::AddTwoInts_Response_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’:
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:86:5:[m[K   required from here
+[01m[K/opt/ros/iron/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:169:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ksum[m[K’
+  169 |       [01;31m[Kthis->sum[m[K = 0ll;
+      |       [01;31m[K~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

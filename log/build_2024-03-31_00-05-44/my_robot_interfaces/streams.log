@@ -1,0 +1,21 @@
+[0.033s] Invoking command in '/home/asd/ros2_ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/asd/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/my_robot_interfaces
+[0.418s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.130s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.591s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[1.921s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.991s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[2.146s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.158s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[3.276s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[3.318s] [31mCMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[3.319s]   rosidl_generate_interfaces() the passed file 'msg/TargetCoordinates.msg'
+[3.319s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[3.319s]   '/home/asd/ros2_ws/src/my_robot_interfaces'
+[3.320s] Call Stack (most recent call first):
+[3.320s]   CMakeLists.txt:9 (rosidl_generate_interfaces)
+[3.320s] 
+[3.320s] [0m
+[3.321s] -- Configuring incomplete, errors occurred!
+[3.321s] See also "/home/asd/ros2_ws/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[3.336s] Invoked command in '/home/asd/ros2_ws/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/asd/ros2_ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/my_robot_interfaces

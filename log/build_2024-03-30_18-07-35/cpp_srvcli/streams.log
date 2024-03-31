@@ -1,0 +1,27 @@
+[0.035s] Invoking command in '/home/asd/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/cpp_srvcli -- -j4 -l4
+[0.193s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.246s] [ 50%] Built target client
+[0.309s] [ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[1.668s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:44:1:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[1.668s]    44 | 
+[1.668s]       | [01;31m[K^[m[K
+[10.096s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[10.096s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[10.097s]    22 |         [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp"), "nem szám",
+[10.097s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[10.097s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:22:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[10.098s]    22 |         RCLCPP_INFO[01;31m[K([m[Krclcpp::get_logger("rclcpp"), "nem szám",
+[10.098s]       |                    [01;31m[K^[m[K
+[10.098s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:19:48:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[10.098s]    19 |     if (!isValidInput(request->a, request->b)) [01;36m[K{[m[K
+[10.099s]       |                                                [01;36m[K^[m[K
+[10.099s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:22:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[10.099s]    22 |         RCLCPP_INFO[01;31m[K([m[Krclcpp::get_logger("rclcpp"), "nem szám",
+[10.099s]       |                    [01;31m[K^[m[K
+[10.100s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:18:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[10.100s]    18 | [01;36m[K{[m[K
+[10.100s]       | [01;36m[K^[m[K
+[12.944s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+[12.944s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[12.945s] gmake: *** [Makefile:146: all] Error 2
+[12.950s] Invoked command in '/home/asd/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/cpp_srvcli -- -j4 -l4

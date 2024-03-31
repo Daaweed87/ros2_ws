@@ -1,0 +1,85 @@
+[0.033s] Invoking command in '/home/asd/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/cpp_srvcli -- -j4 -l4
+[0.217s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.264s] [ 50%] Built target server
+[0.303s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[9.730s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.730s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:14:33:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kisdigit(char*&)[m[K’
+[9.730s]    14 |   if (argc != 3 || ![01;31m[Kstd::isdigit(argv[1])[m[K || !std::isdigit(argv[2])) {
+[9.731s]       |                     [01;31m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[9.757s] In file included from [01m[K/usr/include/c++/11/bits/basic_ios.h:37[m[K,
+[9.757s]                  from [01m[K/usr/include/c++/11/ios:44[m[K,
+[9.757s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[9.758s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[9.758s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[9.758s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.759s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.759s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.759s]                  from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1[m[K:
+[9.759s] [01m[K/usr/include/c++/11/bits/locale_facets.h:2632:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT> bool std::isdigit(_CharT, const std::locale&)[m[K’
+[9.760s]  2632 |     [01;36m[Kisdigit[m[K(_CharT __c, const locale& __loc)
+[9.760s]       |     [01;36m[K^~~~~~~[m[K
+[9.760s] [01m[K/usr/include/c++/11/bits/locale_facets.h:2632:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.761s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:14:33:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[9.762s]    14 |   if (argc != 3 || ![01;36m[Kstd::isdigit(argv[1])[m[K || !std::isdigit(argv[2])) {
+[9.762s]       |                     [01;36m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[9.762s] In file included from [01m[K/usr/include/c++/11/cctype:42[m[K,
+[9.763s]                  from [01m[K/usr/include/c++/11/bits/localefwd.h:42[m[K,
+[9.763s]                  from [01m[K/usr/include/c++/11/string:43[m[K,
+[9.763s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[9.763s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[9.764s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[9.764s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[9.764s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[9.764s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.765s]                  from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1[m[K:
+[9.765s] [01m[K/usr/include/ctype.h:111:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint isdigit(int)[m[K’ (near match)
+[9.765s]   111 | [01;36m[K__exctype[m[K (isdigit);
+[9.766s]       | [01;36m[K^~~~~~~~~[m[K
+[9.766s] [01m[K/usr/include/ctype.h:111:1:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.766s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:14:40:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.766s]    14 |   if (argc != 3 || !std::isdigit([01;31m[Kargv[1][m[K) || !std::isdigit(argv[2])) {
+[9.767s]       |                                  [01;31m[K~~~~~~^[m[K
+[9.767s]       |                                        [01;31m[K|[m[K
+[9.767s]       |                                        [01;31m[Kchar*[m[K
+[9.767s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:14:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kisdigit(char*&)[m[K’
+[9.768s]    14 |   if (argc != 3 || !std::isdigit(argv[1]) || ![01;31m[Kstd::isdigit(argv[2])[m[K) {
+[9.768s]       |                                               [01;31m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[9.768s] In file included from [01m[K/usr/include/c++/11/bits/basic_ios.h:37[m[K,
+[9.769s]                  from [01m[K/usr/include/c++/11/ios:44[m[K,
+[9.769s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[9.769s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[9.769s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[9.770s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.770s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.770s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.770s]                  from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1[m[K:
+[9.771s] [01m[K/usr/include/c++/11/bits/locale_facets.h:2632:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT> bool std::isdigit(_CharT, const std::locale&)[m[K’
+[9.771s]  2632 |     [01;36m[Kisdigit[m[K(_CharT __c, const locale& __loc)
+[9.771s]       |     [01;36m[K^~~~~~~[m[K
+[9.772s] [01m[K/usr/include/c++/11/bits/locale_facets.h:2632:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[9.772s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:14:59:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[9.772s]    14 |   if (argc != 3 || !std::isdigit(argv[1]) || ![01;36m[Kstd::isdigit(argv[2])[m[K) {
+[9.772s]       |                                               [01;36m[K~~~~~~~~~~~~^~~~~~~~~[m[K
+[9.773s] In file included from [01m[K/usr/include/c++/11/cctype:42[m[K,
+[9.773s]                  from [01m[K/usr/include/c++/11/bits/localefwd.h:42[m[K,
+[9.773s]                  from [01m[K/usr/include/c++/11/string:43[m[K,
+[9.773s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[9.774s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[9.774s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[9.774s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[9.774s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[9.775s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.775s]                  from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:1[m[K:
+[9.775s] [01m[K/usr/include/ctype.h:111:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kint isdigit(int)[m[K’ (near match)
+[9.776s]   111 | [01;36m[K__exctype[m[K (isdigit);
+[9.776s]       | [01;36m[K^~~~~~~~~[m[K
+[9.776s] [01m[K/usr/include/ctype.h:111:1:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[9.776s] [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:14:66:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kchar*[m[K’ to ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[9.777s]    14 |   if (argc != 3 || !std::isdigit(argv[1]) || !std::isdigit([01;31m[Kargv[2][m[K)) {
+[9.777s]       |                                                            [01;31m[K~~~~~~^[m[K
+[9.777s]       |                                                                  [01;31m[K|[m[K
+[9.777s]       |                                                                  [01;31m[Kchar*[m[K
+[13.289s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1
+[13.291s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[13.291s] gmake: *** [Makefile:146: all] Error 2
+[13.297s] Invoked command in '/home/asd/ros2_ws/build/cpp_srvcli' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/cpp_srvcli -- -j4 -l4

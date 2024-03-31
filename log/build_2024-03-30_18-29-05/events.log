@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000317] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict()}
+[0.000418] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.026800] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.029886] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.032357] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/cpp_srvcli', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/cpp_srvcli', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('SYSTEMD_EXEC_PID', '1406'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1371,unix/asd:/tmp/.ICE-unix/1371'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/673438a5_0ef1_4021_a345_73d7ddc758e4'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9HEOL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.436'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/cpp_srvcli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.097781] (-) TimerEvent: {}
+[0.198230] (-) TimerEvent: {}
+[0.215943] (cpp_srvcli) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[0.271804] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o\x1b[0m\n'}
+[0.298405] (-) TimerEvent: {}
+[0.307742] (cpp_srvcli) StdoutLine: {'line': b'[ 75%] Built target server\n'}
+[0.398672] (-) TimerEvent: {}
+[0.499942] (-) TimerEvent: {}
+[0.601500] (-) TimerEvent: {}
+[0.702178] (-) TimerEvent: {}
+[0.803594] (-) TimerEvent: {}
+[0.904151] (-) TimerEvent: {}
+[1.005727] (-) TimerEvent: {}
+[1.107225] (-) TimerEvent: {}
+[1.207802] (-) TimerEvent: {}
+[1.309332] (-) TimerEvent: {}
+[1.410819] (-) TimerEvent: {}
+[1.512424] (-) TimerEvent: {}
+[1.613953] (-) TimerEvent: {}
+[1.715467] (-) TimerEvent: {}
+[1.816999] (-) TimerEvent: {}
+[1.918071] (-) TimerEvent: {}
+[2.035667] (-) TimerEvent: {}
+[2.137217] (-) TimerEvent: {}
+[2.238817] (-) TimerEvent: {}
+[2.339895] (-) TimerEvent: {}
+[2.440909] (-) TimerEvent: {}
+[2.542402] (-) TimerEvent: {}
+[2.643889] (-) TimerEvent: {}
+[2.744465] (-) TimerEvent: {}
+[2.845090] (-) TimerEvent: {}
+[2.946548] (-) TimerEvent: {}
+[3.048146] (-) TimerEvent: {}
+[3.148718] (-) TimerEvent: {}
+[3.249286] (-) TimerEvent: {}
+[3.350564] (-) TimerEvent: {}
+[3.451208] (-) TimerEvent: {}
+[3.552871] (-) TimerEvent: {}
+[3.653473] (-) TimerEvent: {}
+[3.754060] (-) TimerEvent: {}
+[3.854522] (-) TimerEvent: {}
+[3.956051] (-) TimerEvent: {}
+[4.057640] (-) TimerEvent: {}
+[4.158223] (-) TimerEvent: {}
+[4.259022] (-) TimerEvent: {}
+[4.360269] (-) TimerEvent: {}
+[4.461817] (-) TimerEvent: {}
+[4.563281] (-) TimerEvent: {}
+[4.663858] (-) TimerEvent: {}
+[4.766363] (-) TimerEvent: {}
+[4.866911] (-) TimerEvent: {}
+[4.968453] (-) TimerEvent: {}
+[5.069030] (-) TimerEvent: {}
+[5.169660] (-) TimerEvent: {}
+[5.270248] (-) TimerEvent: {}
+[5.371807] (-) TimerEvent: {}
+[5.472358] (-) TimerEvent: {}
+[5.572965] (-) TimerEvent: {}
+[5.674376] (-) TimerEvent: {}
+[5.775948] (-) TimerEvent: {}
+[5.876534] (-) TimerEvent: {}
+[5.977668] (-) TimerEvent: {}
+[6.078593] (-) TimerEvent: {}
+[6.179200] (-) TimerEvent: {}
+[6.280775] (-) TimerEvent: {}
+[6.381441] (-) TimerEvent: {}
+[6.482889] (-) TimerEvent: {}
+[6.583360] (-) TimerEvent: {}
+[6.685577] (-) TimerEvent: {}
+[6.787432] (-) TimerEvent: {}
+[6.888960] (-) TimerEvent: {}
+[6.989522] (-) TimerEvent: {}
+[7.090025] (-) TimerEvent: {}
+[7.191208] (-) TimerEvent: {}
+[7.292160] (-) TimerEvent: {}
+[7.392721] (-) TimerEvent: {}
+[7.493240] (-) TimerEvent: {}
+[7.593849] (-) TimerEvent: {}
+[7.694458] (-) TimerEvent: {}
+[7.794959] (-) TimerEvent: {}
+[7.895547] (-) TimerEvent: {}
+[7.996070] (-) TimerEvent: {}
+[8.097662] (-) TimerEvent: {}
+[8.199146] (-) TimerEvent: {}
+[8.300662] (-) TimerEvent: {}
+[8.403205] (-) TimerEvent: {}
+[8.503759] (-) TimerEvent: {}
+[8.605476] (-) TimerEvent: {}
+[8.705991] (-) TimerEvent: {}
+[8.807363] (-) TimerEvent: {}
+[8.907964] (-) TimerEvent: {}
+[9.008487] (-) TimerEvent: {}
+[9.110899] (-) TimerEvent: {}
+[9.211581] (-) TimerEvent: {}
+[9.312116] (-) TimerEvent: {}
+[9.412678] (-) TimerEvent: {}
+[9.514208] (-) TimerEvent: {}
+[9.614806] (-) TimerEvent: {}
+[9.717421] (-) TimerEvent: {}
+[9.818811] (-) TimerEvent: {}
+[9.919387] (-) TimerEvent: {}
+[10.020933] (-) TimerEvent: {}
+[10.122443] (-) TimerEvent: {}
+[10.222986] (-) TimerEvent: {}
+[10.255555] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.256049] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:26:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.256332] (cpp_srvcli) StderrLine: {'line': b'   26 |   request->a = \x1b[01;31m\x1b[Kargv[1]\x1b[m\x1b[K;\n'}
+[10.256607] (cpp_srvcli) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~^\x1b[m\x1b[K\n'}
+[10.256919] (cpp_srvcli) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[10.257232] (cpp_srvcli) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[10.257610] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_client.cpp:27:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid conversion from \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.257889] (cpp_srvcli) StderrLine: {'line': b'   27 |   request->b = \x1b[01;31m\x1b[Kargv[2]\x1b[m\x1b[K;\n'}
+[10.258169] (cpp_srvcli) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~^\x1b[m\x1b[K\n'}
+[10.258427] (cpp_srvcli) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[10.258694] (cpp_srvcli) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[10.323611] (-) TimerEvent: {}
+[10.425163] (-) TimerEvent: {}
+[10.526625] (-) TimerEvent: {}
+[10.627171] (-) TimerEvent: {}
+[10.727757] (-) TimerEvent: {}
+[10.829231] (-) TimerEvent: {}
+[10.930752] (-) TimerEvent: {}
+[11.031286] (-) TimerEvent: {}
+[11.132827] (-) TimerEvent: {}
+[11.234409] (-) TimerEvent: {}
+[11.334992] (-) TimerEvent: {}
+[11.436561] (-) TimerEvent: {}
+[11.537060] (-) TimerEvent: {}
+[11.637662] (-) TimerEvent: {}
+[11.738282] (-) TimerEvent: {}
+[11.839265] (-) TimerEvent: {}
+[11.940310] (-) TimerEvent: {}
+[12.040859] (-) TimerEvent: {}
+[12.141460] (-) TimerEvent: {}
+[12.242959] (-) TimerEvent: {}
+[12.343519] (-) TimerEvent: {}
+[12.445080] (-) TimerEvent: {}
+[12.546527] (-) TimerEvent: {}
+[12.647054] (-) TimerEvent: {}
+[12.747682] (-) TimerEvent: {}
+[12.849752] (-) TimerEvent: {}
+[12.951104] (-) TimerEvent: {}
+[13.052301] (-) TimerEvent: {}
+[13.152861] (-) TimerEvent: {}
+[13.255377] (-) TimerEvent: {}
+[13.355929] (-) TimerEvent: {}
+[13.457441] (-) TimerEvent: {}
+[13.559000] (-) TimerEvent: {}
+[13.660528] (-) TimerEvent: {}
+[13.761944] (-) TimerEvent: {}
+[13.763358] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_two_ints_client.cpp.o] Error 1\n'}
+[13.763845] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2\n'}
+[13.764436] (cpp_srvcli) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.779792] (cpp_srvcli) CommandEnded: {'returncode': 2}
+[13.862587] (-) TimerEvent: {}
+[13.913180] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 2}
+[13.934737] (-) EventReactorShutdown: {}

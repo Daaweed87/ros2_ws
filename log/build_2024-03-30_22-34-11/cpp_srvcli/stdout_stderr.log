@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[35m[1mConsolidate compiler generated dependencies of target server[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:14:80:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   14 | _INFO(rclcpp::get_logger("rclcpp"), "Incoming request\na: %lf " b: %f[01;35m[K"[m[K,
+      |                                                                      [01;35m[K^[m[K
+
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:1[m[K:
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:14:80:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+   14 | _INFO(rclcpp::get_logger("rclcpp"), "Incoming request\na: %lf " b: %f[01;31m[K",[m[K
+      |                                                                      [01;31m[K^~[m[K
+
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:14:75:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kb[m[K’
+   14 | _INFO(rclcpp::get_logger("rclcpp"), "Incoming request\na: %lf " [01;31m[Kb[m[K: %f",
+      |                                                                 [01;31m[K^[m[K
+
+[01m[K/home/asd/ros2_ws/src/cpp_srvcli/src/add_two_ints_server.cpp:14:5:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   14 |     [01;36m[KRCLCPP_INFO[m[K(rclcpp::get_logger("rclcpp"), "Incoming request\na: %lf " b: %f",
+      |     [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_two_ints_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable client[0m
+[ 75%] Built target client
+gmake: *** [Makefile:146: all] Error 2

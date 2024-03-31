@@ -1,0 +1,377 @@
+[0.000000] (-) TimerEvent: {}
+[0.000494] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000592] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000688] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000781] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.024793] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.026849] (my_package) Command: {'cmd': ['/usr/bin/cmake', '/home/asd/ros2_ws/src/my_package', '-DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/my_package'], 'cwd': '/home/asd/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ac0b70a7f89ddaec1a99eccc6607e660'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1371,unix/asd:/tmp/.ICE-unix/1371'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f64e370e_6b1b_465a_99c9_a39cea6eab9a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9HEOL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.572'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ac0b70a7f89ddaec1a99eccc6607e660'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.089450] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.097710] (-) TimerEvent: {}
+[0.198278] (-) TimerEvent: {}
+[0.304632] (-) TimerEvent: {}
+[0.406215] (-) TimerEvent: {}
+[0.506843] (-) TimerEvent: {}
+[0.587854] (my_package) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[0.597249] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.607098] (-) TimerEvent: {}
+[0.707734] (-) TimerEvent: {}
+[0.767081] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.807965] (-) TimerEvent: {}
+[0.908517] (-) TimerEvent: {}
+[0.948481] (my_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[1.009555] (-) TimerEvent: {}
+[1.110172] (-) TimerEvent: {}
+[1.211682] (-) TimerEvent: {}
+[1.312233] (-) TimerEvent: {}
+[1.413766] (-) TimerEvent: {}
+[1.515224] (-) TimerEvent: {}
+[1.615786] (-) TimerEvent: {}
+[1.717393] (-) TimerEvent: {}
+[1.817885] (-) TimerEvent: {}
+[1.925652] (-) TimerEvent: {}
+[2.026998] (-) TimerEvent: {}
+[2.039310] (my_package) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[2.127591] (-) TimerEvent: {}
+[2.227989] (-) TimerEvent: {}
+[2.332010] (-) TimerEvent: {}
+[2.433044] (-) TimerEvent: {}
+[2.534553] (-) TimerEvent: {}
+[2.635136] (-) TimerEvent: {}
+[2.710588] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.735509] (-) TimerEvent: {}
+[2.836195] (-) TimerEvent: {}
+[2.936675] (-) TimerEvent: {}
+[3.037331] (-) TimerEvent: {}
+[3.137854] (-) TimerEvent: {}
+[3.238441] (-) TimerEvent: {}
+[3.339455] (-) TimerEvent: {}
+[3.440480] (-) TimerEvent: {}
+[3.541097] (-) TimerEvent: {}
+[3.541578] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.618005] (my_package) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.623070] (my_package) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[3.641655] (-) TimerEvent: {}
+[3.725131] (my_package) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.725759] (my_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.726018] (my_package) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.726299] (my_package) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.742350] (-) TimerEvent: {}
+[3.793520] (my_package) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.843749] (-) TimerEvent: {}
+[3.937703] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.944314] (-) TimerEvent: {}
+[4.045820] (-) TimerEvent: {}
+[4.060496] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[4.072852] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/asd/ros2_ws/build/my_package\n'}
+[4.088096] (my_package) CommandEnded: {'returncode': 0}
+[4.103901] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[4.107980] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/my_package', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ac0b70a7f89ddaec1a99eccc6607e660'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1371,unix/asd:/tmp/.ICE-unix/1371'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f64e370e_6b1b_465a_99c9_a39cea6eab9a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9HEOL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.572'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ac0b70a7f89ddaec1a99eccc6607e660'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[4.146305] (-) TimerEvent: {}
+[4.247351] (-) TimerEvent: {}
+[4.289748] (my_package) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.325342] (my_package) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_my_package\n'}
+[4.347511] (-) TimerEvent: {}
+[4.448201] (-) TimerEvent: {}
+[4.548902] (-) TimerEvent: {}
+[4.649637] (-) TimerEvent: {}
+[4.750470] (-) TimerEvent: {}
+[4.851706] (-) TimerEvent: {}
+[4.953157] (-) TimerEvent: {}
+[5.054732] (-) TimerEvent: {}
+[5.155301] (-) TimerEvent: {}
+[5.156590] (my_package) StdoutLine: {'line': b'[  2%] Built target my_package__rosidl_generator_type_description\n'}
+[5.191501] (my_package) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.249014] (my_package) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.249979] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[5.251797] (my_package) StdoutLine: {'line': b'creating my_package.egg-info\n'}
+[5.252365] (my_package) StdoutLine: {'line': b'writing my_package.egg-info/PKG-INFO\n'}
+[5.252833] (my_package) StdoutLine: {'line': b'writing dependency_links to my_package.egg-info/dependency_links.txt\n'}
+[5.253381] (my_package) StdoutLine: {'line': b'writing top-level names to my_package.egg-info/top_level.txt\n'}
+[5.253953] (my_package) StdoutLine: {'line': b"writing manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[5.255754] (-) TimerEvent: {}
+[5.259874] (my_package) StdoutLine: {'line': b"reading manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[5.261500] (my_package) StdoutLine: {'line': b"writing manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[5.345348] (my_package) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_my_package_egg\n'}
+[5.356333] (-) TimerEvent: {}
+[5.457936] (-) TimerEvent: {}
+[5.559465] (-) TimerEvent: {}
+[5.661048] (-) TimerEvent: {}
+[5.763518] (-) TimerEvent: {}
+[5.865064] (-) TimerEvent: {}
+[5.966648] (-) TimerEvent: {}
+[6.068107] (-) TimerEvent: {}
+[6.170134] (-) TimerEvent: {}
+[6.271136] (-) TimerEvent: {}
+[6.284184] (my_package) StdoutLine: {'line': b'[  8%] Built target my_package__cpp\n'}
+[6.371314] (-) TimerEvent: {}
+[6.372661] (my_package) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/add_two_ints2__description.c.o\x1b[0m\n'}
+[6.373004] (my_package) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/add_two_ints2__type_support.c.o\x1b[0m\n'}
+[6.373657] (my_package) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/add_two_ints2__functions.c.o\x1b[0m\n'}
+[6.472270] (-) TimerEvent: {}
+[6.576016] (-) TimerEvent: {}
+[6.703610] (-) TimerEvent: {}
+[6.805188] (-) TimerEvent: {}
+[6.872843] (my_package) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libmy_package__rosidl_generator_c.so\x1b[0m\n'}
+[6.905732] (-) TimerEvent: {}
+[7.006359] (-) TimerEvent: {}
+[7.051221] (my_package) StdoutLine: {'line': b'[ 20%] Built target my_package__rosidl_generator_c\n'}
+[7.083657] (my_package) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.084173] (my_package) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.086144] (my_package) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.087787] (my_package) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.106604] (-) TimerEvent: {}
+[7.207342] (-) TimerEvent: {}
+[7.307868] (-) TimerEvent: {}
+[7.408444] (-) TimerEvent: {}
+[7.509116] (-) TimerEvent: {}
+[7.609613] (-) TimerEvent: {}
+[7.710113] (-) TimerEvent: {}
+[7.810678] (-) TimerEvent: {}
+[7.915604] (-) TimerEvent: {}
+[8.016139] (-) TimerEvent: {}
+[8.102279] (my_package) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_package/msg/add_two_ints2__type_support.cpp.o\x1b[0m\n'}
+[8.116319] (-) TimerEvent: {}
+[8.129249] (my_package) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_package/msg/add_two_ints2__type_support.cpp.o\x1b[0m\n'}
+[8.133851] (my_package) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_package/msg/detail/add_two_ints2__type_support_c.cpp.o\x1b[0m\n'}
+[8.146898] (my_package) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_package/msg/detail/add_two_ints2__type_support.c.o\x1b[0m\n'}
+[8.216520] (-) TimerEvent: {}
+[8.281318] (my_package) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking C shared library libmy_package__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.307486] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.316724] (-) TimerEvent: {}
+[8.410614] (my_package) StdoutLine: {'line': b'[ 50%] Built target my_package__rosidl_typesupport_introspection_c\n'}
+[8.416944] (-) TimerEvent: {}
+[8.444015] (my_package) StdoutLine: {'line': b'[ 52%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.506499] (my_package) StdoutLine: {'line': b'[ 52%] Built target my_package__rosidl_typesupport_c\n'}
+[8.517138] (-) TimerEvent: {}
+[8.539568] (my_package) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.617346] (-) TimerEvent: {}
+[8.717893] (-) TimerEvent: {}
+[8.818451] (-) TimerEvent: {}
+[8.931670] (-) TimerEvent: {}
+[9.032257] (-) TimerEvent: {}
+[9.132912] (-) TimerEvent: {}
+[9.233490] (-) TimerEvent: {}
+[9.334157] (-) TimerEvent: {}
+[9.435270] (-) TimerEvent: {}
+[9.535853] (-) TimerEvent: {}
+[9.574558] (my_package) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.584637] (my_package) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_package/msg/detail/dds_fastrtps/add_two_ints2__type_support.cpp.o\x1b[0m\n'}
+[9.612915] (my_package) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.636391] (-) TimerEvent: {}
+[9.667007] (my_package) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_package/msg/detail/add_two_ints2__type_support.cpp.o\x1b[0m\n'}
+[9.736605] (-) TimerEvent: {}
+[9.816963] (my_package) StdoutLine: {'line': b'[ 67%] Built target my_package__rosidl_typesupport_cpp\n'}
+[9.837515] (-) TimerEvent: {}
+[9.916638] (my_package) StdoutLine: {'line': b'[ 67%] Built target my_package__rosidl_typesupport_fastrtps_c\n'}
+[9.938031] (-) TimerEvent: {}
+[10.039617] (-) TimerEvent: {}
+[10.140181] (-) TimerEvent: {}
+[10.240740] (-) TimerEvent: {}
+[10.341279] (-) TimerEvent: {}
+[10.441878] (-) TimerEvent: {}
+[10.542869] (-) TimerEvent: {}
+[10.643961] (-) TimerEvent: {}
+[10.744513] (-) TimerEvent: {}
+[10.845043] (-) TimerEvent: {}
+[10.946578] (-) TimerEvent: {}
+[11.047197] (-) TimerEvent: {}
+[11.128379] (my_package) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.147399] (-) TimerEvent: {}
+[11.248337] (-) TimerEvent: {}
+[11.323331] (my_package) StdoutLine: {'line': b'[ 70%] Built target my_package__rosidl_typesupport_introspection_cpp\n'}
+[11.348886] (-) TimerEvent: {}
+[11.449465] (-) TimerEvent: {}
+[11.550986] (-) TimerEvent: {}
+[11.579743] (my_package) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.651256] (-) TimerEvent: {}
+[11.753092] (-) TimerEvent: {}
+[11.853578] (-) TimerEvent: {}
+[11.863120] (my_package) StdoutLine: {'line': b'[ 73%] Built target my_package__rosidl_typesupport_fastrtps_cpp\n'}
+[11.953014] (my_package) StdoutLine: {'line': b'[ 73%] Built target my_package\n'}
+[11.953922] (-) TimerEvent: {}
+[12.054694] (-) TimerEvent: {}
+[12.064005] (my_package) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.154958] (-) TimerEvent: {}
+[12.255641] (-) TimerEvent: {}
+[12.356182] (-) TimerEvent: {}
+[12.456747] (-) TimerEvent: {}
+[12.557287] (-) TimerEvent: {}
+[12.657859] (-) TimerEvent: {}
+[12.758428] (-) TimerEvent: {}
+[12.858993] (-) TimerEvent: {}
+[12.962576] (-) TimerEvent: {}
+[13.063992] (-) TimerEvent: {}
+[13.164580] (-) TimerEvent: {}
+[13.265137] (-) TimerEvent: {}
+[13.277446] (my_package) StdoutLine: {'line': b'[ 76%] Built target my_package__py\n'}
+[13.345504] (my_package) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_py.dir/rosidl_generator_py/my_package/msg/_add_two_ints2_s.c.o\x1b[0m\n'}
+[13.365720] (-) TimerEvent: {}
+[13.467267] (-) TimerEvent: {}
+[13.568803] (-) TimerEvent: {}
+[13.669368] (-) TimerEvent: {}
+[13.769862] (-) TimerEvent: {}
+[13.786519] (my_package) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_package/libmy_package__rosidl_generator_py.so\x1b[0m\n'}
+[13.870523] (-) TimerEvent: {}
+[13.945305] (my_package) StdoutLine: {'line': b'[ 82%] Built target my_package__rosidl_generator_py\n'}
+[13.971002] (-) TimerEvent: {}
+[14.022251] (my_package) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.025267] (my_package) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.043157] (my_package) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.071202] (-) TimerEvent: {}
+[14.171804] (-) TimerEvent: {}
+[14.272353] (-) TimerEvent: {}
+[14.372924] (-) TimerEvent: {}
+[14.441603] (my_package) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.463670] (my_package) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_package/my_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.472470] (my_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.473715] (-) TimerEvent: {}
+[14.573288] (my_package) StdoutLine: {'line': b'[100%] Built target my_package__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.574109] (-) TimerEvent: {}
+[14.600073] (my_package) StdoutLine: {'line': b'[100%] Built target my_package__rosidl_typesupport_c__pyext\n'}
+[14.607166] (my_package) StdoutLine: {'line': b'[100%] Built target my_package__rosidl_typesupport_introspection_c__pyext\n'}
+[14.643435] (my_package) CommandEnded: {'returncode': 0}
+[14.674874] (-) TimerEvent: {}
+[14.775623] (-) TimerEvent: {}
+[14.828412] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[14.856362] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/asd/ros2_ws/build/my_package'], 'cwd': '/home/asd/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ac0b70a7f89ddaec1a99eccc6607e660'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1371,unix/asd:/tmp/.ICE-unix/1371'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f64e370e_6b1b_465a_99c9_a39cea6eab9a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9HEOL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.572'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ac0b70a7f89ddaec1a99eccc6607e660'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[14.875874] (-) TimerEvent: {}
+[14.882907] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.883523] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/ament_index/resource_index/rosidl_interfaces/my_package\n'}
+[14.884134] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/msg/AddTwoInts2.json\n'}
+[14.884622] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package\n'}
+[14.885318] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg\n'}
+[14.885638] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail\n'}
+[14.886167] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__struct.h\n'}
+[14.886429] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__functions.c\n'}
+[14.886623] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__description.c\n'}
+[14.888042] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__type_support.h\n'}
+[14.888423] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__type_support.c\n'}
+[14.888720] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__functions.h\n'}
+[14.889085] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/add_two_ints2.h\n'}
+[14.889427] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.889748] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/environment/library_path.sh\n'}
+[14.890107] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/environment/library_path.dsv\n'}
+[14.890419] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_generator_c.so\n'}
+[14.891274] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_generator_c.so" to ""\n'}
+[14.891797] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package\n'}
+[14.892019] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg\n'}
+[14.892234] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail\n'}
+[14.892454] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__rosidl_typesupport_fastrtps_c.h\n'}
+[14.892850] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.893055] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_c.so\n'}
+[14.894423] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.894922] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package\n'}
+[14.895290] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg\n'}
+[14.895650] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.895998] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail\n'}
+[14.896258] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__rosidl_typesupport_introspection_c.h\n'}
+[14.896648] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__type_support.c\n'}
+[14.896966] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_c.so\n'}
+[14.897673] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.898140] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_c.so\n'}
+[14.899235] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_c.so" to ""\n'}
+[14.899662] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package\n'}
+[14.899899] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg\n'}
+[14.900220] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/add_two_ints2.hpp\n'}
+[14.900449] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail\n'}
+[14.900774] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__traits.hpp\n'}
+[14.901135] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__builder.hpp\n'}
+[14.901431] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__struct.hpp\n'}
+[14.901908] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package\n'}
+[14.902171] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg\n'}
+[14.902559] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail\n'}
+[14.902881] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.903389] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/dds_fastrtps\n'}
+[14.903692] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.910408] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.910927] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.911367] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package\n'}
+[14.911754] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg\n'}
+[14.912409] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail\n'}
+[14.912688] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.912952] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__type_support.cpp\n'}
+[14.913239] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_cpp.so\n'}
+[14.913501] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.913761] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_cpp.so\n'}
+[14.914021] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_cpp.so" to ""\n'}
+[14.915769] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/environment/pythonpath.sh\n'}
+[14.916232] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/environment/pythonpath.dsv\n'}
+[14.916663] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[14.917071] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[14.931290] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[14.931619] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[14.932086] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[14.932364] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[14.932680] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.932979] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg\n'}
+[14.933241] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/_add_two_ints2_s.c\n'}
+[14.933502] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/__init__.py\n'}
+[14.933799] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/_add_two_ints2.py\n'}
+[14.934094] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.934395] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py\n'}
+[14.934778] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.935048] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.935308] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/libmy_package__rosidl_generator_py.so\n'}
+[14.935595] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.935854] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_c.c\n'}
+[14.976784] (-) TimerEvent: {}
+[15.043221] (my_package) StdoutLine: {'line': b"Listing '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package'...\n"}
+[15.043533] (my_package) StdoutLine: {'line': b"Compiling '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py'...\n"}
+[15.043722] (my_package) StdoutLine: {'line': b"Listing '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg'...\n"}
+[15.043906] (my_package) StdoutLine: {'line': b"Compiling '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/__init__.py'...\n"}
+[15.044211] (my_package) StdoutLine: {'line': b"Compiling '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/_add_two_ints2.py'...\n"}
+[15.057876] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.059325] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.060133] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.061469] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.062246] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[15.063616] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[15.064118] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_generator_py.so\n'}
+[15.065177] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_generator_py.so" to ""\n'}
+[15.065511] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/msg/AddTwoInts2.idl\n'}
+[15.065898] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/msg/AddTwoInts2.msg\n'}
+[15.066508] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[15.067159] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[15.067717] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[15.068149] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[15.068621] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[15.069036] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[15.069515] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[15.069966] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[15.070437] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[15.070952] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[15.071406] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/package.dsv\n'}
+[15.072031] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[15.072660] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cExport.cmake\n'}
+[15.073122] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cExport-noconfig.cmake\n'}
+[15.073699] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[15.074150] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[15.074776] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cExport.cmake\n'}
+[15.075226] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[15.075791] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cExport.cmake\n'}
+[15.076260] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[15.076782] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cppExport.cmake\n'}
+[15.076972] (-) TimerEvent: {}
+[15.077382] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[15.077940] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[15.078490] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[15.079022] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[15.079597] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cppExport.cmake\n'}
+[15.080105] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[15.080601] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_pyExport.cmake\n'}
+[15.081092] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_pyExport-noconfig.cmake\n'}
+[15.081574] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/rosidl_cmake-extras.cmake\n'}
+[15.082051] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.082497] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.083048] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.083514] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.083988] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.084460] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.084900] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[15.085275] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[15.085730] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/package.xml\n'}
+[15.094880] (my_package) CommandEnded: {'returncode': 0}
+[15.177169] (-) TimerEvent: {}
+[15.277830] (-) TimerEvent: {}
+[15.375677] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[15.377307] (-) EventReactorShutdown: {}
