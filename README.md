@@ -26,7 +26,7 @@ SimpleDiv is a ROS 2 package that provides a simple node for dividing two float 
 
 This package can be useful for basic division operations in ROS 2 environments.
 
-You can see pictures from the succesful runs and connection graph in RQt in the pictures folder.
+You can see pictures from the succesful runs and connection graph in RQt in the Example_pictures folder.
 
 ## Requirements
 
