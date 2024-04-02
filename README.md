@@ -25,7 +25,9 @@ To test my earlier solution use the following commands:
 SimpleDiv is a ROS 2 package that provides a simple node for dividing two float numbers received as messages and publishing the result on a ROS topic.
 
 This package can be useful for basic division operations in ROS 2 environments.
-Prerequisites
+
+You can see pictures from the succesful runs and connection graph in RQt in the pictures folder.
+
 ## Requirements
 
 ROS 2 Iron Irwini (you can find the installation tutorial here: https://docs.ros.org/en/iron/Installation/Ubuntu-Install-Debians.html)
