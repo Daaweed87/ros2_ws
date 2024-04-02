@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from simple_div/msg/TwoFloats.msg
+// generated code does not contain a copyright notice
+
+
+module simple_div {
+  module msg {
+    struct TwoFloats {
+      double first_number;
+
+      double second_number;
+    };
+  };
+};

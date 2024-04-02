@@ -1,0 +1,6 @@
+Invoking command in '/home/asd/ros2_ws/build/simple_div': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/asd/ros2_ws/src/simple_div -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/simple_div
+Invoked command in '/home/asd/ros2_ws/build/simple_div' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/asd/ros2_ws/src/simple_div -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/simple_div
+Invoking command in '/home/asd/ros2_ws/build/simple_div': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4
+Invoked command in '/home/asd/ros2_ws/build/simple_div' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4
+Invoking command in '/home/asd/ros2_ws/build/simple_div': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/asd/ros2_ws/build/simple_div
+Invoked command in '/home/asd/ros2_ws/build/simple_div' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/asd/ros2_ws/build/simple_div

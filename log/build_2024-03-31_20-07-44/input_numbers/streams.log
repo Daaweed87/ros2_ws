@@ -1,0 +1,11 @@
+[0.041s] Invoking command in '/home/asd/ros2_ws/build/input_numbers': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/input_numbers -- -j4 -l4
+[0.217s] [35m[1mConsolidate compiler generated dependencies of target input_numbers[0m
+[0.300s] [ 50%] [32mBuilding CXX object CMakeFiles/input_numbers.dir/src/input_numbers.cpp.o[0m
+[1.649s] [01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/float64.hpp: No such file or directory
+[1.649s]     3 | #include [01;31m[K"std_msgs/msg/float64.hpp"[m[K
+[1.649s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.650s] compilation terminated.
+[1.678s] gmake[2]: *** [CMakeFiles/input_numbers.dir/build.make:76: CMakeFiles/input_numbers.dir/src/input_numbers.cpp.o] Error 1
+[1.679s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/input_numbers.dir/all] Error 2
+[1.680s] gmake: *** [Makefile:146: all] Error 2
+[1.687s] Invoked command in '/home/asd/ros2_ws/build/input_numbers' returned '2': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/input_numbers -- -j4 -l4

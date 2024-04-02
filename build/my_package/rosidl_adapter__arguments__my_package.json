@@ -2,6 +2,7 @@
   "package_name": "my_package",
   "non_idl_tuples": [
     "/home/asd/ros2_ws/src/my_package:msg/AddTwoInts2.msg",
+    "/home/asd/ros2_ws/src/my_package:msg/TwoFloats.msg",
     "/home/asd/ros2_ws/src/my_package:srv/AddTwoInts2.srv"
   ]
 }

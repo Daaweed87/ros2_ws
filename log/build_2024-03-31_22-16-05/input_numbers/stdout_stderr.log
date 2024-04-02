@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target input_numbers[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/input_numbers.dir/src/input_numbers.cpp.o[0m
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:44:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   44 |     int szam1_;
+      |                [01;31m[K^[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:7:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    7 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:[m[K In member function ‘[01m[Kvoid InputNumbersNode::masodik_szam_callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kszam2_[m[K’ was not declared in this scope; did you mean ‘[01m[Kszam1_[m[K’?
+   33 |         [01;31m[Kszam2_[m[K = msg->data;
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kszam1_[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:[m[K At global scope:
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:44:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   44 |     int szam1_;
+      |                [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/input_numbers.dir/build.make:76: CMakeFiles/input_numbers.dir/src/input_numbers.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/input_numbers.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

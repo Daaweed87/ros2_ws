@@ -1,0 +1,14 @@
+{
+  "package_name": "d2f",
+  "output_dir": "/home/asd/ros2_ws/build/d2f/rosidl_generator_type_description/d2f",
+  "idl_tuples": [
+    "/home/asd/ros2_ws/build/d2f/rosidl_adapter/d2f:msg/DivTwoFloats.idl",
+    "/home/asd/ros2_ws/build/d2f/rosidl_adapter/d2f:srv/DivTwoFloats.idl"
+  ],
+  "include_paths": [
+    "example_interfaces:/opt/ros/iron/share/example_interfaces",
+    "service_msgs:/opt/ros/iron/share/service_msgs",
+    "action_msgs:/opt/ros/iron/share/action_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces"
+  ]
+}

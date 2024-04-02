@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000458] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000555] (-) JobUnselected: {'identifier': 'd2f'}
+[0.000646] (-) JobUnselected: {'identifier': 'div'}
+[0.000742] (-) JobUnselected: {'identifier': 'div'}
+[0.000828] (-) JobUnselected: {'identifier': 'fl_div'}
+[0.000912] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001001] (simple_div) JobQueued: {'identifier': 'simple_div', 'dependencies': OrderedDict()}
+[0.001089] (simple_div) JobStarted: {'identifier': 'simple_div'}
+[0.026543] (simple_div) JobProgress: {'identifier': 'simple_div', 'progress': 'cmake'}
+[0.029721] (simple_div) JobProgress: {'identifier': 'simple_div', 'progress': 'build'}
+[0.035233] (simple_div) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/simple_div', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/simple_div', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd/ros2_ws/src/simple_div/msg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d81d4cb7be2c4fa53a8a725e660baa1d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1400,unix/asd:/tmp/.ICE-unix/1400'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/90903db9_bd63_4d62_88ea_5d4458a03af9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9GDDL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/simple_div'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d81d4cb7be2c4fa53a8a725e660baa1d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.099209] (-) TimerEvent: {}
+[0.159223] (simple_div) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.200717] (-) TimerEvent: {}
+[0.301368] (-) TimerEvent: {}
+[0.401940] (-) TimerEvent: {}
+[0.502395] (-) TimerEvent: {}
+[0.602744] (-) TimerEvent: {}
+[0.670834] (simple_div) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.702910] (-) TimerEvent: {}
+[0.803380] (-) TimerEvent: {}
+[0.812008] (simple_div) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.861157] (simple_div) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.903608] (-) TimerEvent: {}
+[0.929778] (simple_div) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.004353] (-) TimerEvent: {}
+[1.019426] (simple_div) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.104569] (-) TimerEvent: {}
+[1.205119] (-) TimerEvent: {}
+[1.306002] (-) TimerEvent: {}
+[1.406579] (-) TimerEvent: {}
+[1.507357] (-) TimerEvent: {}
+[1.608068] (-) TimerEvent: {}
+[1.708573] (-) TimerEvent: {}
+[1.809090] (-) TimerEvent: {}
+[1.909591] (-) TimerEvent: {}
+[2.010304] (-) TimerEvent: {}
+[2.110889] (-) TimerEvent: {}
+[2.168012] (simple_div) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[2.173630] (simple_div) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.211072] (-) TimerEvent: {}
+[2.311590] (-) TimerEvent: {}
+[2.412160] (-) TimerEvent: {}
+[2.512690] (-) TimerEvent: {}
+[2.613243] (-) TimerEvent: {}
+[2.713874] (-) TimerEvent: {}
+[2.753152] (simple_div) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.814095] (-) TimerEvent: {}
+[2.914664] (-) TimerEvent: {}
+[3.015527] (-) TimerEvent: {}
+[3.116093] (-) TimerEvent: {}
+[3.216653] (-) TimerEvent: {}
+[3.317158] (-) TimerEvent: {}
+[3.417896] (-) TimerEvent: {}
+[3.518453] (-) TimerEvent: {}
+[3.618917] (-) TimerEvent: {}
+[3.719503] (-) TimerEvent: {}
+[3.819998] (-) TimerEvent: {}
+[3.920494] (-) TimerEvent: {}
+[4.021096] (-) TimerEvent: {}
+[4.089362] (simple_div) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[4.121287] (-) TimerEvent: {}
+[4.221919] (-) TimerEvent: {}
+[4.304783] (simple_div) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[4.322070] (-) TimerEvent: {}
+[4.341534] (simple_div) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[4.422378] (-) TimerEvent: {}
+[4.522927] (-) TimerEvent: {}
+[4.624468] (-) TimerEvent: {}
+[4.725051] (-) TimerEvent: {}
+[4.825576] (-) TimerEvent: {}
+[4.926172] (-) TimerEvent: {}
+[5.026761] (-) TimerEvent: {}
+[5.127436] (-) TimerEvent: {}
+[5.228837] (-) TimerEvent: {}
+[5.329327] (-) TimerEvent: {}
+[5.430123] (-) TimerEvent: {}
+[5.530587] (-) TimerEvent: {}
+[5.632101] (-) TimerEvent: {}
+[5.636622] (simple_div) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[5.734587] (-) TimerEvent: {}
+[5.835124] (-) TimerEvent: {}
+[5.935665] (-) TimerEvent: {}
+[6.037204] (-) TimerEvent: {}
+[6.137700] (-) TimerEvent: {}
+[6.238244] (-) TimerEvent: {}
+[6.338847] (-) TimerEvent: {}
+[6.442790] (-) TimerEvent: {}
+[6.543953] (-) TimerEvent: {}
+[6.644421] (-) TimerEvent: {}
+[6.745010] (-) TimerEvent: {}
+[6.845570] (-) TimerEvent: {}
+[6.946147] (-) TimerEvent: {}
+[7.047590] (-) TimerEvent: {}
+[7.148205] (-) TimerEvent: {}
+[7.190710] (simple_div) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.248411] (-) TimerEvent: {}
+[7.349304] (-) TimerEvent: {}
+[7.449977] (-) TimerEvent: {}
+[7.550511] (-) TimerEvent: {}
+[7.651944] (-) TimerEvent: {}
+[7.753515] (-) TimerEvent: {}
+[7.784123] (simple_div) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.853746] (-) TimerEvent: {}
+[7.857563] (simple_div) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[7.944062] (simple_div) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.944382] (simple_div) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.944567] (simple_div) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[7.953910] (-) TimerEvent: {}
+[8.054370] (-) TimerEvent: {}
+[8.084379] (simple_div) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:17 (add_executable):\n'}
+[8.084807] (simple_div) StderrLine: {'line': b'  add_executable cannot create target "simple_div" because another target\n'}
+[8.085048] (simple_div) StderrLine: {'line': b'  with the same name already exists.  The existing target is a custom target\n'}
+[8.090399] (simple_div) StderrLine: {'line': b'  created in source directory "/home/asd/ros2_ws/src/simple_div".  See\n'}
+[8.090711] (simple_div) StderrLine: {'line': b'  documentation for policy CMP0002 for more details.\n'}
+[8.090964] (simple_div) StderrLine: {'line': b'\n'}
+[8.091292] (simple_div) StderrLine: {'line': b'\x1b[0m\n'}
+[8.091545] (simple_div) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:128 (target_compile_definitions):\n'}
+[8.091782] (simple_div) StderrLine: {'line': b'  target_compile_definitions called with non-compilable target type\n'}
+[8.092014] (simple_div) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.092296] (simple_div) StderrLine: {'line': b'  CMakeLists.txt:18 (ament_target_dependencies)\n'}
+[8.092581] (simple_div) StderrLine: {'line': b'\n'}
+[8.092811] (simple_div) StderrLine: {'line': b'\x1b[0m\n'}
+[8.093190] (simple_div) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:141 (target_include_directories):\n'}
+[8.093451] (simple_div) StderrLine: {'line': b'  target_include_directories called with non-compilable target type\n'}
+[8.093717] (simple_div) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.094063] (simple_div) StderrLine: {'line': b'  CMakeLists.txt:18 (ament_target_dependencies)\n'}
+[8.094345] (simple_div) StderrLine: {'line': b'\n'}
+[8.094593] (simple_div) StderrLine: {'line': b'\x1b[0m\n'}
+[8.094842] (simple_div) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):\n'}
+[8.095176] (simple_div) StderrLine: {'line': b'  Utility target "simple_div" must not be used as the target of a\n'}
+[8.095425] (simple_div) StderrLine: {'line': b'  target_link_libraries call.\n'}
+[8.095691] (simple_div) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.095939] (simple_div) StderrLine: {'line': b'  CMakeLists.txt:18 (ament_target_dependencies)\n'}
+[8.096209] (simple_div) StderrLine: {'line': b'\n'}
+[8.096456] (simple_div) StderrLine: {'line': b'\x1b[0m\n'}
+[8.096703] (simple_div) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:147 (target_include_directories):\n'}
+[8.096974] (simple_div) StderrLine: {'line': b'  target_include_directories called with non-compilable target type\n'}
+[8.097224] (simple_div) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.097470] (simple_div) StderrLine: {'line': b'  CMakeLists.txt:18 (ament_target_dependencies)\n'}
+[8.097718] (simple_div) StderrLine: {'line': b'\n'}
+[8.098150] (simple_div) StderrLine: {'line': b'\x1b[0m\n'}
+[8.098618] (simple_div) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:151 (target_link_libraries):\n'}
+[8.098877] (simple_div) StderrLine: {'line': b'  Utility target "simple_div" must not be used as the target of a\n'}
+[8.099218] (simple_div) StderrLine: {'line': b'  target_link_libraries call.\n'}
+[8.099523] (simple_div) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.099778] (simple_div) StderrLine: {'line': b'  CMakeLists.txt:18 (ament_target_dependencies)\n'}
+[8.100145] (simple_div) StderrLine: {'line': b'\n'}
+[8.100434] (simple_div) StderrLine: {'line': b'\x1b[0m\n'}
+[8.100687] (simple_div) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (install):\n'}
+[8.100982] (simple_div) StderrLine: {'line': b'  install TARGETS given target "simple_div" which is not an executable,\n'}
+[8.101232] (simple_div) StderrLine: {'line': b'  library, or module.\n'}
+[8.101480] (simple_div) StderrLine: {'line': b'\n'}
+[8.101728] (simple_div) StderrLine: {'line': b'\x1b[0m\n'}
+[8.110474] (simple_div) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.110896] (simple_div) StdoutLine: {'line': b'See also "/home/asd/ros2_ws/build/simple_div/CMakeFiles/CMakeOutput.log".\n'}
+[8.134321] (simple_div) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[8.139089] (simple_div) CommandEnded: {'returncode': 2}
+[8.154690] (-) TimerEvent: {}
+[8.248513] (simple_div) JobEnded: {'identifier': 'simple_div', 'rc': 2}
+[8.255397] (-) TimerEvent: {}
+[8.259443] (-) EventReactorShutdown: {}

@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.000318] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000419] (-) JobUnselected: {'identifier': 'd2f'}
+[0.000534] (-) JobUnselected: {'identifier': 'div'}
+[0.000623] (-) JobUnselected: {'identifier': 'div'}
+[0.000711] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000798] (-) JobUnselected: {'identifier': 'simple_div'}
+[0.000891] (fl_div) JobQueued: {'identifier': 'fl_div', 'dependencies': OrderedDict([('my_package', '/home/asd/ros2_ws/install/my_package')])}
+[0.000989] (fl_div) JobStarted: {'identifier': 'fl_div'}
+[0.036291] (fl_div) JobProgress: {'identifier': 'fl_div', 'progress': 'cmake'}
+[0.036489] (fl_div) JobProgress: {'identifier': 'fl_div', 'progress': 'build'}
+[0.039250] (fl_div) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/fl_div', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/fl_div', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asd/ros2_ws/install/my_package/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('SYSTEMD_EXEC_PID', '1400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1372,unix/asd:/tmp/.ICE-unix/1372'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb30f539_dc48_4d4c_8c93_fd3a6ff5eb29'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y6PKL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.290'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asd/ros2_ws/install/my_package:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/fl_div'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asd/ros2_ws/install/my_package:/opt/ros/iron')]), 'shell': False}
+[0.097502] (-) TimerEvent: {}
+[0.198897] (-) TimerEvent: {}
+[0.211476] (fl_div) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[0.270439] (fl_div) StdoutLine: {'line': b'[ 50%] Built target client\n'}
+[0.296616] (fl_div) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/fl_div_server.cpp.o\x1b[0m\n'}
+[0.299342] (-) TimerEvent: {}
+[0.400985] (-) TimerEvent: {}
+[0.502184] (-) TimerEvent: {}
+[0.603087] (-) TimerEvent: {}
+[0.704637] (-) TimerEvent: {}
+[0.805188] (-) TimerEvent: {}
+[0.906786] (-) TimerEvent: {}
+[1.007289] (-) TimerEvent: {}
+[1.108804] (-) TimerEvent: {}
+[1.210463] (-) TimerEvent: {}
+[1.311872] (-) TimerEvent: {}
+[1.413447] (-) TimerEvent: {}
+[1.514140] (-) TimerEvent: {}
+[1.615516] (-) TimerEvent: {}
+[1.716068] (-) TimerEvent: {}
+[1.816619] (-) TimerEvent: {}
+[1.920100] (-) TimerEvent: {}
+[2.020704] (-) TimerEvent: {}
+[2.122247] (-) TimerEvent: {}
+[2.223743] (-) TimerEvent: {}
+[2.324260] (-) TimerEvent: {}
+[2.424843] (-) TimerEvent: {}
+[2.525399] (-) TimerEvent: {}
+[2.626992] (-) TimerEvent: {}
+[2.728485] (-) TimerEvent: {}
+[2.829076] (-) TimerEvent: {}
+[2.929598] (-) TimerEvent: {}
+[3.030169] (-) TimerEvent: {}
+[3.130701] (-) TimerEvent: {}
+[3.231274] (-) TimerEvent: {}
+[3.331810] (-) TimerEvent: {}
+[3.432393] (-) TimerEvent: {}
+[3.532984] (-) TimerEvent: {}
+[3.633593] (-) TimerEvent: {}
+[3.735047] (-) TimerEvent: {}
+[3.836566] (-) TimerEvent: {}
+[3.937190] (-) TimerEvent: {}
+[4.037734] (-) TimerEvent: {}
+[4.138247] (-) TimerEvent: {}
+[4.238792] (-) TimerEvent: {}
+[4.340322] (-) TimerEvent: {}
+[4.441894] (-) TimerEvent: {}
+[4.544413] (-) TimerEvent: {}
+[4.644994] (-) TimerEvent: {}
+[4.746436] (-) TimerEvent: {}
+[4.847035] (-) TimerEvent: {}
+[4.948563] (-) TimerEvent: {}
+[5.049129] (-) TimerEvent: {}
+[5.150706] (-) TimerEvent: {}
+[5.252202] (-) TimerEvent: {}
+[5.352753] (-) TimerEvent: {}
+[5.453356] (-) TimerEvent: {}
+[5.554834] (-) TimerEvent: {}
+[5.656398] (-) TimerEvent: {}
+[5.756948] (-) TimerEvent: {}
+[5.859452] (-) TimerEvent: {}
+[5.960004] (-) TimerEvent: {}
+[6.061716] (-) TimerEvent: {}
+[6.163069] (-) TimerEvent: {}
+[6.263648] (-) TimerEvent: {}
+[6.364231] (-) TimerEvent: {}
+[6.464769] (-) TimerEvent: {}
+[6.565372] (-) TimerEvent: {}
+[6.666855] (-) TimerEvent: {}
+[6.767403] (-) TimerEvent: {}
+[6.867977] (-) TimerEvent: {}
+[6.968674] (-) TimerEvent: {}
+[7.070132] (-) TimerEvent: {}
+[7.171613] (-) TimerEvent: {}
+[7.273122] (-) TimerEvent: {}
+[7.378667] (-) TimerEvent: {}
+[7.480111] (-) TimerEvent: {}
+[7.580638] (-) TimerEvent: {}
+[7.681234] (-) TimerEvent: {}
+[7.782759] (-) TimerEvent: {}
+[7.883280] (-) TimerEvent: {}
+[7.983884] (-) TimerEvent: {}
+[8.084440] (-) TimerEvent: {}
+[8.185489] (-) TimerEvent: {}
+[8.286982] (-) TimerEvent: {}
+[8.388478] (-) TimerEvent: {}
+[8.489065] (-) TimerEvent: {}
+[8.589672] (-) TimerEvent: {}
+[8.693175] (-) TimerEvent: {}
+[8.794071] (-) TimerEvent: {}
+[8.895237] (-) TimerEvent: {}
+[8.996795] (-) TimerEvent: {}
+[9.098382] (-) TimerEvent: {}
+[9.199793] (-) TimerEvent: {}
+[9.301428] (-) TimerEvent: {}
+[9.402916] (-) TimerEvent: {}
+[9.504457] (-) TimerEvent: {}
+[9.604996] (-) TimerEvent: {}
+[9.706587] (-) TimerEvent: {}
+[9.808040] (-) TimerEvent: {}
+[9.908603] (-) TimerEvent: {}
+[10.009175] (-) TimerEvent: {}
+[10.109732] (-) TimerEvent: {}
+[10.210338] (-) TimerEvent: {}
+[10.310855] (-) TimerEvent: {}
+[10.411411] (-) TimerEvent: {}
+[10.512983] (-) TimerEvent: {}
+[10.614161] (-) TimerEvent: {}
+[10.715041] (-) TimerEvent: {}
+[10.816567] (-) TimerEvent: {}
+[10.917218] (-) TimerEvent: {}
+[11.017665] (-) TimerEvent: {}
+[11.119232] (-) TimerEvent: {}
+[11.220788] (-) TimerEvent: {}
+[11.230159] (fl_div) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/service.hpp:37\x1b[m\x1b[K,\n'}
+[11.230615] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:28\x1b[m\x1b[K,\n'}
+[11.230859] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.231096] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.231421] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.231657] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.231936] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.232259] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.232564] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.232865] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[11.233165] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1\x1b[m\x1b[K:\n'}
+[11.233507] (fl_div) StderrLine: {'line': b'/opt/ros/iron/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = my_package::srv::AddTwoInts2]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.233869] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/create_service.hpp:69:27:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = my_package::srv::AddTwoInts2; CallbackT = void (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.234233] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/create_service.hpp:51:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = my_package::srv::AddTwoInts2; CallbackT = void (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.235202] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:179:53:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = my_package::srv::AddTwoInts2; CallbackT = void (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.235595] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:33:70:\x1b[m\x1b[K   required from here\n'}
+[11.235903] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_service_callback.hpp:148:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<std::monostate, std::function<void(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)> >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kvoid (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>)\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[11.236268] (fl_div) StderrLine: {'line': b'  148 |       \x1b[01;31m\x1b[Kcallback_ = std::forward<CallbackT>(callback)\x1b[m\x1b[K;\n'}
+[11.236550] (fl_div) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.236831] (fl_div) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:29\x1b[m\x1b[K,\n'}
+[11.237148] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.237443] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.237722] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.238787] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.239128] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.239408] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.239687] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.239967] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.240289] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[11.240567] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1\x1b[m\x1b[K:\n'}
+[11.240844] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1461:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::enable_if_t<((__exactly_once<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type> > && is_constructible_v<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>, _Tp>) && is_assignable_v<std::variant<_Types>::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>&, _Tp>), std::variant<_Types>&> std::variant<_Types>::operator=(_Tp&&) [with _Tp = _Tp; _Types = {std::monostate, std::function<void(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.241214] (fl_div) StderrLine: {'line': b' 1461 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(_Tp&& __rhs)\n'}
+[11.241504] (fl_div) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.241835] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1461:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.242191] (fl_div) StderrLine: {'line': b'/usr/include/c++/11/variant: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _Types> template<class _Tp, class> using __accepted_type = std::variant<_Types>::__to_type<__accepted_index<_Tp> > [with _Tp = void (*&&)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>); <template-parameter-2-2> = void; _Types = {std::monostate, std::function<void(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.242532] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1457:14:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::enable_if_t<((__exactly_once<std::variant<std::monostate, std::function<void(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type> > && is_constructible_v<std::variant<std::monostate, std::function<void(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>, _Tp>) && is_assignable_v<std::variant<std::monostate, std::function<void(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)> >::__accepted_type<_Tp&&, typename std::enable_if<__not_self<_Tp&&>, void>::type>&, _Tp>), std::variant<std::monostate, std::function<void(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)> >&> std::variant<std::monostate, std::function<void(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)> >::operator=<_Tp>(_Tp&&) [with _Tp = void (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>)]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.243375] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_service_callback.hpp:148:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = my_package::srv::AddTwoInts2]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.243597] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/create_service.hpp:69:27:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = my_package::srv::AddTwoInts2; CallbackT = void (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.243803] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/create_service.hpp:51:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = my_package::srv::AddTwoInts2; CallbackT = void (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.244051] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:179:53:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = my_package::srv::AddTwoInts2; CallbackT = void (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.244348] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:33:70:\x1b[m\x1b[K   required from here\n'}
+[11.244602] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1375:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.244857] (fl_div) StderrLine: {'line': b' 1375 |         using \x1b[01;31m\x1b[K__accepted_type\x1b[m\x1b[K = __to_type<__accepted_index<_Tp>>;\n'}
+[11.245137] (fl_div) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.245387] (fl_div) StderrLine: {'line': b'/opt/ros/iron/include/rclcpp/rclcpp/any_service_callback.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::AnyServiceCallback<ServiceT>::set(CallbackT&&) [with CallbackT = void (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>); typename std::enable_if<rclcpp::detail::can_be_nullptr<CallbackT>::value, int>::type <anonymous> = 0; ServiceT = my_package::srv::AddTwoInts2]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.245652] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/create_service.hpp:69:27:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = my_package::srv::AddTwoInts2; CallbackT = void (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.246039] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/create_service.hpp:51:45:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::create_service(std::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>, std::shared_ptr<rclcpp::node_interfaces::NodeServicesInterface>, const string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = my_package::srv::AddTwoInts2; CallbackT = void (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.246328] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:179:53:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Ktypename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = my_package::srv::AddTwoInts2; CallbackT = void (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>); typename rclcpp::Service<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.246618] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:33:70:\x1b[m\x1b[K   required from here\n'}
+[11.246860] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1398:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<_Types>& std::variant<_Types>::operator=(const std::variant<_Types>&) [with _Types = {std::monostate, std::function<void(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.247146] (fl_div) StderrLine: {'line': b' 1398 |       variant& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const variant&) = default;\n'}
+[11.247380] (fl_div) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.247613] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1398:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kvoid (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>)\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::variant<std::monostate, std::function<void(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.247910] (fl_div) StderrLine: {'line': b' 1398 |       variant& operator=(\x1b[01;36m\x1b[Kconst variant&\x1b[m\x1b[K) = default;\n'}
+[11.248144] (fl_div) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.248398] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1399:16:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<_Types>& std::variant<_Types>::operator=(std::variant<_Types>&&) [with _Types = {std::monostate, std::function<void(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.248819] (fl_div) StderrLine: {'line': b' 1399 |       variant& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(variant&&) = default;\n'}
+[11.249117] (fl_div) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[11.249383] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/variant:1399:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kvoid (*)(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >, std::shared_ptr<rclcpp::Node>)\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::variant<std::monostate, std::function<void(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)>, std::function<void(std::shared_ptr<rclcpp::Service<my_package::srv::AddTwoInts2> >, std::shared_ptr<rmw_request_id_s>, std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >)> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.249735] (fl_div) StderrLine: {'line': b' 1399 |       variant& operator=(\x1b[01;36m\x1b[Kvariant&&\x1b[m\x1b[K) = default;\n'}
+[11.250094] (fl_div) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[11.321288] (-) TimerEvent: {}
+[11.421879] (-) TimerEvent: {}
+[11.522432] (-) TimerEvent: {}
+[11.622992] (-) TimerEvent: {}
+[11.724537] (-) TimerEvent: {}
+[11.825101] (-) TimerEvent: {}
+[11.925684] (-) TimerEvent: {}
+[12.026241] (-) TimerEvent: {}
+[12.127764] (-) TimerEvent: {}
+[12.228300] (-) TimerEvent: {}
+[12.329885] (-) TimerEvent: {}
+[12.430413] (-) TimerEvent: {}
+[12.530939] (-) TimerEvent: {}
+[12.632497] (-) TimerEvent: {}
+[12.734059] (-) TimerEvent: {}
+[12.835547] (-) TimerEvent: {}
+[12.937117] (-) TimerEvent: {}
+[13.037599] (-) TimerEvent: {}
+[13.139211] (-) TimerEvent: {}
+[13.240706] (-) TimerEvent: {}
+[13.341295] (-) TimerEvent: {}
+[13.442786] (-) TimerEvent: {}
+[13.543417] (-) TimerEvent: {}
+[13.550291] (fl_div) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/fl_div_server.cpp.o] Error 1\n'}
+[13.550969] (fl_div) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2\n'}
+[13.554184] (fl_div) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.556898] (fl_div) CommandEnded: {'returncode': 2}
+[13.643643] (-) TimerEvent: {}
+[13.703695] (fl_div) JobEnded: {'identifier': 'fl_div', 'rc': 2}
+[13.714708] (-) EventReactorShutdown: {}

@@ -1,0 +1,11 @@
+{
+  "package_name": "simple_div",
+  "output_dir": "/home/asd/ros2_ws/build/simple_div/rosidl_generator_type_description/simple_div",
+  "idl_tuples": [
+    "/home/asd/ros2_ws/build/simple_div/rosidl_adapter/simple_div:msg/TwoFloats.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces"
+  ]
+}

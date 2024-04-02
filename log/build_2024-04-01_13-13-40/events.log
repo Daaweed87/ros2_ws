@@ -1,0 +1,241 @@
+[0.000000] (-) TimerEvent: {}
+[0.000378] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000475] (-) JobUnselected: {'identifier': 'd2f'}
+[0.000566] (-) JobUnselected: {'identifier': 'div'}
+[0.000655] (-) JobUnselected: {'identifier': 'div'}
+[0.000743] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000831] (-) JobUnselected: {'identifier': 'simple_div'}
+[0.000923] (fl_div) JobQueued: {'identifier': 'fl_div', 'dependencies': OrderedDict([('my_package', '/home/asd/ros2_ws/install/my_package')])}
+[0.001023] (fl_div) JobStarted: {'identifier': 'fl_div'}
+[0.042667] (fl_div) JobProgress: {'identifier': 'fl_div', 'progress': 'cmake'}
+[0.044602] (fl_div) JobProgress: {'identifier': 'fl_div', 'progress': 'build'}
+[0.046393] (fl_div) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/fl_div', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/fl_div', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asd/ros2_ws/install/my_package/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('SYSTEMD_EXEC_PID', '1400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1372,unix/asd:/tmp/.ICE-unix/1372'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb30f539_dc48_4d4c_8c93_fd3a6ff5eb29'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y6PKL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.290'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asd/ros2_ws/install/my_package:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/fl_div'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asd/ros2_ws/install/my_package:/opt/ros/iron')]), 'shell': False}
+[0.098118] (-) TimerEvent: {}
+[0.198690] (-) TimerEvent: {}
+[0.243251] (fl_div) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[0.243690] (fl_div) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[0.299229] (-) TimerEvent: {}
+[0.319573] (fl_div) StdoutLine: {'line': b'[ 50%] Built target client\n'}
+[0.320703] (fl_div) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/fl_div_server.cpp.o\x1b[0m\n'}
+[0.400788] (-) TimerEvent: {}
+[0.502338] (-) TimerEvent: {}
+[0.603884] (-) TimerEvent: {}
+[0.704435] (-) TimerEvent: {}
+[0.806007] (-) TimerEvent: {}
+[0.906542] (-) TimerEvent: {}
+[1.008047] (-) TimerEvent: {}
+[1.109600] (-) TimerEvent: {}
+[1.210202] (-) TimerEvent: {}
+[1.311728] (-) TimerEvent: {}
+[1.412254] (-) TimerEvent: {}
+[1.512736] (-) TimerEvent: {}
+[1.613374] (-) TimerEvent: {}
+[1.713929] (-) TimerEvent: {}
+[1.814476] (-) TimerEvent: {}
+[1.916031] (-) TimerEvent: {}
+[2.017538] (-) TimerEvent: {}
+[2.118085] (-) TimerEvent: {}
+[2.218661] (-) TimerEvent: {}
+[2.319291] (-) TimerEvent: {}
+[2.420742] (-) TimerEvent: {}
+[2.521307] (-) TimerEvent: {}
+[2.621832] (-) TimerEvent: {}
+[2.722376] (-) TimerEvent: {}
+[2.822915] (-) TimerEvent: {}
+[2.923500] (-) TimerEvent: {}
+[3.024088] (-) TimerEvent: {}
+[3.125660] (-) TimerEvent: {}
+[3.227144] (-) TimerEvent: {}
+[3.328724] (-) TimerEvent: {}
+[3.429268] (-) TimerEvent: {}
+[3.529818] (-) TimerEvent: {}
+[3.630380] (-) TimerEvent: {}
+[3.730891] (-) TimerEvent: {}
+[3.831581] (-) TimerEvent: {}
+[3.932153] (-) TimerEvent: {}
+[4.032664] (-) TimerEvent: {}
+[4.133205] (-) TimerEvent: {}
+[4.234417] (-) TimerEvent: {}
+[4.335316] (-) TimerEvent: {}
+[4.436753] (-) TimerEvent: {}
+[4.537295] (-) TimerEvent: {}
+[4.638284] (-) TimerEvent: {}
+[4.739309] (-) TimerEvent: {}
+[4.839980] (-) TimerEvent: {}
+[4.940523] (-) TimerEvent: {}
+[5.041093] (-) TimerEvent: {}
+[5.141649] (-) TimerEvent: {}
+[5.242279] (-) TimerEvent: {}
+[5.342973] (-) TimerEvent: {}
+[5.443582] (-) TimerEvent: {}
+[5.544177] (-) TimerEvent: {}
+[5.644829] (-) TimerEvent: {}
+[5.746011] (-) TimerEvent: {}
+[5.855616] (-) TimerEvent: {}
+[5.956280] (-) TimerEvent: {}
+[6.057055] (-) TimerEvent: {}
+[6.158068] (-) TimerEvent: {}
+[6.259606] (-) TimerEvent: {}
+[6.360181] (-) TimerEvent: {}
+[6.460816] (-) TimerEvent: {}
+[6.562278] (-) TimerEvent: {}
+[6.663804] (-) TimerEvent: {}
+[6.765253] (-) TimerEvent: {}
+[6.865835] (-) TimerEvent: {}
+[6.966379] (-) TimerEvent: {}
+[7.066937] (-) TimerEvent: {}
+[7.168454] (-) TimerEvent: {}
+[7.269038] (-) TimerEvent: {}
+[7.371862] (-) TimerEvent: {}
+[7.472404] (-) TimerEvent: {}
+[7.573618] (-) TimerEvent: {}
+[7.674420] (-) TimerEvent: {}
+[7.775759] (-) TimerEvent: {}
+[7.876733] (-) TimerEvent: {}
+[7.977802] (-) TimerEvent: {}
+[8.078490] (-) TimerEvent: {}
+[8.179905] (-) TimerEvent: {}
+[8.280494] (-) TimerEvent: {}
+[8.381072] (-) TimerEvent: {}
+[8.482497] (-) TimerEvent: {}
+[8.583116] (-) TimerEvent: {}
+[8.683735] (-) TimerEvent: {}
+[8.784214] (-) TimerEvent: {}
+[8.884684] (-) TimerEvent: {}
+[8.985350] (-) TimerEvent: {}
+[9.085816] (-) TimerEvent: {}
+[9.186466] (-) TimerEvent: {}
+[9.287050] (-) TimerEvent: {}
+[9.388627] (-) TimerEvent: {}
+[9.490037] (-) TimerEvent: {}
+[9.590634] (-) TimerEvent: {}
+[9.691284] (-) TimerEvent: {}
+[9.792308] (-) TimerEvent: {}
+[9.893117] (-) TimerEvent: {}
+[9.993792] (-) TimerEvent: {}
+[10.094342] (-) TimerEvent: {}
+[10.195107] (-) TimerEvent: {}
+[10.295678] (-) TimerEvent: {}
+[10.300300] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.300783] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:27:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmy_package\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.301053] (fl_div) StderrLine: {'line': b'   27 |     auto publisher = node->create_publisher<my_package::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::AddTwoInts2>("division_result", 10);\n'}
+[10.301382] (fl_div) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.336824] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:27:57:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[10.337564] (fl_div) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:7\x1b[m\x1b[K,\n'}
+[10.338095] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/time.hpp:18\x1b[m\x1b[K,\n'}
+[10.338431] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/clock.hpp:24\x1b[m\x1b[K,\n'}
+[10.338762] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:38\x1b[m\x1b[K,\n'}
+[10.339134] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[10.339446] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[10.339772] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[10.340077] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.340428] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.340755] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[10.341061] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.341366] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.341694] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[10.341997] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1\x1b[m\x1b[K:\n'}
+[10.342300] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.342627] (fl_div) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[10.342931] (fl_div) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.344404] (fl_div) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[10.344703] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[10.344967] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[10.345229] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[10.345485] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[10.345764] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[10.346018] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.346272] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.355957] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[10.356363] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.356625] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.356883] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[10.357138] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1\x1b[m\x1b[K:\n'}
+[10.357419] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.357685] (fl_div) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[10.357977] (fl_div) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.358283] (fl_div) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23\x1b[m\x1b[K,\n'}
+[10.358557] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[10.358811] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[10.359121] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[10.359435] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[10.359693] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[10.359979] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[10.360264] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[10.360521] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[10.360796] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[10.361050] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[10.361353] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[10.361617] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[10.361910] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1\x1b[m\x1b[K:\n'}
+[10.362218] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.362478] (fl_div) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[10.362734] (fl_div) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.362995] (fl_div) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:236\x1b[m\x1b[K,\n'}
+[10.363382] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[10.363647] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/parameter_client.hpp:28\x1b[m\x1b[K,\n'}
+[10.363901] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[10.364179] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1\x1b[m\x1b[K:\n'}
+[10.364432] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:31:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kservice_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.364688] (fl_div) StderrLine: {'line': b'   31 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[10.364940] (fl_div) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.365224] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:27:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[10.365478] (fl_div) StderrLine: {'line': b'   27 |     auto publisher = node->\x1b[01;31m\x1b[Kcreate_publisher<my_package::msg::AddTwoInts2>\x1b[m\x1b[K("division_result", 10);\n'}
+[10.365735] (fl_div) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.365989] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:27:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::create_publisher<<expression error> >(const char [16], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.366297] (fl_div) StderrLine: {'line': b'   27 | isher = \x1b[01;31m\x1b[Knode->create_publisher<my_package::msg::AddTwoInts2>("division_result", 10)\x1b[m\x1b[K;\n'}
+[10.366551] (fl_div) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.367377] (fl_div) StderrLine: {'line': b'\n'}
+[10.367638] (fl_div) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[10.367892] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[10.368187] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[10.368440] (fl_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1\x1b[m\x1b[K:\n'}
+[10.368693] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:196:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.368978] (fl_div) StderrLine: {'line': b'  196 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[10.369231] (fl_div) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.369484] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:196:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.369752] (fl_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:27:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.370031] (fl_div) StderrLine: {'line': b'   27 | isher = \x1b[01;31m\x1b[Knode->create_publisher<my_package::msg::AddTwoInts2>("division_result", 10)\x1b[m\x1b[K;\n'}
+[10.370306] (fl_div) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.370595] (fl_div) StderrLine: {'line': b'\n'}
+[10.396476] (-) TimerEvent: {}
+[10.497052] (-) TimerEvent: {}
+[10.598314] (-) TimerEvent: {}
+[10.700120] (-) TimerEvent: {}
+[10.801683] (-) TimerEvent: {}
+[10.902163] (-) TimerEvent: {}
+[11.003754] (-) TimerEvent: {}
+[11.104305] (-) TimerEvent: {}
+[11.205890] (-) TimerEvent: {}
+[11.306611] (-) TimerEvent: {}
+[11.407131] (-) TimerEvent: {}
+[11.508500] (-) TimerEvent: {}
+[11.609075] (-) TimerEvent: {}
+[11.709625] (-) TimerEvent: {}
+[11.811195] (-) TimerEvent: {}
+[11.912646] (-) TimerEvent: {}
+[12.013229] (-) TimerEvent: {}
+[12.114688] (-) TimerEvent: {}
+[12.215476] (-) TimerEvent: {}
+[12.316885] (-) TimerEvent: {}
+[12.418330] (-) TimerEvent: {}
+[12.519102] (-) TimerEvent: {}
+[12.619784] (-) TimerEvent: {}
+[12.721031] (-) TimerEvent: {}
+[12.822283] (-) TimerEvent: {}
+[12.923148] (-) TimerEvent: {}
+[13.023695] (-) TimerEvent: {}
+[13.125204] (-) TimerEvent: {}
+[13.226923] (-) TimerEvent: {}
+[13.327553] (-) TimerEvent: {}
+[13.432708] (-) TimerEvent: {}
+[13.533291] (-) TimerEvent: {}
+[13.633809] (-) TimerEvent: {}
+[13.698195] (fl_div) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/fl_div_server.cpp.o] Error 1\n'}
+[13.698807] (fl_div) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2\n'}
+[13.699160] (fl_div) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.710619] (fl_div) CommandEnded: {'returncode': 2}
+[13.733973] (-) TimerEvent: {}
+[13.834492] (-) TimerEvent: {}
+[13.871568] (fl_div) JobEnded: {'identifier': 'fl_div', 'rc': 2}
+[13.891147] (-) EventReactorShutdown: {}

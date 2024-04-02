@@ -1,0 +1,2 @@
+Invoking command in '/home/asd/ros2_ws/build/input_numbers': /usr/bin/cmake /home/asd/ros2_ws/src/input_numbers -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/input_numbers
+Invoked command in '/home/asd/ros2_ws/build/input_numbers' returned '1': /usr/bin/cmake /home/asd/ros2_ws/src/input_numbers -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/input_numbers

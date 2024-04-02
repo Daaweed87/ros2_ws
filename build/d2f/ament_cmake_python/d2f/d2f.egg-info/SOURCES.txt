@@ -1,0 +1,6 @@
+setup.py
+d2f/__init__.py
+d2f.egg-info/PKG-INFO
+d2f.egg-info/SOURCES.txt
+d2f.egg-info/dependency_links.txt
+d2f.egg-info/top_level.txt

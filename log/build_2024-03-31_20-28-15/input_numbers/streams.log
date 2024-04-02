@@ -1,0 +1,23 @@
+[0.040s] Invoking command in '/home/asd/ros2_ws/build/input_numbers': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/input_numbers -- -j4 -l4
+[0.207s] [35m[1mConsolidate compiler generated dependencies of target input_numbers[0m
+[0.288s] [100%] Built target input_numbers
+[0.322s] Invoked command in '/home/asd/ros2_ws/build/input_numbers' returned '0': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/input_numbers -- -j4 -l4
+[0.456s] Invoking command in '/home/asd/ros2_ws/build/input_numbers': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asd/ros2_ws/build/input_numbers
+[0.489s] -- Install configuration: ""
+[0.490s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/lib/input_numbers/input_numbers
+[0.491s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/ament_index/resource_index/package_run_dependencies/input_numbers
+[0.491s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/ament_index/resource_index/parent_prefix_path/input_numbers
+[0.491s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/environment/ament_prefix_path.sh
+[0.492s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/environment/ament_prefix_path.dsv
+[0.492s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/environment/path.sh
+[0.493s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/environment/path.dsv
+[0.493s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/local_setup.bash
+[0.493s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/local_setup.sh
+[0.494s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/local_setup.zsh
+[0.494s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/local_setup.dsv
+[0.494s] -- Installing: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/package.dsv
+[0.494s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/ament_index/resource_index/packages/input_numbers
+[0.495s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/cmake/input_numbersConfig.cmake
+[0.495s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/cmake/input_numbersConfig-version.cmake
+[0.495s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/package.xml
+[0.500s] Invoked command in '/home/asd/ros2_ws/build/input_numbers' returned '0': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asd/ros2_ws/build/input_numbers

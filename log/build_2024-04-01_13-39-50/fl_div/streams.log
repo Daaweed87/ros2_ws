@@ -1,0 +1,28 @@
+[0.043s] Invoking command in '/home/asd/ros2_ws/build/fl_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4
+[0.207s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.263s] [ 50%] Built target client
+[0.333s] [ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/fl_div_server.cpp.o[0m
+[9.909s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)[m[K’:
+[9.909s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:19:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+[9.909s]    19 |     [01;31m[Kpublisher[m[K->publish(*message); // Mielőtt ezt használod, meg kell győződnöd arról, hogy a publisher változó megfelelően elérhető
+[9.910s]       |     [01;31m[K^~~~~~~~~[m[K
+[9.926s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.927s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:30:58:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTw[m[K’ is not a member of ‘[01m[Kmy_package::srv[m[K’
+[9.927s]    30 |     auto service = node->create_service<my_package::srv::[01;31m[KAddTw[m[K
+[9.927s]       |                                                          [01;31m[K^~~~~[m[K
+[9.927s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:30:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[9.928s]    30 |     auto service = node->[01;31m[Kcreate_service<my_package::srv::AddTw[m[K
+[9.928s]       |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.929s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:30:26:[m[K [01;31m[Kerror: [m[Kunable to deduce ‘[01m[Kauto[m[K’ from ‘[01m[K((std::__shared_ptr_access<rclcpp::Node, __gnu_cxx::_S_atomic, false, false>*)(& node))->std::__shared_ptr_access<rclcpp::Node, __gnu_cxx::_S_atomic, false, false>::operator->()->create_service<<expression error> >[m[K’
+[9.929s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:30:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[Kauto[m[K’
+[9.929s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:30:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ at end of input
+[9.929s]    30 |     auto service = node->create_service<my_package::srv::AddTw
+[9.930s]       |                                                               [01;31m[K^[m[K
+[9.930s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:30:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[9.930s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:23:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[9.930s]    23 | [01;36m[K{[m[K
+[9.931s]       | [01;36m[K^[m[K
+[13.236s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/fl_div_server.cpp.o] Error 1
+[13.236s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[13.237s] gmake: *** [Makefile:146: all] Error 2
+[13.243s] Invoked command in '/home/asd/ros2_ws/build/fl_div' returned '2': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4

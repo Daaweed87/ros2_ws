@@ -1,0 +1,7 @@
+{
+  "package_name": "d2f",
+  "non_idl_tuples": [
+    "/home/asd/ros2_ws/src/d2f:msg/DivTwoFloats.msg",
+    "/home/asd/ros2_ws/src/d2f:srv/DivTwoFloats.srv"
+  ]
+}

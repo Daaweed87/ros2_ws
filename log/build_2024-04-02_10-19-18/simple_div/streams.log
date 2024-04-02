@@ -1,0 +1,65 @@
+[0.051s] Invoking command in '/home/asd/ros2_ws/build/simple_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4
+[0.236s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.309s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/simple_div.cpp.o[0m
+[10.007s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:32:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[10.007s]    32 |     rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::Float64>::SharedPtr publisher_;
+[10.008s]       |                       [01;31m[K^~~~~~~~[m[K
+[10.008s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:32:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.008s]    32 |     rclcpp::Publisher<std_msgs::msg::Float64[01;31m[K>[m[K::SharedPtr publisher_;
+[10.009s]       |                                             [01;31m[K^[m[K
+[10.009s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:32:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[10.009s]    32 |     rclcpp::Publisher<std_msgs::msg::Float64>::[01;31m[KSharedPtr[m[K publisher_;
+[10.009s]       |                                                [01;31m[K^~~~~~~~~[m[K
+[10.010s]       |                                                         [32m[K;[m[K
+[10.026s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:32:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[10.027s]    32 |     rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr [01;31m[Kpublisher_[m[K;
+[10.027s]       |                                                          [01;31m[K^~~~~~~~~~[m[K
+[10.027s]       |                                                          [32m[Krmw_publisher_t[m[K
+[10.074s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:[m[K In constructor ‘[01m[KSimpleDiv::SimpleDiv()[m[K’:
+[10.074s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[10.075s]    11 |         [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::Float64>("division_result", 10);
+[10.075s]       |         [01;31m[K^~~~~~~~~~[m[K
+[10.075s]       |         [32m[Krmw_publisher_t[m[K
+[10.096s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:11:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[10.096s]    11 |         publisher_ = this->create_publisher<[01;31m[Kstd_msgs[m[K::msg::Float64>("division_result", 10);
+[10.096s]       |                                             [01;31m[K^~~~~~~~[m[K
+[10.097s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:11:28:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[10.097s]    11 |         publisher_ = this->[01;31m[Kcreate_publisher<std_msgs::msg::Float64>[m[K("division_result", 10);
+[10.098s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.098s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:11:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSimpleDiv::create_publisher<<expression error> >(const char [16], int)[m[K’
+[10.098s]    11 |  publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Float64>("division_result", 10)[m[K;
+[10.099s]       |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.099s] 
+[10.100s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[10.100s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[10.100s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[10.100s]                  from [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:1[m[K:
+[10.101s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:196:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[10.101s]   196 |   [01;36m[Kcreate_publisher[m[K(
+[10.101s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[10.101s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:196:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.102s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:11:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.102s]    11 |  publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Float64>("division_result", 10)[m[K;
+[10.102s]       |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.103s] 
+[10.108s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:[m[K In member function ‘[01m[Kvoid SimpleDiv::div_callback(my_package::msg::TwoFloats_<std::allocator<void> >::SharedPtr) const[m[K’:
+[10.108s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ has not been declared
+[10.108s]    17 |         [01;31m[Kstd_msgs[m[K::msg::Float64 result_msg;
+[10.109s]       |         [01;31m[K^~~~~~~~[m[K
+[10.133s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_msg[m[K’ was not declared in this scope
+[10.134s]    20 |             [01;31m[Kresult_msg[m[K.data = msg->first_number / msg->second_number;
+[10.134s]       |             [01;31m[K^~~~~~~~~~[m[K
+[10.163s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:26:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_msg[m[K’ was not declared in this scope
+[10.163s]    26 |             [01;31m[Kresult_msg[m[K.data = std::numeric_limits<double>::quiet_NaN(); // If division by zero, set result to NaN
+[10.164s]       |             [01;31m[K^~~~~~~~~~[m[K
+[10.187s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[10.188s]    28 |         [01;31m[Kpublisher_[m[K->publish(result_msg);
+[10.188s]       |         [01;31m[K^~~~~~~~~~[m[K
+[10.188s]       |         [32m[Krmw_publisher_t[m[K
+[10.212s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:28:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_msg[m[K’ was not declared in this scope
+[10.213s]    28 |         publisher_->publish([01;31m[Kresult_msg[m[K);
+[10.213s]       |                             [01;31m[K^~~~~~~~~~[m[K
+[17.037s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/simple_div.cpp.o] Error 1
+[17.038s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/server.dir/all] Error 2
+[17.041s] gmake: *** [Makefile:146: all] Error 2
+[17.045s] Invoked command in '/home/asd/ros2_ws/build/simple_div' returned '2': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4

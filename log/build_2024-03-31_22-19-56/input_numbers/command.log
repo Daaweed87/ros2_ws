@@ -1,0 +1,4 @@
+Invoking command in '/home/asd/ros2_ws/build/input_numbers': /usr/bin/cmake --build /home/asd/ros2_ws/build/input_numbers -- -j4 -l4
+Invoked command in '/home/asd/ros2_ws/build/input_numbers' returned '0': /usr/bin/cmake --build /home/asd/ros2_ws/build/input_numbers -- -j4 -l4
+Invoking command in '/home/asd/ros2_ws/build/input_numbers': /usr/bin/cmake --install /home/asd/ros2_ws/build/input_numbers
+Invoked command in '/home/asd/ros2_ws/build/input_numbers' returned '0': /usr/bin/cmake --install /home/asd/ros2_ws/build/input_numbers

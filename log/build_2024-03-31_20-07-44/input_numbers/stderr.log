@@ -1,0 +1,7 @@
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/float64.hpp: No such file or directory
+    3 | #include [01;31m[K"std_msgs/msg/float64.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/input_numbers.dir/build.make:76: CMakeFiles/input_numbers.dir/src/input_numbers.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/input_numbers.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -6,3 +6,8 @@ my_package.egg-info/dependency_links.txt
 my_package.egg-info/top_level.txt
 my_package/msg/__init__.py
 my_package/msg/_add_two_ints2.py
+my_package/msg/_divide_two_floats.py
+my_package/msg/_two_floats.py
+my_package/srv/__init__.py
+my_package/srv/_add_two_ints2.py
+my_package/srv/_divide_two_floats.py

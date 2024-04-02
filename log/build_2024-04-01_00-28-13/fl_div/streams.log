@@ -1,0 +1,79 @@
+[0.041s] Invoking command in '/home/asd/ros2_ws/build/fl_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4
+[0.217s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.299s] [ 50%] Built target client
+[0.351s] [ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/fl_div_server.cpp.o[0m
+[9.867s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.868s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[9.868s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.868s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.868s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.869s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.869s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.870s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.870s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.870s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.871s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.871s]                  from [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1[m[K:
+[9.871s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<example_interfaces::srv::AddTwoInts_Request_<std::allocator<void> > >, std::shared_ptr<example_interfaces::srv::AddTwoInts_Response_<std::allocator<void> > >)[m[K’:
+[9.872s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:14:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 5 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.872s]    14 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Incoming request\na: %f " "b: %f"[m[K,
+[9.881s]       |                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.881s]    15 |         [32m[Krequest->a[m[K, request->b);
+[9.882s]       |         [32m[K~~~~~~~~~~[m[K                             
+[9.882s]       |                  [32m[K|[m[K
+[9.882s]       |                  [32m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type {aka long int}[m[K
+[9.882s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:14:70:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.883s]    14 | P_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\na: [01;36m[K%f[m[K " "b: %f",
+[9.883s]       |                                                            [01;36m[K~^[m[K
+[9.883s]       |                                                             [01;36m[K|[m[K
+[9.883s]       |                                                             [01;36m[Kdouble[m[K
+[9.884s]       |                                                            [32m[K%ld[m[K
+[9.884s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.884s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[9.884s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.885s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.885s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.885s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.886s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.887s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.887s]                  from [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1[m[K:
+[9.887s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:14:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 6 has type ‘[01m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[9.888s]    14 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Incoming request\na: %f " "b: %f"[m[K,
+[9.888s]       |                                               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.888s]    15 |         request->a, [32m[Krequest->b[m[K);
+[9.888s]       |                     [32m[K~~~~~~~~~~[m[K                 
+[9.889s]       |                              [32m[K|[m[K
+[9.889s]       |                              [32m[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type {aka long int}[m[K
+[9.889s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:14:79:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[9.889s]    14 | _INFO(rclcpp::get_logger("rclcpp"), "Incoming request\na: %f " "b: [01;36m[K%f[m[K",
+[9.890s]       |                                                                    [01;36m[K~^[m[K
+[9.890s]       |                                                                     [01;36m[K|[m[K
+[9.890s]       |                                                                     [01;36m[Kdouble[m[K
+[9.890s]       |                                                                    [32m[K%ld[m[K
+[14.679s] [100%] [32m[1mLinking CXX executable server[0m
+[15.415s] [100%] Built target server
+[15.454s] Invoked command in '/home/asd/ros2_ws/build/fl_div' returned '0': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4
+[15.573s] Invoking command in '/home/asd/ros2_ws/build/fl_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asd/ros2_ws/build/fl_div
+[15.596s] -- Install configuration: ""
+[15.597s] -- Installing: /home/asd/ros2_ws/install/fl_div/lib/fl_div/server
+[15.616s] -- Set runtime path of "/home/asd/ros2_ws/install/fl_div/lib/fl_div/server" to ""
+[15.616s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/lib/fl_div/client
+[15.617s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/ament_index/resource_index/package_run_dependencies/fl_div
+[15.618s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/ament_index/resource_index/parent_prefix_path/fl_div
+[15.618s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/environment/ament_prefix_path.sh
+[15.619s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/environment/ament_prefix_path.dsv
+[15.619s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/environment/path.sh
+[15.620s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/environment/path.dsv
+[15.620s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/local_setup.bash
+[15.620s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/local_setup.sh
+[15.621s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/local_setup.zsh
+[15.621s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/local_setup.dsv
+[15.621s] -- Installing: /home/asd/ros2_ws/install/fl_div/share/fl_div/package.dsv
+[15.622s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/ament_index/resource_index/packages/fl_div
+[15.622s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/cmake/fl_divConfig.cmake
+[15.623s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/cmake/fl_divConfig-version.cmake
+[15.623s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/package.xml
+[15.631s] Invoked command in '/home/asd/ros2_ws/build/fl_div' returned '0': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asd/ros2_ws/build/fl_div

@@ -1,0 +1,255 @@
+[0.000000] (-) TimerEvent: {}
+[0.000383] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000515] (-) JobUnselected: {'identifier': 'div'}
+[0.000622] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000705] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000792] (input_numbers) JobQueued: {'identifier': 'input_numbers', 'dependencies': OrderedDict([('my_package', '/home/asd/ros2_ws/install/my_package')])}
+[0.000884] (input_numbers) JobStarted: {'identifier': 'input_numbers'}
+[0.037804] (input_numbers) JobProgress: {'identifier': 'input_numbers', 'progress': 'cmake'}
+[0.037984] (input_numbers) JobProgress: {'identifier': 'input_numbers', 'progress': 'build'}
+[0.038085] (input_numbers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/input_numbers', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/input_numbers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asd/ros2_ws/install/my_package/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('SYSTEMD_EXEC_PID', '1427'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1394,unix/asd:/tmp/.ICE-unix/1394'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4108ac02_c6d8_4356_9053_5493dac2ebf9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WDNJL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.173'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asd/ros2_ws/install/my_package:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/input_numbers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asd/ros2_ws/install/my_package')]), 'shell': False}
+[0.098281] (-) TimerEvent: {}
+[0.199972] (-) TimerEvent: {}
+[0.210105] (input_numbers) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target input_numbers\x1b[0m\n'}
+[0.300268] (-) TimerEvent: {}
+[0.313070] (input_numbers) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/input_numbers.dir/src/input_numbers.cpp.o\x1b[0m\n'}
+[0.401053] (-) TimerEvent: {}
+[0.501999] (-) TimerEvent: {}
+[0.603015] (-) TimerEvent: {}
+[0.703615] (-) TimerEvent: {}
+[0.804189] (-) TimerEvent: {}
+[0.905255] (-) TimerEvent: {}
+[1.006230] (-) TimerEvent: {}
+[1.106912] (-) TimerEvent: {}
+[1.207664] (-) TimerEvent: {}
+[1.308581] (-) TimerEvent: {}
+[1.417051] (-) TimerEvent: {}
+[1.518585] (-) TimerEvent: {}
+[1.620179] (-) TimerEvent: {}
+[1.720975] (-) TimerEvent: {}
+[1.821945] (-) TimerEvent: {}
+[1.922575] (-) TimerEvent: {}
+[2.023587] (-) TimerEvent: {}
+[2.124225] (-) TimerEvent: {}
+[2.224823] (-) TimerEvent: {}
+[2.325832] (-) TimerEvent: {}
+[2.426817] (-) TimerEvent: {}
+[2.527757] (-) TimerEvent: {}
+[2.628428] (-) TimerEvent: {}
+[2.729225] (-) TimerEvent: {}
+[2.830238] (-) TimerEvent: {}
+[2.931265] (-) TimerEvent: {}
+[3.032393] (-) TimerEvent: {}
+[3.132949] (-) TimerEvent: {}
+[3.233514] (-) TimerEvent: {}
+[3.334808] (-) TimerEvent: {}
+[3.435341] (-) TimerEvent: {}
+[3.536373] (-) TimerEvent: {}
+[3.637157] (-) TimerEvent: {}
+[3.738316] (-) TimerEvent: {}
+[3.838881] (-) TimerEvent: {}
+[3.939576] (-) TimerEvent: {}
+[4.040627] (-) TimerEvent: {}
+[4.141214] (-) TimerEvent: {}
+[4.241768] (-) TimerEvent: {}
+[4.342325] (-) TimerEvent: {}
+[4.442873] (-) TimerEvent: {}
+[4.543744] (-) TimerEvent: {}
+[4.644391] (-) TimerEvent: {}
+[4.745472] (-) TimerEvent: {}
+[4.846393] (-) TimerEvent: {}
+[4.946942] (-) TimerEvent: {}
+[5.047625] (-) TimerEvent: {}
+[5.148417] (-) TimerEvent: {}
+[5.249637] (-) TimerEvent: {}
+[5.350391] (-) TimerEvent: {}
+[5.451047] (-) TimerEvent: {}
+[5.551962] (-) TimerEvent: {}
+[5.652756] (-) TimerEvent: {}
+[5.753793] (-) TimerEvent: {}
+[5.854539] (-) TimerEvent: {}
+[5.955222] (-) TimerEvent: {}
+[6.055917] (-) TimerEvent: {}
+[6.156402] (-) TimerEvent: {}
+[6.257082] (-) TimerEvent: {}
+[6.358064] (-) TimerEvent: {}
+[6.458818] (-) TimerEvent: {}
+[6.559569] (-) TimerEvent: {}
+[6.660527] (-) TimerEvent: {}
+[6.761581] (-) TimerEvent: {}
+[6.862289] (-) TimerEvent: {}
+[6.962809] (-) TimerEvent: {}
+[7.063373] (-) TimerEvent: {}
+[7.164319] (-) TimerEvent: {}
+[7.265365] (-) TimerEvent: {}
+[7.366056] (-) TimerEvent: {}
+[7.466843] (-) TimerEvent: {}
+[7.568011] (-) TimerEvent: {}
+[7.668618] (-) TimerEvent: {}
+[7.769649] (-) TimerEvent: {}
+[7.870656] (-) TimerEvent: {}
+[7.971386] (-) TimerEvent: {}
+[8.072156] (-) TimerEvent: {}
+[8.172888] (-) TimerEvent: {}
+[8.273769] (-) TimerEvent: {}
+[8.374680] (-) TimerEvent: {}
+[8.475160] (-) TimerEvent: {}
+[8.575831] (-) TimerEvent: {}
+[8.676395] (-) TimerEvent: {}
+[8.777315] (-) TimerEvent: {}
+[8.878215] (-) TimerEvent: {}
+[8.978941] (-) TimerEvent: {}
+[9.080337] (-) TimerEvent: {}
+[9.181343] (-) TimerEvent: {}
+[9.282456] (-) TimerEvent: {}
+[9.383200] (-) TimerEvent: {}
+[9.484134] (-) TimerEvent: {}
+[9.584990] (-) TimerEvent: {}
+[9.685634] (-) TimerEvent: {}
+[9.786185] (-) TimerEvent: {}
+[9.886926] (-) TimerEvent: {}
+[9.987726] (-) TimerEvent: {}
+[10.012479] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_package\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.012906] (input_numbers) StderrLine: {'line': b'   62 |         const std::shared_ptr<\x1b[01;31m\x1b[Kmy_package\x1b[m\x1b[K::srv::AddTwoInts2::Request> request,\n'}
+[10.013155] (input_numbers) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.013397] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.013684] (input_numbers) StderrLine: {'line': b'   62 |   const std::shared_ptr<my_package::srv::AddTwoInts2::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[10.013925] (input_numbers) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.014165] (input_numbers) StderrLine: {'line': b'\n'}
+[10.037247] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_package\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.037569] (input_numbers) StderrLine: {'line': b'   62 |         const std::shared_ptr<\x1b[01;31m\x1b[Kmy_package\x1b[m\x1b[K::srv::AddTwoInts2::Request> request,\n'}
+[10.037759] (input_numbers) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.038028] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.038279] (input_numbers) StderrLine: {'line': b'   62 |   const std::shared_ptr<my_package::srv::AddTwoInts2::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[10.038529] (input_numbers) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.038791] (input_numbers) StderrLine: {'line': b'\n'}
+[10.061831] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_package\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.062156] (input_numbers) StderrLine: {'line': b'   62 |         const std::shared_ptr<\x1b[01;31m\x1b[Kmy_package\x1b[m\x1b[K::srv::AddTwoInts2::Request> request,\n'}
+[10.062420] (input_numbers) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.062672] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.062924] (input_numbers) StderrLine: {'line': b'   62 |   const std::shared_ptr<my_package::srv::AddTwoInts2::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[10.063171] (input_numbers) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.063464] (input_numbers) StderrLine: {'line': b'\n'}
+[10.063717] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[10.063956] (input_numbers) StderrLine: {'line': b'   62 |         const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<my_package::srv::AddTwoInts2::Request> request,\n'}
+[10.064268] (input_numbers) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.064538] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_package\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[10.064778] (input_numbers) StderrLine: {'line': b'   62 |         const std::shared_ptr<\x1b[01;31m\x1b[Kmy_package\x1b[m\x1b[K::srv::AddTwoInts2::Request> request,\n'}
+[10.065016] (input_numbers) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.065296] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[10.065537] (input_numbers) StderrLine: {'line': b'   62 |         \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<my_package::srv::AddTwoInts2::Request> request,\n'}
+[10.065774] (input_numbers) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[10.084566] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_package\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.085165] (input_numbers) StderrLine: {'line': b'   63 |         std::shared_ptr<\x1b[01;31m\x1b[Kmy_package\x1b[m\x1b[K::srv::AddTwoInts2::Response> response)\n'}
+[10.085448] (input_numbers) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.085816] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.086062] (input_numbers) StderrLine: {'line': b'   63 |       std::shared_ptr<my_package::srv::AddTwoInts2::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[10.086303] (input_numbers) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.086581] (input_numbers) StderrLine: {'line': b'\n'}
+[10.087919] (-) TimerEvent: {}
+[10.107431] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_package\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.107753] (input_numbers) StderrLine: {'line': b'   63 |         std::shared_ptr<\x1b[01;31m\x1b[Kmy_package\x1b[m\x1b[K::srv::AddTwoInts2::Response> response)\n'}
+[10.107935] (input_numbers) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.108119] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.108497] (input_numbers) StderrLine: {'line': b'   63 |       std::shared_ptr<my_package::srv::AddTwoInts2::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[10.108749] (input_numbers) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.109015] (input_numbers) StderrLine: {'line': b'\n'}
+[10.130373] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_package\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.130858] (input_numbers) StderrLine: {'line': b'   63 |         std::shared_ptr<\x1b[01;31m\x1b[Kmy_package\x1b[m\x1b[K::srv::AddTwoInts2::Response> response)\n'}
+[10.136946] (input_numbers) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.137396] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.137706] (input_numbers) StderrLine: {'line': b'   63 |       std::shared_ptr<my_package::srv::AddTwoInts2::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[10.137995] (input_numbers) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.138293] (input_numbers) StderrLine: {'line': b'\n'}
+[10.138610] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[10.138871] (input_numbers) StderrLine: {'line': b'   63 |         \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<my_package::srv::AddTwoInts2::Response> response)\n'}
+[10.139126] (input_numbers) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.139404] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_package\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[10.139662] (input_numbers) StderrLine: {'line': b'   63 |         std::shared_ptr<\x1b[01;31m\x1b[Kmy_package\x1b[m\x1b[K::srv::AddTwoInts2::Response> response)\n'}
+[10.139916] (input_numbers) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.140181] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[10.140617] (input_numbers) StderrLine: {'line': b'   63 |         \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<my_package::srv::AddTwoInts2::Response> response)\n'}
+[10.140880] (input_numbers) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.154512] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid InputNumbers::add(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.154916] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:66:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.155213] (input_numbers) StderrLine: {'line': b'   66 |         \x1b[01;31m\x1b[Kresponse\x1b[m\x1b[K->sum = request->a / request->b;\n'}
+[10.155473] (input_numbers) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.172407] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:66:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.172818] (input_numbers) StderrLine: {'line': b'   66 |         response->sum = \x1b[01;31m\x1b[Krequest\x1b[m\x1b[K->a / request->b;\n'}
+[10.173079] (input_numbers) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[10.188350] (-) TimerEvent: {}
+[10.197652] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.198645] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:78:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_package\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.198840] (input_numbers) StderrLine: {'line': b'   78 |     auto service = node->create_service<\x1b[01;31m\x1b[Kmy_package\x1b[m\x1b[K::srv::AddTwoInts2>(\n'}
+[10.199131] (input_numbers) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.199404] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:78:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[10.199665] (input_numbers) StderrLine: {'line': b'   78 |     auto service = node->\x1b[01;31m\x1b[Kcreate_service<my_package::srv::AddTwoInts2>\x1b[m\x1b[K(\n'}
+[10.199952] (input_numbers) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.200211] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:78:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KInputNumbers::create_service<<expression error> >(const char [13], void (InputNumbers::*)(...))\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.200520] (input_numbers) StderrLine: {'line': b'   78 |     auto service = \x1b[01;31m\x1b[Knode->create_service<my_package::srv::AddTwoInts2>(\x1b[m\x1b[K\n'}
+[10.200775] (input_numbers) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[10.201051] (input_numbers) StderrLine: {'line': b'   79 | \x1b[01;31m\x1b[K        "add_two_ints", &InputNumbers::add)\x1b[m\x1b[K;\n'}
+[10.201334] (input_numbers) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                           \n'}
+[10.201588] (input_numbers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[10.201843] (input_numbers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[10.202134] (input_numbers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[10.202391] (input_numbers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:1\x1b[m\x1b[K:\n'}
+[10.202640] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.202927] (input_numbers) StderrLine: {'line': b'  299 |   \x1b[01;36m\x1b[Kcreate_service\x1b[m\x1b[K(\n'}
+[10.203162] (input_numbers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.203467] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.203837] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:78:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.204111] (input_numbers) StderrLine: {'line': b'   78 |     auto service = \x1b[01;31m\x1b[Knode->create_service<my_package::srv::AddTwoInts2>(\x1b[m\x1b[K\n'}
+[10.204382] (input_numbers) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[10.204620] (input_numbers) StderrLine: {'line': b'   79 | \x1b[01;31m\x1b[K        "add_two_ints", &InputNumbers::add)\x1b[m\x1b[K;\n'}
+[10.204947] (input_numbers) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                           \n'}
+[10.205216] (input_numbers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[10.205473] (input_numbers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[10.205728] (input_numbers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[10.206004] (input_numbers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:1\x1b[m\x1b[K:\n'}
+[10.206258] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:315:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.206540] (input_numbers) StderrLine: {'line': b'  315 |   \x1b[01;36m\x1b[Kcreate_service\x1b[m\x1b[K(\n'}
+[10.206832] (input_numbers) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.207093] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:315:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.207349] (input_numbers) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:78:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.207604] (input_numbers) StderrLine: {'line': b'   78 |     auto service = \x1b[01;31m\x1b[Knode->create_service<my_package::srv::AddTwoInts2>(\x1b[m\x1b[K\n'}
+[10.207883] (input_numbers) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[10.208138] (input_numbers) StderrLine: {'line': b'   79 | \x1b[01;31m\x1b[K        "add_two_ints", &InputNumbers::add)\x1b[m\x1b[K;\n'}
+[10.208459] (input_numbers) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                           \n'}
+[10.288905] (-) TimerEvent: {}
+[10.389966] (-) TimerEvent: {}
+[10.490779] (-) TimerEvent: {}
+[10.591837] (-) TimerEvent: {}
+[10.692760] (-) TimerEvent: {}
+[10.793841] (-) TimerEvent: {}
+[10.895229] (-) TimerEvent: {}
+[10.995760] (-) TimerEvent: {}
+[11.096637] (-) TimerEvent: {}
+[11.197502] (-) TimerEvent: {}
+[11.298530] (-) TimerEvent: {}
+[11.399243] (-) TimerEvent: {}
+[11.500405] (-) TimerEvent: {}
+[11.601288] (-) TimerEvent: {}
+[11.701876] (-) TimerEvent: {}
+[11.802407] (-) TimerEvent: {}
+[11.903113] (-) TimerEvent: {}
+[12.003929] (-) TimerEvent: {}
+[12.104601] (-) TimerEvent: {}
+[12.205417] (-) TimerEvent: {}
+[12.306235] (-) TimerEvent: {}
+[12.407366] (-) TimerEvent: {}
+[12.508581] (-) TimerEvent: {}
+[12.609266] (-) TimerEvent: {}
+[12.710408] (-) TimerEvent: {}
+[12.811004] (-) TimerEvent: {}
+[12.911636] (-) TimerEvent: {}
+[13.012419] (-) TimerEvent: {}
+[13.113302] (-) TimerEvent: {}
+[13.168106] (input_numbers) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/input_numbers.dir/build.make:76: CMakeFiles/input_numbers.dir/src/input_numbers.cpp.o] Error 1\n'}
+[13.173334] (input_numbers) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/input_numbers.dir/all] Error 2\n'}
+[13.173773] (input_numbers) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.178821] (input_numbers) CommandEnded: {'returncode': 2}
+[13.213567] (-) TimerEvent: {}
+[13.315341] (-) TimerEvent: {}
+[13.355795] (input_numbers) JobEnded: {'identifier': 'input_numbers', 'rc': 2}
+[13.366858] (-) EventReactorShutdown: {}

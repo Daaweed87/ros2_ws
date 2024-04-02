@@ -4,10 +4,12 @@
   "template_dir": "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
     "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package:msg/AddTwoInts2.idl",
+    "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package:msg/TwoFloats.idl",
     "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package:srv/AddTwoInts2.idl"
   ],
   "ros_interface_files": [
     "/home/asd/ros2_ws/src/my_package/msg/AddTwoInts2.msg",
+    "/home/asd/ros2_ws/src/my_package/msg/TwoFloats.msg",
     "/home/asd/ros2_ws/src/my_package/srv/AddTwoInts2.srv",
     "/home/asd/ros2_ws/build/my_package/rosidl_cmake/srv/AddTwoInts2_Request.msg",
     "/home/asd/ros2_ws/build/my_package/rosidl_cmake/srv/AddTwoInts2_Response.msg"
@@ -75,6 +77,7 @@
     "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
     "/opt/ros/iron/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
     "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package/msg/AddTwoInts2.idl",
+    "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package/msg/TwoFloats.idl",
     "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package/srv/AddTwoInts2.idl",
     "/opt/ros/iron/share/example_interfaces/action/Fibonacci.idl",
     "/opt/ros/iron/share/example_interfaces/msg/Bool.idl",
@@ -119,6 +122,7 @@
   ],
   "type_description_tuples": [
     "msg/AddTwoInts2.idl:/home/asd/ros2_ws/build/my_package/rosidl_generator_type_description/my_package/msg/AddTwoInts2.json",
+    "msg/TwoFloats.idl:/home/asd/ros2_ws/build/my_package/rosidl_generator_type_description/my_package/msg/TwoFloats.json",
     "srv/AddTwoInts2.idl:/home/asd/ros2_ws/build/my_package/rosidl_generator_type_description/my_package/srv/AddTwoInts2.json"
   ]
 }

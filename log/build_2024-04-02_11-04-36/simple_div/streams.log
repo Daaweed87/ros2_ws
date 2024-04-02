@@ -1,0 +1,26 @@
+[0.062s] Invoking command in '/home/asd/ros2_ws/build/simple_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4
+[0.273s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.354s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/simple_div.cpp.o[0m
+[38.104s] [100%] [32m[1mLinking CXX executable server[0m
+[41.083s] [100%] Built target server
+[41.120s] Invoked command in '/home/asd/ros2_ws/build/simple_div' returned '0': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4
+[41.246s] Invoking command in '/home/asd/ros2_ws/build/simple_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asd/ros2_ws/build/simple_div
+[41.271s] -- Install configuration: ""
+[41.274s] -- Installing: /home/asd/ros2_ws/install/simple_div/lib/simple_div/server
+[41.306s] -- Set runtime path of "/home/asd/ros2_ws/install/simple_div/lib/simple_div/server" to ""
+[41.311s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/ament_index/resource_index/package_run_dependencies/simple_div
+[41.312s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/ament_index/resource_index/parent_prefix_path/simple_div
+[41.334s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/ament_prefix_path.sh
+[41.335s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/ament_prefix_path.dsv
+[41.336s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/path.sh
+[41.336s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/path.dsv
+[41.336s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.bash
+[41.337s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.sh
+[41.337s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.zsh
+[41.337s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.dsv
+[41.338s] -- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/package.dsv
+[41.360s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/ament_index/resource_index/packages/simple_div
+[41.360s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/cmake/simple_divConfig.cmake
+[41.361s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/cmake/simple_divConfig-version.cmake
+[41.361s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/package.xml
+[41.367s] Invoked command in '/home/asd/ros2_ws/build/simple_div' returned '0': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asd/ros2_ws/build/simple_div

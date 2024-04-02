@@ -67,20 +67,26 @@ include CMakeFiles/my_package__rosidl_generator_type_description.dir/compiler_de
 include CMakeFiles/my_package__rosidl_generator_type_description.dir/progress.make
 
 CMakeFiles/my_package__rosidl_generator_type_description: rosidl_generator_type_description/my_package/msg/AddTwoInts2.json
+CMakeFiles/my_package__rosidl_generator_type_description: rosidl_generator_type_description/my_package/msg/TwoFloats.json
 CMakeFiles/my_package__rosidl_generator_type_description: rosidl_generator_type_description/my_package/srv/AddTwoInts2.json
 
 rosidl_generator_type_description/my_package/msg/AddTwoInts2.json: /opt/ros/iron/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/my_package/msg/AddTwoInts2.json: /opt/ros/iron/lib/python3.10/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/my_package/msg/AddTwoInts2.json: rosidl_adapter/my_package/msg/AddTwoInts2.idl
+rosidl_generator_type_description/my_package/msg/AddTwoInts2.json: rosidl_adapter/my_package/msg/TwoFloats.idl
 rosidl_generator_type_description/my_package/msg/AddTwoInts2.json: rosidl_adapter/my_package/srv/AddTwoInts2.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/asd/ros2_ws/build/my_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/iron/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/asd/ros2_ws/build/my_package/rosidl_generator_type_description__arguments.json
+
+rosidl_generator_type_description/my_package/msg/TwoFloats.json: rosidl_generator_type_description/my_package/msg/AddTwoInts2.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/my_package/msg/TwoFloats.json
 
 rosidl_generator_type_description/my_package/srv/AddTwoInts2.json: rosidl_generator_type_description/my_package/msg/AddTwoInts2.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/my_package/srv/AddTwoInts2.json
 
 my_package__rosidl_generator_type_description: CMakeFiles/my_package__rosidl_generator_type_description
 my_package__rosidl_generator_type_description: rosidl_generator_type_description/my_package/msg/AddTwoInts2.json
+my_package__rosidl_generator_type_description: rosidl_generator_type_description/my_package/msg/TwoFloats.json
 my_package__rosidl_generator_type_description: rosidl_generator_type_description/my_package/srv/AddTwoInts2.json
 my_package__rosidl_generator_type_description: CMakeFiles/my_package__rosidl_generator_type_description.dir/build.make
 .PHONY : my_package__rosidl_generator_type_description

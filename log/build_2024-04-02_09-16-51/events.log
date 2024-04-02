@@ -1,0 +1,263 @@
+[0.000000] (-) TimerEvent: {}
+[0.000321] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000417] (-) JobUnselected: {'identifier': 'd2f'}
+[0.000507] (-) JobUnselected: {'identifier': 'div'}
+[0.000595] (-) JobUnselected: {'identifier': 'div'}
+[0.000682] (-) JobUnselected: {'identifier': 'fl_div'}
+[0.000768] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000860] (simple_div) JobQueued: {'identifier': 'simple_div', 'dependencies': OrderedDict()}
+[0.000974] (simple_div) JobStarted: {'identifier': 'simple_div'}
+[0.022574] (simple_div) JobProgress: {'identifier': 'simple_div', 'progress': 'cmake'}
+[0.024258] (simple_div) JobProgress: {'identifier': 'simple_div', 'progress': 'build'}
+[0.026160] (simple_div) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/simple_div', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/simple_div', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd/ros2_ws/src/simple_div/msg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d81d4cb7be2c4fa53a8a725e660baa1d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1400,unix/asd:/tmp/.ICE-unix/1400'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/90903db9_bd63_4d62_88ea_5d4458a03af9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9GDDL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/simple_div'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d81d4cb7be2c4fa53a8a725e660baa1d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.098142] (-) TimerEvent: {}
+[0.165687] (simple_div) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.198357] (-) TimerEvent: {}
+[0.298885] (-) TimerEvent: {}
+[0.399432] (-) TimerEvent: {}
+[0.500208] (-) TimerEvent: {}
+[0.601614] (-) TimerEvent: {}
+[0.702162] (-) TimerEvent: {}
+[0.709596] (simple_div) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.802753] (-) TimerEvent: {}
+[0.891825] (simple_div) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.903217] (-) TimerEvent: {}
+[0.940493] (simple_div) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[1.004829] (-) TimerEvent: {}
+[1.015925] (simple_div) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.104945] (-) TimerEvent: {}
+[1.131715] (simple_div) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.213002] (-) TimerEvent: {}
+[1.314266] (-) TimerEvent: {}
+[1.414868] (-) TimerEvent: {}
+[1.515392] (-) TimerEvent: {}
+[1.616070] (-) TimerEvent: {}
+[1.717516] (-) TimerEvent: {}
+[1.818088] (-) TimerEvent: {}
+[1.918648] (-) TimerEvent: {}
+[2.019647] (-) TimerEvent: {}
+[2.120853] (-) TimerEvent: {}
+[2.222296] (-) TimerEvent: {}
+[2.322917] (-) TimerEvent: {}
+[2.423363] (-) TimerEvent: {}
+[2.478746] (simple_div) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[2.484885] (simple_div) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.523858] (-) TimerEvent: {}
+[2.625489] (-) TimerEvent: {}
+[2.726971] (-) TimerEvent: {}
+[2.827631] (-) TimerEvent: {}
+[2.929046] (-) TimerEvent: {}
+[3.030589] (-) TimerEvent: {}
+[3.116014] (simple_div) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.131166] (-) TimerEvent: {}
+[3.232723] (-) TimerEvent: {}
+[3.334212] (-) TimerEvent: {}
+[3.434760] (-) TimerEvent: {}
+[3.535408] (-) TimerEvent: {}
+[3.635987] (-) TimerEvent: {}
+[3.737463] (-) TimerEvent: {}
+[3.838007] (-) TimerEvent: {}
+[3.939577] (-) TimerEvent: {}
+[4.040088] (-) TimerEvent: {}
+[4.140666] (-) TimerEvent: {}
+[4.242177] (-) TimerEvent: {}
+[4.342731] (-) TimerEvent: {}
+[4.443785] (-) TimerEvent: {}
+[4.544738] (-) TimerEvent: {}
+[4.568247] (simple_div) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[4.646390] (-) TimerEvent: {}
+[4.746939] (-) TimerEvent: {}
+[4.828893] (simple_div) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[4.847499] (-) TimerEvent: {}
+[4.867148] (simple_div) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[4.947972] (-) TimerEvent: {}
+[5.048545] (-) TimerEvent: {}
+[5.149106] (-) TimerEvent: {}
+[5.249693] (-) TimerEvent: {}
+[5.350178] (-) TimerEvent: {}
+[5.450812] (-) TimerEvent: {}
+[5.551349] (-) TimerEvent: {}
+[5.653881] (-) TimerEvent: {}
+[5.754408] (-) TimerEvent: {}
+[5.854978] (-) TimerEvent: {}
+[5.955693] (-) TimerEvent: {}
+[6.057015] (-) TimerEvent: {}
+[6.135852] (simple_div) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[6.157209] (-) TimerEvent: {}
+[6.257764] (-) TimerEvent: {}
+[6.358740] (-) TimerEvent: {}
+[6.459243] (-) TimerEvent: {}
+[6.559807] (-) TimerEvent: {}
+[6.660419] (-) TimerEvent: {}
+[6.760980] (-) TimerEvent: {}
+[6.861498] (-) TimerEvent: {}
+[6.962000] (-) TimerEvent: {}
+[7.062635] (-) TimerEvent: {}
+[7.163146] (-) TimerEvent: {}
+[7.263726] (-) TimerEvent: {}
+[7.364242] (-) TimerEvent: {}
+[7.464849] (-) TimerEvent: {}
+[7.565416] (-) TimerEvent: {}
+[7.665875] (-) TimerEvent: {}
+[7.673139] (simple_div) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.766534] (-) TimerEvent: {}
+[7.867047] (-) TimerEvent: {}
+[7.967614] (-) TimerEvent: {}
+[8.073257] (-) TimerEvent: {}
+[8.174634] (-) TimerEvent: {}
+[8.275253] (-) TimerEvent: {}
+[8.351378] (simple_div) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.375747] (-) TimerEvent: {}
+[8.434357] (simple_div) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[8.475939] (-) TimerEvent: {}
+[8.515693] (simple_div) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.516081] (simple_div) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.516374] (simple_div) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.576845] (-) TimerEvent: {}
+[8.677417] (-) TimerEvent: {}
+[8.684904] (simple_div) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.777605] (-) TimerEvent: {}
+[8.878670] (-) TimerEvent: {}
+[8.985942] (-) TimerEvent: {}
+[9.087842] (-) TimerEvent: {}
+[9.112290] (simple_div) StdoutLine: {'line': b'-- Generating done\n'}
+[9.129261] (simple_div) StdoutLine: {'line': b'-- Build files have been written to: /home/asd/ros2_ws/build/simple_div\n'}
+[9.188005] (-) TimerEvent: {}
+[9.258869] (simple_div) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/simple_div.cpp.o\x1b[0m\n'}
+[9.262866] (simple_div) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[9.288641] (-) TimerEvent: {}
+[9.294032] (simple_div) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_simple_div\n'}
+[9.391581] (-) TimerEvent: {}
+[9.492923] (-) TimerEvent: {}
+[9.593412] (-) TimerEvent: {}
+[9.693967] (-) TimerEvent: {}
+[9.794529] (-) TimerEvent: {}
+[9.895146] (-) TimerEvent: {}
+[9.995697] (-) TimerEvent: {}
+[10.096213] (-) TimerEvent: {}
+[10.196726] (-) TimerEvent: {}
+[10.297264] (-) TimerEvent: {}
+[10.395100] (simple_div) StdoutLine: {'line': b'running egg_info\n'}
+[10.396795] (simple_div) StdoutLine: {'line': b'creating simple_div.egg-info\n'}
+[10.397387] (simple_div) StdoutLine: {'line': b'writing simple_div.egg-info/PKG-INFO\n'}
+[10.397730] (-) TimerEvent: {}
+[10.398115] (simple_div) StdoutLine: {'line': b'writing dependency_links to simple_div.egg-info/dependency_links.txt\n'}
+[10.398486] (simple_div) StdoutLine: {'line': b'writing top-level names to simple_div.egg-info/top_level.txt\n'}
+[10.399273] (simple_div) StdoutLine: {'line': b"writing manifest file 'simple_div.egg-info/SOURCES.txt'\n"}
+[10.418622] (simple_div) StdoutLine: {'line': b"reading manifest file 'simple_div.egg-info/SOURCES.txt'\n"}
+[10.420496] (simple_div) StdoutLine: {'line': b"writing manifest file 'simple_div.egg-info/SOURCES.txt'\n"}
+[10.498132] (-) TimerEvent: {}
+[10.504412] (simple_div) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_simple_div_egg\n'}
+[10.598384] (-) TimerEvent: {}
+[10.601645] (simple_div) StdoutLine: {'line': b'[  5%] Built target simple_div__rosidl_generator_type_description\n'}
+[10.646284] (simple_div) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.688265] (simple_div) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.698533] (-) TimerEvent: {}
+[10.799097] (-) TimerEvent: {}
+[10.899653] (-) TimerEvent: {}
+[11.000180] (-) TimerEvent: {}
+[11.100855] (-) TimerEvent: {}
+[11.201594] (-) TimerEvent: {}
+[11.302892] (-) TimerEvent: {}
+[11.403481] (-) TimerEvent: {}
+[11.504039] (-) TimerEvent: {}
+[11.604509] (-) TimerEvent: {}
+[11.705089] (-) TimerEvent: {}
+[11.805506] (-) TimerEvent: {}
+[11.906077] (-) TimerEvent: {}
+[11.910190] (simple_div) StdoutLine: {'line': b'[ 11%] Built target simple_div__cpp\n'}
+[12.006489] (-) TimerEvent: {}
+[12.040761] (simple_div) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/simple_div__rosidl_generator_c.dir/rosidl_generator_c/simple_div/msg/detail/two_floats__type_support.c.o\x1b[0m\n'}
+[12.044018] (simple_div) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/simple_div__rosidl_generator_c.dir/rosidl_generator_c/simple_div/msg/detail/two_floats__functions.c.o\x1b[0m\n'}
+[12.047402] (simple_div) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/simple_div__rosidl_generator_c.dir/rosidl_generator_c/simple_div/msg/detail/two_floats__description.c.o\x1b[0m\n'}
+[12.107288] (-) TimerEvent: {}
+[12.209779] (-) TimerEvent: {}
+[12.311617] (-) TimerEvent: {}
+[12.413316] (-) TimerEvent: {}
+[12.514912] (-) TimerEvent: {}
+[12.615630] (-) TimerEvent: {}
+[12.723953] (-) TimerEvent: {}
+[12.825444] (-) TimerEvent: {}
+[12.927447] (-) TimerEvent: {}
+[13.029328] (-) TimerEvent: {}
+[13.130454] (-) TimerEvent: {}
+[13.232055] (-) TimerEvent: {}
+[13.332684] (-) TimerEvent: {}
+[13.413321] (simple_div) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libsimple_div__rosidl_generator_c.so\x1b[0m\n'}
+[13.433623] (-) TimerEvent: {}
+[13.534766] (-) TimerEvent: {}
+[13.635384] (-) TimerEvent: {}
+[13.736524] (-) TimerEvent: {}
+[13.837133] (-) TimerEvent: {}
+[13.941473] (-) TimerEvent: {}
+[14.042322] (-) TimerEvent: {}
+[14.143068] (-) TimerEvent: {}
+[14.194681] (simple_div) StdoutLine: {'line': b'[ 22%] Built target simple_div__rosidl_generator_c\n'}
+[14.230947] (simple_div) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.232204] (simple_div) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.243234] (-) TimerEvent: {}
+[14.250443] (simple_div) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.362836] (-) TimerEvent: {}
+[14.463768] (-) TimerEvent: {}
+[14.564356] (-) TimerEvent: {}
+[14.664892] (-) TimerEvent: {}
+[14.766812] (-) TimerEvent: {}
+[14.867342] (-) TimerEvent: {}
+[14.967959] (-) TimerEvent: {}
+[15.068487] (-) TimerEvent: {}
+[15.168986] (-) TimerEvent: {}
+[15.269632] (-) TimerEvent: {}
+[15.370674] (-) TimerEvent: {}
+[15.378672] (simple_div) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/simple_div__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/simple_div/msg/two_floats__type_support.cpp.o\x1b[0m\n'}
+[15.470875] (-) TimerEvent: {}
+[15.530952] (simple_div) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/simple_div__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/simple_div/msg/detail/two_floats__type_support_c.cpp.o\x1b[0m\n'}
+[15.572810] (-) TimerEvent: {}
+[15.573255] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Ksimple_div/TwoFloats.hpp: No such file or directory\n'}
+[15.573602] (simple_div) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"simple_div/TwoFloats.hpp"\x1b[m\x1b[K // Import\xc3\xa1ljuk a saj\xc3\xa1t \xc3\xbczenet t\xc3\xadpust\n'}
+[15.573916] (simple_div) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.574171] (simple_div) StderrLine: {'line': b'compilation terminated.\n'}
+[15.577477] (simple_div) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/simple_div.cpp.o] Error 1\n'}
+[15.578120] (simple_div) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:623: CMakeFiles/server.dir/all] Error 2\n'}
+[15.578406] (simple_div) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[15.591753] (simple_div) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/simple_div__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/simple_div/msg/detail/dds_fastrtps/two_floats__type_support.cpp.o\x1b[0m\n'}
+[15.672974] (-) TimerEvent: {}
+[15.773908] (-) TimerEvent: {}
+[15.874479] (-) TimerEvent: {}
+[15.976012] (-) TimerEvent: {}
+[16.078634] (-) TimerEvent: {}
+[16.179337] (-) TimerEvent: {}
+[16.280455] (-) TimerEvent: {}
+[16.381973] (-) TimerEvent: {}
+[16.482516] (-) TimerEvent: {}
+[16.583119] (-) TimerEvent: {}
+[16.684671] (-) TimerEvent: {}
+[16.786193] (-) TimerEvent: {}
+[16.886768] (-) TimerEvent: {}
+[16.988292] (-) TimerEvent: {}
+[17.088796] (-) TimerEvent: {}
+[17.189377] (-) TimerEvent: {}
+[17.290923] (-) TimerEvent: {}
+[17.391984] (-) TimerEvent: {}
+[17.493130] (-) TimerEvent: {}
+[17.546406] (simple_div) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_div__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.585700] (simple_div) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_div__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[17.593338] (-) TimerEvent: {}
+[17.694339] (-) TimerEvent: {}
+[17.794964] (-) TimerEvent: {}
+[17.892586] (simple_div) StdoutLine: {'line': b'[ 44%] Built target simple_div__rosidl_typesupport_cpp\n'}
+[17.895475] (-) TimerEvent: {}
+[17.996654] (-) TimerEvent: {}
+[18.021736] (simple_div) StdoutLine: {'line': b'[ 44%] Built target simple_div__rosidl_typesupport_fastrtps_c\n'}
+[18.097544] (-) TimerEvent: {}
+[18.198111] (-) TimerEvent: {}
+[18.209474] (simple_div) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libsimple_div__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[18.298407] (-) TimerEvent: {}
+[18.399174] (-) TimerEvent: {}
+[18.499872] (-) TimerEvent: {}
+[18.505187] (simple_div) StdoutLine: {'line': b'[ 47%] Built target simple_div__rosidl_typesupport_fastrtps_cpp\n'}
+[18.509067] (simple_div) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.515203] (simple_div) CommandEnded: {'returncode': 2}
+[18.600211] (-) TimerEvent: {}
+[18.703252] (-) TimerEvent: {}
+[18.779785] (simple_div) JobEnded: {'identifier': 'simple_div', 'rc': 2}
+[18.794165] (-) EventReactorShutdown: {}

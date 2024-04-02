@@ -1,0 +1,110 @@
+[0.075s] Invoking command in '/home/asd/ros2_ws/build/fl_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4
+[0.283s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.300s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.373s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/fl_div_server.cpp.o[0m
+[0.382s] [ 75%] Built target client
+[9.856s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[9.856s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.856s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.856s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.857s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.857s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.857s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.858s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.858s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.858s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.858s]                  from [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1[m[K:
+[9.859s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)[m[K’:
+[9.859s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:12:5:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+[9.859s]    12 |     [01;31m[KRCLCPP_INFO[m[K("Incoming request\na: %f " "b: %f",
+[9.859s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[9.861s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.861s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[9.861s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.861s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.862s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.862s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.863s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.863s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.863s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.863s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.864s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.864s]                  from [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1[m[K:
+[9.865s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:12:5:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Incoming request\012a: %f b: %f")[m[K’, which is of non-class type ‘[01m[Kconst char [29][m[K’
+[9.865s]    12 |     [01;31m[KRCLCPP_INFO[m[K("Incoming request\na: %f " "b: %f",
+[9.865s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[9.865s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:12:5:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Incoming request\012a: %f b: %f")[m[K’, which is of non-class type ‘[01m[Kconst char [29][m[K’
+[9.866s]    12 |     [01;31m[KRCLCPP_INFO[m[K("Incoming request\na: %f " "b: %f",
+[9.866s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[9.866s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[9.867s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.867s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.867s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.867s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.868s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.868s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.868s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.868s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.869s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.869s]                  from [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1[m[K:
+[9.869s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:14:5:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+[9.869s]    14 |     [01;31m[KRCLCPP_INFO[m[K("sending back response: [%f]", (double)response->sum);
+[9.870s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[9.870s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.870s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[9.870s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.871s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.871s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.871s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.871s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.872s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.872s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.872s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.872s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.873s]                  from [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1[m[K:
+[9.873s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:14:5:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("sending back response: [%f]")[m[K’, which is of non-class type ‘[01m[Kconst char [28][m[K’
+[9.873s]    14 |     [01;31m[KRCLCPP_INFO[m[K("sending back response: [%f]", (double)response->sum);
+[9.874s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[9.874s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:14:5:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("sending back response: [%f]")[m[K’, which is of non-class type ‘[01m[Kconst char [28][m[K’
+[9.874s]    14 |     [01;31m[KRCLCPP_INFO[m[K("sending back response: [%f]", (double)response->sum);
+[9.874s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[9.947s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[9.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.948s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.949s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.950s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.950s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.950s]                  from [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1[m[K:
+[9.951s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.951s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:24:5:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: First argument to logging macros must be an rclcpp::Logger
+[9.951s]    24 |     [01;31m[KRCLCPP_INFO[m[K("Ready to add two ints.");
+[9.951s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[9.952s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[9.952s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43[m[K,
+[9.952s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[9.952s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[9.953s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[9.953s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[9.953s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[9.954s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[9.954s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[9.954s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[9.954s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[9.955s]                  from [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1[m[K:
+[9.955s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:24:5:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Ready to add two ints.")[m[K’, which is of non-class type ‘[01m[Kconst char [23][m[K’
+[9.955s]    24 |     [01;31m[KRCLCPP_INFO[m[K("Ready to add two ints.");
+[9.956s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[9.956s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:24:5:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_name[m[K’ in ‘[01m[K("Ready to add two ints.")[m[K’, which is of non-class type ‘[01m[Kconst char [23][m[K’
+[9.956s]    24 |     [01;31m[KRCLCPP_INFO[m[K("Ready to add two ints.");
+[9.956s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[9.957s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:24:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[9.957s]    24 |     [01;31m[KRCLCPP_INFO[m[K("Ready to add two ints.");
+[9.957s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[13.188s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/fl_div_server.cpp.o] Error 1
+[13.188s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[13.189s] gmake: *** [Makefile:146: all] Error 2
+[13.213s] Invoked command in '/home/asd/ros2_ws/build/fl_div' returned '2': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4

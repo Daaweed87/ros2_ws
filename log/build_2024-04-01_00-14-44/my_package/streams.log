@@ -1,0 +1,281 @@
+[0.064s] Invoking command in '/home/asd/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/my_package -- -j4 -l4
+[0.203s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.684s] -- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)
+[0.822s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.889s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.347s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.180s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[3.935s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[3.972s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[5.668s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[7.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.019s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.087s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[8.162s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.162s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.162s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.373s] -- Configuring done
+[8.578s] -- Generating done
+[8.595s] -- Build files have been written to: /home/asd/ros2_ws/build/my_package
+[8.781s] [  2%] Built target ament_cmake_python_copy_my_package
+[8.782s] [  2%] Built target my_package__rosidl_generator_type_description
+[8.867s] [  4%] Built target my_package__cpp
+[8.868s] [35m[1mConsolidate compiler generated dependencies of target my_package__rosidl_generator_c[0m
+[8.921s] [  6%] [32m[1mLinking C shared library libmy_package__rosidl_generator_c.so[0m
+[9.080s] [ 22%] Built target my_package__rosidl_generator_c
+[9.166s] [35m[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_fastrtps_c[0m
+[9.168s] [35m[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_cpp[0m
+[9.169s] [35m[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_fastrtps_cpp[0m
+[9.232s] [ 25%] [32m[1mLinking CXX shared library libmy_package__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.234s] [ 27%] [32m[1mLinking CXX shared library libmy_package__rosidl_typesupport_fastrtps_c.so[0m
+[9.234s] [ 29%] [32m[1mLinking CXX shared library libmy_package__rosidl_typesupport_cpp.so[0m
+[9.557s] [ 36%] Built target my_package__rosidl_typesupport_fastrtps_c
+[9.589s] [ 43%] Built target my_package__rosidl_typesupport_cpp
+[9.594s] [35m[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_introspection_c[0m
+[9.631s] [35m[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_c[0m
+[9.641s] [ 50%] Built target my_package__rosidl_typesupport_fastrtps_cpp
+[9.653s] [ 52%] [32m[1mLinking C shared library libmy_package__rosidl_typesupport_introspection_c.so[0m
+[9.678s] [35m[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_introspection_cpp[0m
+[9.678s] [ 54%] [32m[1mLinking CXX shared library libmy_package__rosidl_typesupport_c.so[0m
+[9.737s] [ 56%] [32m[1mLinking CXX shared library libmy_package__rosidl_typesupport_introspection_cpp.so[0m
+[9.778s] running egg_info
+[9.781s] writing my_package.egg-info/PKG-INFO
+[9.782s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[9.783s] writing top-level names to my_package.egg-info/top_level.txt
+[9.795s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[9.798s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[9.804s] [ 63%] Built target my_package__rosidl_typesupport_introspection_c
+[9.870s] [ 70%] Built target my_package__rosidl_typesupport_c
+[9.881s] [ 70%] Built target ament_cmake_python_build_my_package_egg
+[10.087s] [ 77%] Built target my_package__rosidl_typesupport_introspection_cpp
+[10.154s] [ 77%] Built target my_package
+[10.256s] [ 79%] Built target my_package__py
+[10.291s] [35m[1mConsolidate compiler generated dependencies of target my_package__rosidl_generator_py[0m
+[10.345s] [ 84%] [32mBuilding C object CMakeFiles/my_package__rosidl_generator_py.dir/rosidl_generator_py/my_package/msg/_add_two_ints2_s.c.o[0m
+[10.346s] [ 84%] [32mBuilding C object CMakeFiles/my_package__rosidl_generator_py.dir/rosidl_generator_py/my_package/srv/_add_two_ints2_s.c.o[0m
+[10.919s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/my_package/libmy_package__rosidl_generator_py.so[0m
+[11.078s] [ 86%] Built target my_package__rosidl_generator_py
+[11.113s] [35m[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_fastrtps_c__pyext[0m
+[11.114s] [35m[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_c__pyext[0m
+[11.115s] [35m[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_introspection_c__pyext[0m
+[11.165s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.165s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.169s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/my_package/my_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.355s] [ 95%] Built target my_package__rosidl_typesupport_c__pyext
+[11.363s] [ 97%] Built target my_package__rosidl_typesupport_introspection_c__pyext
+[11.383s] [100%] Built target my_package__rosidl_typesupport_fastrtps_c__pyext
+[11.427s] Invoked command in '/home/asd/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/my_package -- -j4 -l4
+[11.756s] Invoking command in '/home/asd/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/asd/ros2_ws/build/my_package
+[11.783s] -- Install configuration: ""
+[11.783s] -- Installing: /home/asd/ros2_ws/install/my_package/share/ament_index/resource_index/rosidl_interfaces/my_package
+[11.783s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/msg/AddTwoInts2.json
+[11.784s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/srv/AddTwoInts2.json
+[11.784s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package
+[11.785s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg
+[11.785s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail
+[11.785s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__struct.h
+[11.786s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__functions.c
+[11.786s] -- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__type_support.c
+[11.786s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__description.c
+[11.787s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__functions.c
+[11.788s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__functions.h
+[11.788s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__struct.h
+[11.789s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__description.c
+[11.789s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__type_support.h
+[11.789s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__type_support.h
+[11.790s] -- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__type_support.c
+[11.790s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__functions.h
+[11.790s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/add_two_ints2.h
+[11.790s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/divide_two_floats.h
+[11.791s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/rosidl_generator_c__visibility_control.h
+[11.791s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv
+[11.791s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail
+[11.792s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__struct.h
+[11.792s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__functions.c
+[11.792s] -- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__type_support.c
+[11.793s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__description.c
+[11.793s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__functions.c
+[11.793s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__functions.h
+[11.794s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__struct.h
+[11.794s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__description.c
+[11.794s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__type_support.h
+[11.794s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__type_support.h
+[11.795s] -- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__type_support.c
+[11.795s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__functions.h
+[11.795s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/add_two_ints2.h
+[11.796s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/divide_two_floats.h
+[11.796s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/library_path.sh
+[11.796s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/library_path.dsv
+[11.797s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_generator_c.so
+[11.797s] -- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_generator_c.so" to ""
+[11.797s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package
+[11.798s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg
+[11.798s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail
+[11.799s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__rosidl_typesupport_fastrtps_c.h
+[11.799s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__rosidl_typesupport_fastrtps_c.h
+[11.799s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.800s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv
+[11.800s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail
+[11.800s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__rosidl_typesupport_fastrtps_c.h
+[11.801s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__rosidl_typesupport_fastrtps_c.h
+[11.801s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_c.so
+[11.801s] -- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_c.so" to ""
+[11.802s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package
+[11.802s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg
+[11.802s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/add_two_ints2.hpp
+[11.803s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail
+[11.803s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__traits.hpp
+[11.803s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__builder.hpp
+[11.804s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__builder.hpp
+[11.804s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__struct.hpp
+[11.805s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__traits.hpp
+[11.805s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__struct.hpp
+[11.805s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/divide_two_floats.hpp
+[11.805s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv
+[11.806s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/add_two_ints2.hpp
+[11.806s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail
+[11.806s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__traits.hpp
+[11.807s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__builder.hpp
+[11.807s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__builder.hpp
+[11.807s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__struct.hpp
+[11.808s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__traits.hpp
+[11.808s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__struct.hpp
+[11.808s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/divide_two_floats.hpp
+[11.809s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package
+[11.809s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg
+[11.809s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail
+[11.810s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__rosidl_typesupport_fastrtps_cpp.hpp
+[11.810s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__rosidl_typesupport_fastrtps_cpp.hpp
+[11.810s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/dds_fastrtps
+[11.811s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.811s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv
+[11.811s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail
+[11.812s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__rosidl_typesupport_fastrtps_cpp.hpp
+[11.812s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__rosidl_typesupport_fastrtps_cpp.hpp
+[11.812s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/dds_fastrtps
+[11.813s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_cpp.so
+[11.813s] -- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.813s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package
+[11.814s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg
+[11.814s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.814s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail
+[11.815s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__rosidl_typesupport_introspection_c.h
+[11.815s] -- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__type_support.c
+[11.815s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__rosidl_typesupport_introspection_c.h
+[11.815s] -- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__type_support.c
+[11.816s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv
+[11.816s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail
+[11.816s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__rosidl_typesupport_introspection_c.h
+[11.817s] -- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__type_support.c
+[11.817s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__rosidl_typesupport_introspection_c.h
+[11.817s] -- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__type_support.c
+[11.818s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_c.so
+[11.818s] -- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_c.so" to ""
+[11.819s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_c.so
+[11.819s] -- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_c.so" to ""
+[11.819s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package
+[11.820s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg
+[11.820s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail
+[11.820s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__rosidl_typesupport_introspection_cpp.hpp
+[11.821s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__type_support.cpp
+[11.821s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__type_support.cpp
+[11.821s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__rosidl_typesupport_introspection_cpp.hpp
+[11.822s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv
+[11.822s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail
+[11.825s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__rosidl_typesupport_introspection_cpp.hpp
+[11.827s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__type_support.cpp
+[11.827s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__type_support.cpp
+[11.828s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__rosidl_typesupport_introspection_cpp.hpp
+[11.828s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_cpp.so
+[11.828s] -- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_cpp.so" to ""
+[11.828s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_cpp.so
+[11.829s] -- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_cpp.so" to ""
+[11.829s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/pythonpath.sh
+[11.829s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/pythonpath.dsv
+[11.829s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[11.830s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.830s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/top_level.txt
+[11.830s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/PKG-INFO
+[11.831s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.831s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[11.831s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.832s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg
+[11.832s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/_divide_two_floats.py
+[11.832s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/_add_two_ints2_s.c
+[11.832s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/__init__.py
+[11.833s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/_add_two_ints2.py
+[11.833s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/_divide_two_floats_s.c
+[11.833s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.834s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py
+[11.834s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_introspection_c.c
+[11.834s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv
+[11.834s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv/_divide_two_floats.py
+[11.835s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv/_add_two_ints2_s.c
+[11.835s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv/__init__.py
+[11.835s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv/_add_two_ints2.py
+[11.836s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv/_divide_two_floats_s.c
+[11.836s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.836s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/libmy_package__rosidl_generator_py.so
+[11.836s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.837s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_c.c
+[11.960s] Listing '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package'...
+[11.960s] Compiling '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py'...
+[11.960s] Listing '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg'...
+[11.961s] Compiling '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/_add_two_ints2.py'...
+[11.961s] Listing '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv'...
+[11.961s] Compiling '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv/_add_two_ints2.py'...
+[11.974s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.975s] -- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.976s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.977s] -- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.978s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.979s] -- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.980s] -- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_generator_py.so
+[11.982s] -- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_generator_py.so" to ""
+[11.982s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/msg/AddTwoInts2.idl
+[11.982s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/srv/AddTwoInts2.idl
+[11.983s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/msg/AddTwoInts2.msg
+[11.983s] -- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/srv/AddTwoInts2.srv
+[11.984s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/srv/AddTwoInts2_Request.msg
+[11.984s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/srv/AddTwoInts2_Response.msg
+[11.984s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+[11.984s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+[11.985s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+[11.985s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+[11.985s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/path.sh
+[11.986s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/path.dsv
+[11.986s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/local_setup.bash
+[11.987s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/local_setup.sh
+[11.987s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/local_setup.zsh
+[11.987s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/local_setup.dsv
+[11.988s] -- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/package.dsv
+[11.988s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+[11.988s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cExport.cmake
+[11.989s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cExport-noconfig.cmake
+[11.989s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cExport.cmake
+[11.989s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.990s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cppExport.cmake
+[11.990s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.990s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.991s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cExport.cmake
+[11.991s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.991s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cExport.cmake
+[11.992s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cExport-noconfig.cmake
+[11.992s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cppExport.cmake
+[11.993s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.993s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cppExport.cmake
+[11.993s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cppExport-noconfig.cmake
+[11.994s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_pyExport.cmake
+[11.994s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_pyExport-noconfig.cmake
+[11.994s] -- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/rosidl_cmake-extras.cmake
+[11.995s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.995s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.995s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/ament_cmake_export_libraries-extras.cmake
+[11.995s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/ament_cmake_export_targets-extras.cmake
+[11.996s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.996s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.996s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+[11.997s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+[11.997s] -- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/package.xml
+[12.005s] Invoked command in '/home/asd/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/asd/ros2_ws/build/my_package

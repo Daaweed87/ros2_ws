@@ -1,0 +1,8 @@
+source;share/fl_div/hook/cmake_prefix_path.ps1
+source;share/fl_div/hook/cmake_prefix_path.dsv
+source;share/fl_div/hook/cmake_prefix_path.sh
+source;share/fl_div/local_setup.bash
+source;share/fl_div/local_setup.dsv
+source;share/fl_div/local_setup.ps1
+source;share/fl_div/local_setup.sh
+source;share/fl_div/local_setup.zsh

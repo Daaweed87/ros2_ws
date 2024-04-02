@@ -1,0 +1,577 @@
+[0.000000] (-) TimerEvent: {}
+[0.000375] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000466] (-) JobUnselected: {'identifier': 'div'}
+[0.000550] (-) JobUnselected: {'identifier': 'sloat_division'}
+[0.000625] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000710] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.026490] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.030701] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.033106] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/my_package', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('SYSTEMD_EXEC_PID', '1427'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1394,unix/asd:/tmp/.ICE-unix/1394'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a1813a8_6190_4a18_a8c5_15dd952ce633'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WDNJL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.331'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.097969] (-) TimerEvent: {}
+[0.136160] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.198491] (-) TimerEvent: {}
+[0.299090] (-) TimerEvent: {}
+[0.399704] (-) TimerEvent: {}
+[0.500174] (-) TimerEvent: {}
+[0.600762] (-) TimerEvent: {}
+[0.640484] (my_package) StdoutLine: {'line': b'-- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)\n'}
+[0.701331] (-) TimerEvent: {}
+[0.761306] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.802931] (-) TimerEvent: {}
+[0.822431] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.904436] (-) TimerEvent: {}
+[0.909575] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.004975] (-) TimerEvent: {}
+[1.012387] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.105524] (-) TimerEvent: {}
+[1.207122] (-) TimerEvent: {}
+[1.308615] (-) TimerEvent: {}
+[1.409239] (-) TimerEvent: {}
+[1.510752] (-) TimerEvent: {}
+[1.612244] (-) TimerEvent: {}
+[1.713800] (-) TimerEvent: {}
+[1.814368] (-) TimerEvent: {}
+[1.914998] (-) TimerEvent: {}
+[2.016455] (-) TimerEvent: {}
+[2.117969] (-) TimerEvent: {}
+[2.218572] (-) TimerEvent: {}
+[2.320141] (-) TimerEvent: {}
+[2.421587] (-) TimerEvent: {}
+[2.522168] (-) TimerEvent: {}
+[2.623760] (-) TimerEvent: {}
+[2.725224] (-) TimerEvent: {}
+[2.827752] (-) TimerEvent: {}
+[2.929295] (-) TimerEvent: {}
+[2.956194] (my_package) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[3.030218] (-) TimerEvent: {}
+[3.132341] (-) TimerEvent: {}
+[3.233872] (-) TimerEvent: {}
+[3.336383] (-) TimerEvent: {}
+[3.436960] (-) TimerEvent: {}
+[3.538488] (-) TimerEvent: {}
+[3.640008] (-) TimerEvent: {}
+[3.651217] (my_package) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[3.690044] (my_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[3.740542] (-) TimerEvent: {}
+[3.841025] (-) TimerEvent: {}
+[3.941612] (-) TimerEvent: {}
+[4.043923] (-) TimerEvent: {}
+[4.144396] (-) TimerEvent: {}
+[4.245906] (-) TimerEvent: {}
+[4.352096] (-) TimerEvent: {}
+[4.452842] (-) TimerEvent: {}
+[4.553262] (-) TimerEvent: {}
+[4.653991] (-) TimerEvent: {}
+[4.754566] (-) TimerEvent: {}
+[4.855752] (-) TimerEvent: {}
+[4.956576] (-) TimerEvent: {}
+[5.057130] (-) TimerEvent: {}
+[5.157688] (-) TimerEvent: {}
+[5.258262] (-) TimerEvent: {}
+[5.358862] (-) TimerEvent: {}
+[5.459406] (-) TimerEvent: {}
+[5.560250] (-) TimerEvent: {}
+[5.596229] (my_package) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[5.661670] (-) TimerEvent: {}
+[5.762251] (-) TimerEvent: {}
+[5.863527] (-) TimerEvent: {}
+[5.964408] (-) TimerEvent: {}
+[6.065150] (-) TimerEvent: {}
+[6.166339] (-) TimerEvent: {}
+[6.266853] (-) TimerEvent: {}
+[6.368238] (-) TimerEvent: {}
+[6.468814] (-) TimerEvent: {}
+[6.569517] (-) TimerEvent: {}
+[6.670042] (-) TimerEvent: {}
+[6.770586] (-) TimerEvent: {}
+[6.871957] (-) TimerEvent: {}
+[6.972480] (-) TimerEvent: {}
+[7.073755] (-) TimerEvent: {}
+[7.175483] (-) TimerEvent: {}
+[7.275978] (-) TimerEvent: {}
+[7.376506] (-) TimerEvent: {}
+[7.391442] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.477078] (-) TimerEvent: {}
+[7.577793] (-) TimerEvent: {}
+[7.678382] (-) TimerEvent: {}
+[7.780128] (-) TimerEvent: {}
+[7.881473] (-) TimerEvent: {}
+[7.982050] (-) TimerEvent: {}
+[8.082664] (-) TimerEvent: {}
+[8.087163] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.182902] (-) TimerEvent: {}
+[8.237200] (my_package) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[8.283741] (-) TimerEvent: {}
+[8.389935] (-) TimerEvent: {}
+[8.394696] (my_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.395051] (my_package) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.395405] (my_package) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.490656] (-) TimerEvent: {}
+[8.591853] (-) TimerEvent: {}
+[8.689592] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.693671] (-) TimerEvent: {}
+[8.794404] (-) TimerEvent: {}
+[8.895228] (-) TimerEvent: {}
+[8.995870] (-) TimerEvent: {}
+[9.046066] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[9.063182] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/asd/ros2_ws/build/my_package\n'}
+[9.096815] (-) TimerEvent: {}
+[9.180240] (my_package) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[9.196991] (-) TimerEvent: {}
+[9.267688] (my_package) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_my_package\n'}
+[9.297577] (-) TimerEvent: {}
+[9.398060] (-) TimerEvent: {}
+[9.498630] (-) TimerEvent: {}
+[9.599230] (-) TimerEvent: {}
+[9.699772] (-) TimerEvent: {}
+[9.800352] (-) TimerEvent: {}
+[9.900957] (-) TimerEvent: {}
+[10.001610] (-) TimerEvent: {}
+[10.097656] (my_package) StdoutLine: {'line': b'[  2%] Built target my_package__rosidl_generator_type_description\n'}
+[10.101748] (-) TimerEvent: {}
+[10.148416] (my_package) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.194758] (my_package) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.201973] (-) TimerEvent: {}
+[10.302479] (-) TimerEvent: {}
+[10.341434] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[10.344186] (my_package) StdoutLine: {'line': b'writing my_package.egg-info/PKG-INFO\n'}
+[10.345124] (my_package) StdoutLine: {'line': b'writing dependency_links to my_package.egg-info/dependency_links.txt\n'}
+[10.345854] (my_package) StdoutLine: {'line': b'writing top-level names to my_package.egg-info/top_level.txt\n'}
+[10.354567] (my_package) StdoutLine: {'line': b"reading manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[10.357227] (my_package) StdoutLine: {'line': b"writing manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[10.402769] (-) TimerEvent: {}
+[10.440009] (my_package) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_my_package_egg\n'}
+[10.504241] (-) TimerEvent: {}
+[10.605722] (-) TimerEvent: {}
+[10.706276] (-) TimerEvent: {}
+[10.806963] (-) TimerEvent: {}
+[10.907500] (-) TimerEvent: {}
+[11.007984] (-) TimerEvent: {}
+[11.108522] (-) TimerEvent: {}
+[11.209067] (-) TimerEvent: {}
+[11.309630] (-) TimerEvent: {}
+[11.410180] (-) TimerEvent: {}
+[11.510757] (-) TimerEvent: {}
+[11.611307] (-) TimerEvent: {}
+[11.712837] (-) TimerEvent: {}
+[11.728381] (my_package) StdoutLine: {'line': b'[  6%] Built target my_package__cpp\n'}
+[11.814491] (-) TimerEvent: {}
+[11.915513] (-) TimerEvent: {}
+[12.016216] (-) TimerEvent: {}
+[12.038632] (my_package) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/divide_two_floats__functions.c.o\x1b[0m\n'}
+[12.039173] (my_package) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/divide_two_floats__description.c.o\x1b[0m\n'}
+[12.042209] (my_package) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/divide_two_floats__type_support.c.o\x1b[0m\n'}
+[12.051197] (my_package) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/srv/detail/divide_two_floats__description.c.o\x1b[0m\n'}
+[12.116433] (-) TimerEvent: {}
+[12.215910] (my_package) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/srv/detail/divide_two_floats__functions.c.o\x1b[0m\n'}
+[12.217255] (-) TimerEvent: {}
+[12.303755] (my_package) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/srv/detail/divide_two_floats__type_support.c.o\x1b[0m\n'}
+[12.317485] (-) TimerEvent: {}
+[12.418376] (-) TimerEvent: {}
+[12.500963] (my_package) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmy_package__rosidl_generator_c.so\x1b[0m\n'}
+[12.519123] (-) TimerEvent: {}
+[12.621590] (-) TimerEvent: {}
+[12.631167] (my_package) StdoutLine: {'line': b'[ 22%] Built target my_package__rosidl_generator_c\n'}
+[12.720868] (my_package) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.721398] (my_package) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.721678] (-) TimerEvent: {}
+[12.722175] (my_package) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[12.723155] (my_package) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.822014] (-) TimerEvent: {}
+[12.922739] (-) TimerEvent: {}
+[13.023451] (-) TimerEvent: {}
+[13.124064] (-) TimerEvent: {}
+[13.224902] (-) TimerEvent: {}
+[13.325429] (-) TimerEvent: {}
+[13.426318] (-) TimerEvent: {}
+[13.528037] (-) TimerEvent: {}
+[13.628672] (-) TimerEvent: {}
+[13.729299] (-) TimerEvent: {}
+[13.829926] (-) TimerEvent: {}
+[13.930594] (-) TimerEvent: {}
+[14.031781] (-) TimerEvent: {}
+[14.094165] (my_package) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_package/msg/divide_two_floats__type_support.cpp.o\x1b[0m\n'}
+[14.131973] (-) TimerEvent: {}
+[14.232546] (-) TimerEvent: {}
+[14.303695] (my_package) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_package/msg/detail/divide_two_floats__type_support.c.o\x1b[0m\n'}
+[14.328816] (my_package) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_package/msg/detail/dds_fastrtps/divide_two_floats__type_support.cpp.o\x1b[0m\n'}
+[14.332691] (-) TimerEvent: {}
+[14.391984] (my_package) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_package/msg/detail/divide_two_floats__type_support_c.cpp.o\x1b[0m\n'}
+[14.432895] (-) TimerEvent: {}
+[14.515292] (my_package) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_package/srv/detail/divide_two_floats__type_support.c.o\x1b[0m\n'}
+[14.533074] (-) TimerEvent: {}
+[14.634100] (-) TimerEvent: {}
+[14.734698] (-) TimerEvent: {}
+[14.806248] (my_package) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking C shared library libmy_package__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[14.834997] (-) TimerEvent: {}
+[14.938755] (-) TimerEvent: {}
+[14.945521] (my_package) StdoutLine: {'line': b'[ 45%] Built target my_package__rosidl_typesupport_introspection_c\n'}
+[15.039061] (-) TimerEvent: {}
+[15.039574] (my_package) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.139790] (-) TimerEvent: {}
+[15.240390] (-) TimerEvent: {}
+[15.340964] (-) TimerEvent: {}
+[15.441544] (-) TimerEvent: {}
+[15.542160] (-) TimerEvent: {}
+[15.642713] (-) TimerEvent: {}
+[15.720310] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_package/srv/divide_two_floats__type_support.cpp.o\x1b[0m\n'}
+[15.743067] (-) TimerEvent: {}
+[15.843696] (-) TimerEvent: {}
+[15.945350] (-) TimerEvent: {}
+[15.999998] (my_package) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_package/srv/detail/divide_two_floats__type_support_c.cpp.o\x1b[0m\n'}
+[16.045550] (-) TimerEvent: {}
+[16.146250] (-) TimerEvent: {}
+[16.246842] (-) TimerEvent: {}
+[16.347617] (-) TimerEvent: {}
+[16.364575] (my_package) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_package/msg/divide_two_floats__type_support.cpp.o\x1b[0m\n'}
+[16.448026] (-) TimerEvent: {}
+[16.542028] (my_package) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_package/srv/detail/dds_fastrtps/divide_two_floats__type_support.cpp.o\x1b[0m\n'}
+[16.548229] (-) TimerEvent: {}
+[16.550526] (my_package) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_package/srv/divide_two_floats__type_support.cpp.o\x1b[0m\n'}
+[16.648401] (-) TimerEvent: {}
+[16.741375] (my_package) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_c.so\x1b[0m\n'}
+[16.748630] (-) TimerEvent: {}
+[16.849239] (-) TimerEvent: {}
+[16.960722] (-) TimerEvent: {}
+[16.961279] (my_package) StdoutLine: {'line': b'[ 61%] Built target my_package__rosidl_typesupport_c\n'}
+[16.999126] (my_package) StdoutLine: {'line': b'[ 63%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[17.060897] (-) TimerEvent: {}
+[17.161440] (-) TimerEvent: {}
+[17.262007] (-) TimerEvent: {}
+[17.362547] (-) TimerEvent: {}
+[17.463382] (-) TimerEvent: {}
+[17.563934] (-) TimerEvent: {}
+[17.625744] (my_package) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[17.664897] (-) TimerEvent: {}
+[17.665512] (my_package) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.765119] (-) TimerEvent: {}
+[17.865775] (-) TimerEvent: {}
+[17.966342] (-) TimerEvent: {}
+[17.979466] (my_package) StdoutLine: {'line': b'[ 68%] Built target my_package__rosidl_typesupport_cpp\n'}
+[18.014983] (my_package) StdoutLine: {'line': b'[ 68%] Built target my_package__rosidl_typesupport_fastrtps_c\n'}
+[18.066742] (-) TimerEvent: {}
+[18.167374] (-) TimerEvent: {}
+[18.267893] (-) TimerEvent: {}
+[18.369440] (-) TimerEvent: {}
+[18.436141] (my_package) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_package/msg/detail/divide_two_floats__type_support.cpp.o\x1b[0m\n'}
+[18.436473] (my_package) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_package/srv/detail/divide_two_floats__type_support.cpp.o\x1b[0m\n'}
+[18.476890] (-) TimerEvent: {}
+[18.577342] (-) TimerEvent: {}
+[18.677916] (-) TimerEvent: {}
+[18.778472] (-) TimerEvent: {}
+[18.879145] (-) TimerEvent: {}
+[18.979637] (-) TimerEvent: {}
+[19.080168] (-) TimerEvent: {}
+[19.180816] (-) TimerEvent: {}
+[19.189897] (my_package) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[19.281686] (-) TimerEvent: {}
+[19.382177] (-) TimerEvent: {}
+[19.483186] (-) TimerEvent: {}
+[19.584263] (-) TimerEvent: {}
+[19.587660] (my_package) StdoutLine: {'line': b'[ 75%] Built target my_package__rosidl_typesupport_fastrtps_cpp\n'}
+[19.684870] (-) TimerEvent: {}
+[19.785492] (-) TimerEvent: {}
+[19.886970] (-) TimerEvent: {}
+[19.988540] (-) TimerEvent: {}
+[20.089112] (-) TimerEvent: {}
+[20.190278] (-) TimerEvent: {}
+[20.291185] (-) TimerEvent: {}
+[20.392625] (-) TimerEvent: {}
+[20.397455] (my_package) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[20.493140] (-) TimerEvent: {}
+[20.595668] (-) TimerEvent: {}
+[20.697182] (-) TimerEvent: {}
+[20.720350] (my_package) StdoutLine: {'line': b'[ 77%] Built target my_package__rosidl_typesupport_introspection_cpp\n'}
+[20.804612] (-) TimerEvent: {}
+[20.828822] (my_package) StdoutLine: {'line': b'[ 77%] Built target my_package\n'}
+[20.901633] (my_package) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[20.905148] (-) TimerEvent: {}
+[21.006012] (-) TimerEvent: {}
+[21.107164] (-) TimerEvent: {}
+[21.208086] (-) TimerEvent: {}
+[21.310594] (-) TimerEvent: {}
+[21.411246] (-) TimerEvent: {}
+[21.512713] (-) TimerEvent: {}
+[21.613314] (-) TimerEvent: {}
+[21.714336] (-) TimerEvent: {}
+[21.815255] (-) TimerEvent: {}
+[21.916504] (-) TimerEvent: {}
+[22.017062] (-) TimerEvent: {}
+[22.119601] (-) TimerEvent: {}
+[22.221149] (-) TimerEvent: {}
+[22.322741] (-) TimerEvent: {}
+[22.424170] (-) TimerEvent: {}
+[22.528684] (-) TimerEvent: {}
+[22.630164] (-) TimerEvent: {}
+[22.730852] (-) TimerEvent: {}
+[22.831328] (-) TimerEvent: {}
+[22.932901] (-) TimerEvent: {}
+[23.033375] (-) TimerEvent: {}
+[23.059766] (my_package) StdoutLine: {'line': b'[ 79%] Built target my_package__py\n'}
+[23.127840] (my_package) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_py.dir/rosidl_generator_py/my_package/msg/_divide_two_floats_s.c.o\x1b[0m\n'}
+[23.128268] (my_package) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_py.dir/rosidl_generator_py/my_package/srv/_divide_two_floats_s.c.o\x1b[0m\n'}
+[23.133883] (-) TimerEvent: {}
+[23.234382] (-) TimerEvent: {}
+[23.335248] (-) TimerEvent: {}
+[23.435918] (-) TimerEvent: {}
+[23.536564] (-) TimerEvent: {}
+[23.637712] (-) TimerEvent: {}
+[23.738585] (-) TimerEvent: {}
+[23.839886] (-) TimerEvent: {}
+[23.940925] (-) TimerEvent: {}
+[24.041850] (-) TimerEvent: {}
+[24.142385] (-) TimerEvent: {}
+[24.201762] (my_package) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_package/libmy_package__rosidl_generator_py.so\x1b[0m\n'}
+[24.242815] (-) TimerEvent: {}
+[24.344027] (-) TimerEvent: {}
+[24.373877] (my_package) StdoutLine: {'line': b'[ 86%] Built target my_package__rosidl_generator_py\n'}
+[24.445103] (-) TimerEvent: {}
+[24.446901] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[24.453806] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[24.462648] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[24.500123] (my_package) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[24.509361] (my_package) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[24.516726] (my_package) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[24.545279] (-) TimerEvent: {}
+[24.646035] (-) TimerEvent: {}
+[24.746744] (-) TimerEvent: {}
+[24.848265] (-) TimerEvent: {}
+[24.949803] (-) TimerEvent: {}
+[25.029627] (my_package) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[25.039032] (my_package) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[25.050062] (-) TimerEvent: {}
+[25.128865] (my_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_package/my_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[25.150258] (-) TimerEvent: {}
+[25.236526] (my_package) StdoutLine: {'line': b'[100%] Built target my_package__rosidl_typesupport_fastrtps_c__pyext\n'}
+[25.243361] (my_package) StdoutLine: {'line': b'[100%] Built target my_package__rosidl_typesupport_introspection_c__pyext\n'}
+[25.250380] (-) TimerEvent: {}
+[25.318492] (my_package) StdoutLine: {'line': b'[100%] Built target my_package__rosidl_typesupport_c__pyext\n'}
+[25.351081] (-) TimerEvent: {}
+[25.355090] (my_package) CommandEnded: {'returncode': 0}
+[25.451895] (-) TimerEvent: {}
+[25.553058] (-) TimerEvent: {}
+[25.618830] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[25.646946] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/asd/ros2_ws/build/my_package'], 'cwd': '/home/asd/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('SYSTEMD_EXEC_PID', '1427'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1394,unix/asd:/tmp/.ICE-unix/1394'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3a1813a8_6190_4a18_a8c5_15dd952ce633'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WDNJL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.331'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[25.654046] (-) TimerEvent: {}
+[25.674460] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.710635] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/ament_index/resource_index/rosidl_interfaces/my_package\n'}
+[25.711319] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/msg/DivideTwoFloats.json\n'}
+[25.712504] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/srv/DivideTwoFloats.json\n'}
+[25.713004] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package\n'}
+[25.713389] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg\n'}
+[25.713787] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail\n'}
+[25.714387] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__struct.h\n'}
+[25.714696] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__functions.c\n'}
+[25.715103] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__type_support.c\n'}
+[25.715522] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__description.c\n'}
+[25.715961] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__functions.c\n'}
+[25.716180] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__functions.h\n'}
+[25.716593] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__struct.h\n'}
+[25.716888] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__description.c\n'}
+[25.717244] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__type_support.h\n'}
+[25.717504] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__type_support.h\n'}
+[25.717784] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__type_support.c\n'}
+[25.727420] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__functions.h\n'}
+[25.727795] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/add_two_ints2.h\n'}
+[25.728119] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/divide_two_floats.h\n'}
+[25.728642] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/rosidl_generator_c__visibility_control.h\n'}
+[25.728937] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv\n'}
+[25.729199] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail\n'}
+[25.729456] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__struct.h\n'}
+[25.729726] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__functions.c\n'}
+[25.739292] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__type_support.c\n'}
+[25.739582] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__description.c\n'}
+[25.739912] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__functions.c\n'}
+[25.740315] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__functions.h\n'}
+[25.740576] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__struct.h\n'}
+[25.740894] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__description.c\n'}
+[25.741186] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__type_support.h\n'}
+[25.741505] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__type_support.h\n'}
+[25.741814] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__type_support.c\n'}
+[25.742090] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__functions.h\n'}
+[25.742388] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/add_two_ints2.h\n'}
+[25.742805] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/divide_two_floats.h\n'}
+[25.743279] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/library_path.sh\n'}
+[25.743509] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/library_path.dsv\n'}
+[25.743945] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_generator_c.so\n'}
+[25.744218] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_generator_c.so" to ""\n'}
+[25.744619] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package\n'}
+[25.744966] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg\n'}
+[25.745288] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail\n'}
+[25.745570] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__rosidl_typesupport_fastrtps_c.h\n'}
+[25.745911] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__rosidl_typesupport_fastrtps_c.h\n'}
+[25.746196] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[25.746566] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv\n'}
+[25.747022] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail\n'}
+[25.747380] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__rosidl_typesupport_fastrtps_c.h\n'}
+[25.747767] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__rosidl_typesupport_fastrtps_c.h\n'}
+[25.748076] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_c.so\n'}
+[25.748385] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[25.748714] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package\n'}
+[25.749021] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg\n'}
+[25.749328] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/add_two_ints2.hpp\n'}
+[25.749656] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail\n'}
+[25.749962] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__traits.hpp\n'}
+[25.750270] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__builder.hpp\n'}
+[25.750602] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__builder.hpp\n'}
+[25.750961] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__struct.hpp\n'}
+[25.751279] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__traits.hpp\n'}
+[25.751981] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__struct.hpp\n'}
+[25.752362] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/divide_two_floats.hpp\n'}
+[25.752636] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv\n'}
+[25.752941] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/add_two_ints2.hpp\n'}
+[25.753245] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail\n'}
+[25.753726] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__traits.hpp\n'}
+[25.754024] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__builder.hpp\n'}
+[25.754466] (-) TimerEvent: {}
+[25.754692] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__builder.hpp\n'}
+[25.755083] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__struct.hpp\n'}
+[25.755377] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__traits.hpp\n'}
+[25.755786] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__struct.hpp\n'}
+[25.756048] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/divide_two_floats.hpp\n'}
+[25.756330] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package\n'}
+[25.756588] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg\n'}
+[25.756844] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail\n'}
+[25.757099] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[25.757409] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[25.757817] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/dds_fastrtps\n'}
+[25.758073] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[25.758357] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv\n'}
+[25.758730] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail\n'}
+[25.759060] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[25.759368] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[25.759624] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/dds_fastrtps\n'}
+[25.759879] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_cpp.so\n'}
+[25.760169] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[25.760425] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package\n'}
+[25.760680] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg\n'}
+[25.760934] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[25.761213] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail\n'}
+[25.761468] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__rosidl_typesupport_introspection_c.h\n'}
+[25.761724] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__type_support.c\n'}
+[25.761979] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__rosidl_typesupport_introspection_c.h\n'}
+[25.762260] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__type_support.c\n'}
+[25.762515] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv\n'}
+[25.762769] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail\n'}
+[25.763072] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__rosidl_typesupport_introspection_c.h\n'}
+[25.763386] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__type_support.c\n'}
+[25.763647] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__rosidl_typesupport_introspection_c.h\n'}
+[25.763885] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__type_support.c\n'}
+[25.764167] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_c.so\n'}
+[25.764430] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_c.so" to ""\n'}
+[25.768639] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_c.so\n'}
+[25.769722] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_c.so" to ""\n'}
+[25.770208] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package\n'}
+[25.770603] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg\n'}
+[25.770799] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail\n'}
+[25.771193] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[25.771398] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/add_two_ints2__type_support.cpp\n'}
+[25.771628] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__type_support.cpp\n'}
+[25.771848] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/msg/detail/divide_two_floats__rosidl_typesupport_introspection_cpp.hpp\n'}
+[25.772233] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv\n'}
+[25.772460] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail\n'}
+[25.772681] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[25.772913] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/add_two_ints2__type_support.cpp\n'}
+[25.773294] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__type_support.cpp\n'}
+[25.773644] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/include/my_package/my_package/srv/detail/divide_two_floats__rosidl_typesupport_introspection_cpp.hpp\n'}
+[25.773902] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_cpp.so\n'}
+[25.775323] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[25.775984] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_cpp.so\n'}
+[25.777736] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_typesupport_cpp.so" to ""\n'}
+[25.778154] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/pythonpath.sh\n'}
+[25.778508] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/pythonpath.dsv\n'}
+[25.778769] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info\n'}
+[25.779379] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[25.781409] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[25.782024] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[25.782473] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[25.783019] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package\n'}
+[25.783449] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.783900] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg\n'}
+[25.784645] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/_divide_two_floats.py\n'}
+[25.785231] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/_add_two_ints2_s.c\n'}
+[25.785877] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/__init__.py\n'}
+[25.786176] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/_add_two_ints2.py\n'}
+[25.786439] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/_divide_two_floats_s.c\n'}
+[25.786771] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.787067] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py\n'}
+[25.792973] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[25.793513] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv\n'}
+[25.793786] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv/_divide_two_floats.py\n'}
+[25.794048] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv/_add_two_ints2_s.c\n'}
+[25.794307] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv/__init__.py\n'}
+[25.794588] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv/_add_two_ints2.py\n'}
+[25.794845] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv/_divide_two_floats_s.c\n'}
+[25.795169] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.795484] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/libmy_package__rosidl_generator_py.so\n'}
+[25.795744] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[25.799689] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/_my_package_s.ep.rosidl_typesupport_c.c\n'}
+[25.859173] (-) TimerEvent: {}
+[25.930807] (my_package) StdoutLine: {'line': b"Listing '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package'...\n"}
+[25.944202] (my_package) StdoutLine: {'line': b"Compiling '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py'...\n"}
+[25.944506] (my_package) StdoutLine: {'line': b"Listing '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg'...\n"}
+[25.949081] (my_package) StdoutLine: {'line': b"Compiling '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/__init__.py'...\n"}
+[25.949522] (my_package) StdoutLine: {'line': b"Compiling '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/msg/_divide_two_floats.py'...\n"}
+[25.961222] (-) TimerEvent: {}
+[25.961493] (my_package) StdoutLine: {'line': b"Listing '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv'...\n"}
+[25.961765] (my_package) StdoutLine: {'line': b"Compiling '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv/__init__.py'...\n"}
+[25.962071] (my_package) StdoutLine: {'line': b"Compiling '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/srv/_divide_two_floats.py'...\n"}
+[25.962481] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.962781] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[25.963131] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.963465] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[25.963776] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[25.964189] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[25.964532] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_generator_py.so\n'}
+[25.964855] (my_package) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/my_package/lib/libmy_package__rosidl_generator_py.so" to ""\n'}
+[25.965043] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/msg/DivideTwoFloats.idl\n'}
+[25.965467] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/srv/DivideTwoFloats.idl\n'}
+[25.976725] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/msg/DivideTwoFloats.msg\n'}
+[25.977321] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/srv/DivideTwoFloats.srv\n'}
+[25.977873] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/srv/DivideTwoFloats_Request.msg\n'}
+[25.978433] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/srv/DivideTwoFloats_Response.msg\n'}
+[25.979031] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[25.979490] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[25.979970] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[25.980379] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[25.980781] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/path.sh\n'}
+[25.981237] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/environment/path.dsv\n'}
+[25.981520] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/local_setup.bash\n'}
+[25.981796] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/local_setup.sh\n'}
+[25.982197] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/local_setup.zsh\n'}
+[25.982508] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/local_setup.dsv\n'}
+[25.982978] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/package.dsv\n'}
+[25.983263] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[25.983663] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cExport.cmake\n'}
+[25.983943] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cExport-noconfig.cmake\n'}
+[25.984256] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[25.984568] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[25.984959] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_cppExport.cmake\n'}
+[25.985445] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[25.985917] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[25.986232] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cExport.cmake\n'}
+[25.986469] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[25.986703] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cExport.cmake\n'}
+[25.987153] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[25.987467] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[25.987797] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[25.988106] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cppExport.cmake\n'}
+[25.988765] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_package__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[25.989122] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_pyExport.cmake\n'}
+[25.989473] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/export_my_package__rosidl_generator_pyExport-noconfig.cmake\n'}
+[25.989926] (my_package) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/rosidl_cmake-extras.cmake\n'}
+[25.990337] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[25.990749] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[25.991276] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[25.991857] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[25.992165] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[25.992443] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[25.992728] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[25.992984] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[25.996886] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/my_package/share/my_package/package.xml\n'}
+[26.000395] (my_package) CommandEnded: {'returncode': 0}
+[26.062166] (-) TimerEvent: {}
+[26.162831] (-) TimerEvent: {}
+[26.263969] (-) TimerEvent: {}
+[26.336998] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[26.338787] (-) EventReactorShutdown: {}

@@ -70,6 +70,10 @@ CMakeFiles/my_package__cpp: rosidl_generator_cpp/my_package/msg/add_two_ints2.hp
 CMakeFiles/my_package__cpp: rosidl_generator_cpp/my_package/msg/detail/add_two_ints2__builder.hpp
 CMakeFiles/my_package__cpp: rosidl_generator_cpp/my_package/msg/detail/add_two_ints2__struct.hpp
 CMakeFiles/my_package__cpp: rosidl_generator_cpp/my_package/msg/detail/add_two_ints2__traits.hpp
+CMakeFiles/my_package__cpp: rosidl_generator_cpp/my_package/msg/two_floats.hpp
+CMakeFiles/my_package__cpp: rosidl_generator_cpp/my_package/msg/detail/two_floats__builder.hpp
+CMakeFiles/my_package__cpp: rosidl_generator_cpp/my_package/msg/detail/two_floats__struct.hpp
+CMakeFiles/my_package__cpp: rosidl_generator_cpp/my_package/msg/detail/two_floats__traits.hpp
 CMakeFiles/my_package__cpp: rosidl_generator_cpp/my_package/srv/add_two_ints2.hpp
 CMakeFiles/my_package__cpp: rosidl_generator_cpp/my_package/srv/detail/add_two_ints2__builder.hpp
 CMakeFiles/my_package__cpp: rosidl_generator_cpp/my_package/srv/detail/add_two_ints2__struct.hpp
@@ -91,6 +95,7 @@ rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp: /opt/ros/iron/share/rosid
 rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp: /opt/ros/iron/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp: /opt/ros/iron/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp: rosidl_adapter/my_package/msg/AddTwoInts2.idl
+rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp: rosidl_adapter/my_package/msg/TwoFloats.idl
 rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp: rosidl_adapter/my_package/srv/AddTwoInts2.idl
 rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp: /opt/ros/iron/share/example_interfaces/action/Fibonacci.idl
 rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp: /opt/ros/iron/share/example_interfaces/msg/Bool.idl
@@ -144,6 +149,18 @@ rosidl_generator_cpp/my_package/msg/detail/add_two_ints2__struct.hpp: rosidl_gen
 rosidl_generator_cpp/my_package/msg/detail/add_two_ints2__traits.hpp: rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_package/msg/detail/add_two_ints2__traits.hpp
 
+rosidl_generator_cpp/my_package/msg/two_floats.hpp: rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_package/msg/two_floats.hpp
+
+rosidl_generator_cpp/my_package/msg/detail/two_floats__builder.hpp: rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_package/msg/detail/two_floats__builder.hpp
+
+rosidl_generator_cpp/my_package/msg/detail/two_floats__struct.hpp: rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_package/msg/detail/two_floats__struct.hpp
+
+rosidl_generator_cpp/my_package/msg/detail/two_floats__traits.hpp: rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_package/msg/detail/two_floats__traits.hpp
+
 rosidl_generator_cpp/my_package/srv/add_two_ints2.hpp: rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/my_package/srv/add_two_ints2.hpp
 
@@ -161,6 +178,10 @@ my_package__cpp: rosidl_generator_cpp/my_package/msg/add_two_ints2.hpp
 my_package__cpp: rosidl_generator_cpp/my_package/msg/detail/add_two_ints2__builder.hpp
 my_package__cpp: rosidl_generator_cpp/my_package/msg/detail/add_two_ints2__struct.hpp
 my_package__cpp: rosidl_generator_cpp/my_package/msg/detail/add_two_ints2__traits.hpp
+my_package__cpp: rosidl_generator_cpp/my_package/msg/detail/two_floats__builder.hpp
+my_package__cpp: rosidl_generator_cpp/my_package/msg/detail/two_floats__struct.hpp
+my_package__cpp: rosidl_generator_cpp/my_package/msg/detail/two_floats__traits.hpp
+my_package__cpp: rosidl_generator_cpp/my_package/msg/two_floats.hpp
 my_package__cpp: rosidl_generator_cpp/my_package/srv/add_two_ints2.hpp
 my_package__cpp: rosidl_generator_cpp/my_package/srv/detail/add_two_ints2__builder.hpp
 my_package__cpp: rosidl_generator_cpp/my_package/srv/detail/add_two_ints2__struct.hpp

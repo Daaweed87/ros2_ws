@@ -1,0 +1,97 @@
+[0.000000] (-) TimerEvent: {}
+[0.000286] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000361] (-) JobUnselected: {'identifier': 'div'}
+[0.000424] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000485] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000555] (input_numbers) JobQueued: {'identifier': 'input_numbers', 'dependencies': OrderedDict()}
+[0.000617] (input_numbers) JobStarted: {'identifier': 'input_numbers'}
+[0.024976] (input_numbers) JobProgress: {'identifier': 'input_numbers', 'progress': 'cmake'}
+[0.025115] (input_numbers) Command: {'cmd': ['/usr/bin/cmake', '/home/asd/ros2_ws/src/input_numbers', '-DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/input_numbers'], 'cwd': '/home/asd/ros2_ws/build/input_numbers', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('SYSTEMD_EXEC_PID', '1427'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1394,unix/asd:/tmp/.ICE-unix/1394'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4108ac02_c6d8_4356_9053_5493dac2ebf9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WDNJL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.173'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/input_numbers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.082730] (input_numbers) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.098032] (-) TimerEvent: {}
+[0.198905] (-) TimerEvent: {}
+[0.300203] (-) TimerEvent: {}
+[0.400798] (-) TimerEvent: {}
+[0.501386] (-) TimerEvent: {}
+[0.602015] (-) TimerEvent: {}
+[0.614834] (input_numbers) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.702440] (-) TimerEvent: {}
+[0.796616] (input_numbers) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.802949] (-) TimerEvent: {}
+[0.844794] (input_numbers) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.903557] (-) TimerEvent: {}
+[0.916548] (input_numbers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.004102] (-) TimerEvent: {}
+[1.009682] (input_numbers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.104670] (-) TimerEvent: {}
+[1.205215] (-) TimerEvent: {}
+[1.305781] (-) TimerEvent: {}
+[1.406332] (-) TimerEvent: {}
+[1.515770] (-) TimerEvent: {}
+[1.616264] (-) TimerEvent: {}
+[1.716794] (-) TimerEvent: {}
+[1.817357] (-) TimerEvent: {}
+[1.917921] (-) TimerEvent: {}
+[2.018485] (-) TimerEvent: {}
+[2.119055] (-) TimerEvent: {}
+[2.216146] (input_numbers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[2.219555] (-) TimerEvent: {}
+[2.222697] (input_numbers) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.319893] (-) TimerEvent: {}
+[2.420723] (-) TimerEvent: {}
+[2.521281] (-) TimerEvent: {}
+[2.622484] (-) TimerEvent: {}
+[2.723454] (-) TimerEvent: {}
+[2.823920] (-) TimerEvent: {}
+[2.882652] (input_numbers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.924503] (-) TimerEvent: {}
+[3.026105] (-) TimerEvent: {}
+[3.128571] (-) TimerEvent: {}
+[3.239856] (-) TimerEvent: {}
+[3.340433] (-) TimerEvent: {}
+[3.440992] (-) TimerEvent: {}
+[3.542529] (-) TimerEvent: {}
+[3.645056] (-) TimerEvent: {}
+[3.746537] (-) TimerEvent: {}
+[3.847210] (-) TimerEvent: {}
+[3.947780] (-) TimerEvent: {}
+[4.049211] (-) TimerEvent: {}
+[4.151358] (-) TimerEvent: {}
+[4.177822] (input_numbers) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[4.252310] (-) TimerEvent: {}
+[4.355790] (-) TimerEvent: {}
+[4.456334] (-) TimerEvent: {}
+[4.558868] (-) TimerEvent: {}
+[4.573174] (input_numbers) StderrLine: {'line': b"Error parsing '/home/asd/ros2_ws/src/input_numbers/package.xml':\n"}
+[4.659445] (-) TimerEvent: {}
+[4.721818] (input_numbers) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[4.722292] (input_numbers) StderrLine: {'line': b'  File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[4.722706] (input_numbers) StderrLine: {'line': b'    main()\n'}
+[4.722991] (input_numbers) StderrLine: {'line': b'  File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[4.723285] (input_numbers) StderrLine: {'line': b'    raise e\n'}
+[4.723572] (input_numbers) StderrLine: {'line': b'  File "/opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[4.723985] (input_numbers) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[4.724240] (input_numbers) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[4.760119] (-) TimerEvent: {}
+[4.760673] (input_numbers) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[4.760996] (input_numbers) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/asd/ros2_ws/src/input_numbers/package.xml':\n"}
+[4.761261] (input_numbers) StderrLine: {'line': b'Error(s):\n'}
+[4.761520] (input_numbers) StderrLine: {'line': b"- The generic dependency on 'rclcpp' is redundant with: exec_depend\n"}
+[4.761815] (input_numbers) StderrLine: {'line': b"- The generic dependency on 'std_msgs' is redundant with: exec_depend\n"}
+[4.802579] (input_numbers) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[4.803042] (input_numbers) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10\n'}
+[4.803341] (input_numbers) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[4.803666] (input_numbers) StderrLine: {'line': b'  /home/asd/ros2_ws/src/input_numbers/package.xml\n'}
+[4.803932] (input_numbers) StderrLine: {'line': b'  /home/asd/ros2_ws/build/input_numbers/ament_cmake_core/package.cmake)\n'}
+[4.804193] (input_numbers) StderrLine: {'line': b'  returned error code 1\n'}
+[4.804480] (input_numbers) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.804843] (input_numbers) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[4.805151] (input_numbers) StderrLine: {'line': b'  /opt/ros/iron/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[4.805567] (input_numbers) StderrLine: {'line': b'  CMakeLists.txt:26 (ament_package)\n'}
+[4.805865] (input_numbers) StderrLine: {'line': b'\n'}
+[4.806367] (input_numbers) StderrLine: {'line': b'\x1b[0m\n'}
+[4.806766] (input_numbers) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.807074] (input_numbers) StdoutLine: {'line': b'See also "/home/asd/ros2_ws/build/input_numbers/CMakeFiles/CMakeOutput.log".\n'}
+[4.831567] (input_numbers) CommandEnded: {'returncode': 1}
+[4.834302] (input_numbers) JobEnded: {'identifier': 'input_numbers', 'rc': 1}
+[4.847927] (-) EventReactorShutdown: {}

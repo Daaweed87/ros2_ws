@@ -1,0 +1,27 @@
+[0.216s] Invoking command in '/home/asd/ros2_ws/build/simple_div': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4
+[0.450s] [ 50%] [32mBuilding CXX object CMakeFiles/input_numbers.dir/src/input_numbers.cpp.o[0m
+[27.716s] [100%] [32m[1mLinking CXX executable input_numbers[0m
+[29.543s] [100%] Built target input_numbers
+[29.585s] Invoked command in '/home/asd/ros2_ws/build/simple_div' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4
+[29.756s] Invoking command in '/home/asd/ros2_ws/build/simple_div': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/asd/ros2_ws/build/simple_div
+[29.796s] -- Install configuration: ""
+[29.797s] -- Installing: /home/asd/ros2_ws/install/simple_div/lib/simple_div/input_numbers
+[29.821s] -- Set runtime path of "/home/asd/ros2_ws/install/simple_div/lib/simple_div/input_numbers" to ""
+[29.821s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div//launch
+[29.821s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/package.xml
+[29.822s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/ament_index/resource_index/package_run_dependencies/simple_div
+[29.822s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/ament_index/resource_index/parent_prefix_path/simple_div
+[29.823s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/ament_prefix_path.sh
+[29.823s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/ament_prefix_path.dsv
+[29.823s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/path.sh
+[29.824s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/path.dsv
+[29.824s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.bash
+[29.825s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.sh
+[29.826s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.zsh
+[29.826s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.dsv
+[29.826s] -- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/package.dsv
+[29.827s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/ament_index/resource_index/packages/simple_div
+[29.827s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/cmake/simple_divConfig.cmake
+[29.827s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/cmake/simple_divConfig-version.cmake
+[29.828s] -- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/package.xml
+[29.833s] Invoked command in '/home/asd/ros2_ws/build/simple_div' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/asd/ros2_ws/build/simple_div

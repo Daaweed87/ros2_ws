@@ -1,0 +1,5 @@
+Segmentation fault (core dumped)
+gmake[2]: *** [my_package__py/CMakeFiles/my_package__py.dir/build.make:138: rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c] Error 139
+gmake[2]: *** Deleting file 'rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c'
+gmake[1]: *** [CMakeFiles/Makefile2:621: my_package__py/CMakeFiles/my_package__py.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

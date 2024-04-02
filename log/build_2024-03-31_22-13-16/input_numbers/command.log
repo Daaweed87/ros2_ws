@@ -1,0 +1,6 @@
+Invoking command in '/home/asd/ros2_ws/build/input_numbers': /usr/bin/cmake /home/asd/ros2_ws/src/input_numbers -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/input_numbers
+Invoked command in '/home/asd/ros2_ws/build/input_numbers' returned '0': /usr/bin/cmake /home/asd/ros2_ws/src/input_numbers -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/input_numbers
+Invoking command in '/home/asd/ros2_ws/build/input_numbers': /usr/bin/cmake --build /home/asd/ros2_ws/build/input_numbers -- -j4 -l4
+Invoked command in '/home/asd/ros2_ws/build/input_numbers' returned '0': /usr/bin/cmake --build /home/asd/ros2_ws/build/input_numbers -- -j4 -l4
+Invoking command in '/home/asd/ros2_ws/build/input_numbers': /usr/bin/cmake --install /home/asd/ros2_ws/build/input_numbers
+Invoked command in '/home/asd/ros2_ws/build/input_numbers' returned '0': /usr/bin/cmake --install /home/asd/ros2_ws/build/input_numbers

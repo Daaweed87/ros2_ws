@@ -1,0 +1,32 @@
+[ 50%] Built target server
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/fl_div_client.cpp.o[0m
+[01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_client.cpp:87:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   87 |         auto publisher = node->create_publisher<[01;31m[Kstd_msgs[m[K::msg::Float64>("division_result", 10);
+      |                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_client.cpp:87:32:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   87 |         auto publisher = node->[01;31m[Kcreate_publisher<std_msgs::msg::Float64>[m[K("division_result", 10);
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_client.cpp:87:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [16], int)[m[K’
+   87 | o publisher = [01;31m[Knode->create_publisher<std_msgs::msg::Float64>("division_result", 10)[m[K;
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_client.cpp:1[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:196:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  196 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:196:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_client.cpp:87:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   87 | o publisher = [01;31m[Knode->create_publisher<std_msgs::msg::Float64>("division_result", 10)[m[K;
+      |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_client.cpp:88:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ is not a class, namespace, or enumeration
+   88 |         auto message = [01;31m[Kstd_msgs[m[K::msg::Float64();
+      |                        [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/fl_div_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,15 @@
+[0.049s] Invoking command in '/home/asd/ros2_ws/build/fl_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4
+[0.217s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.277s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/fl_div_client.cpp.o[0m
+[0.305s] [ 75%] Built target server
+[9.919s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[9.926s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_client.cpp:51:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[9.927s]    51 |     }
+[9.927s]       |      [01;31m[K^[m[K
+[9.927s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_client.cpp:45:33:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[9.928s]    45 | int main(int argc, char** argv) [01;36m[K{[m[K
+[9.928s]       |                                 [01;36m[K^[m[K
+[12.845s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/fl_div_client.cpp.o] Error 1
+[12.847s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[12.847s] gmake: *** [Makefile:146: all] Error 2
+[12.855s] Invoked command in '/home/asd/ros2_ws/build/fl_div' returned '2': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4

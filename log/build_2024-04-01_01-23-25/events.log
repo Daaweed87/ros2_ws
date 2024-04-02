@@ -1,0 +1,219 @@
+[0.000000] (-) TimerEvent: {}
+[0.000510] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000602] (-) JobUnselected: {'identifier': 'div'}
+[0.000686] (-) JobUnselected: {'identifier': 'div'}
+[0.000768] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000852] (fl_div) JobQueued: {'identifier': 'fl_div', 'dependencies': OrderedDict([('my_package', '/home/asd/ros2_ws/install/my_package')])}
+[0.000942] (fl_div) JobStarted: {'identifier': 'fl_div'}
+[0.052866] (fl_div) JobProgress: {'identifier': 'fl_div', 'progress': 'cmake'}
+[0.055233] (fl_div) JobProgress: {'identifier': 'fl_div', 'progress': 'build'}
+[0.057921] (fl_div) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/fl_div', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/fl_div', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asd/ros2_ws/install/my_package/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('SYSTEMD_EXEC_PID', '1427'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1394,unix/asd:/tmp/.ICE-unix/1394'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea28b228_6fec_4643_9eff_49d0a015e4aa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WDNJL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.555'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asd/ros2_ws/install/my_package:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/fl_div'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asd/ros2_ws/install/my_package:/opt/ros/iron')]), 'shell': False}
+[0.098199] (-) TimerEvent: {}
+[0.198717] (-) TimerEvent: {}
+[0.236411] (fl_div) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[0.276241] (fl_div) StdoutLine: {'line': b'[ 50%] Built target client\n'}
+[0.299242] (-) TimerEvent: {}
+[0.323936] (fl_div) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/fl_div_server.cpp.o\x1b[0m\n'}
+[0.399850] (-) TimerEvent: {}
+[0.501318] (-) TimerEvent: {}
+[0.602098] (-) TimerEvent: {}
+[0.703493] (-) TimerEvent: {}
+[0.805062] (-) TimerEvent: {}
+[0.906590] (-) TimerEvent: {}
+[1.007121] (-) TimerEvent: {}
+[1.107696] (-) TimerEvent: {}
+[1.209263] (-) TimerEvent: {}
+[1.311737] (-) TimerEvent: {}
+[1.412307] (-) TimerEvent: {}
+[1.514755] (-) TimerEvent: {}
+[1.616359] (-) TimerEvent: {}
+[1.717941] (-) TimerEvent: {}
+[1.820379] (-) TimerEvent: {}
+[1.921937] (-) TimerEvent: {}
+[2.024458] (-) TimerEvent: {}
+[2.126948] (-) TimerEvent: {}
+[2.228479] (-) TimerEvent: {}
+[2.329041] (-) TimerEvent: {}
+[2.429658] (-) TimerEvent: {}
+[2.531142] (-) TimerEvent: {}
+[2.631704] (-) TimerEvent: {}
+[2.733263] (-) TimerEvent: {}
+[2.834797] (-) TimerEvent: {}
+[2.937301] (-) TimerEvent: {}
+[3.038854] (-) TimerEvent: {}
+[3.140328] (-) TimerEvent: {}
+[3.240941] (-) TimerEvent: {}
+[3.342450] (-) TimerEvent: {}
+[3.443967] (-) TimerEvent: {}
+[3.544507] (-) TimerEvent: {}
+[3.645080] (-) TimerEvent: {}
+[3.745902] (-) TimerEvent: {}
+[3.848132] (-) TimerEvent: {}
+[3.948692] (-) TimerEvent: {}
+[4.051238] (-) TimerEvent: {}
+[4.151774] (-) TimerEvent: {}
+[4.252314] (-) TimerEvent: {}
+[4.354867] (-) TimerEvent: {}
+[4.456380] (-) TimerEvent: {}
+[4.558883] (-) TimerEvent: {}
+[4.660440] (-) TimerEvent: {}
+[4.762065] (-) TimerEvent: {}
+[4.863467] (-) TimerEvent: {}
+[4.965033] (-) TimerEvent: {}
+[5.065591] (-) TimerEvent: {}
+[5.166155] (-) TimerEvent: {}
+[5.268675] (-) TimerEvent: {}
+[5.370247] (-) TimerEvent: {}
+[5.475701] (-) TimerEvent: {}
+[5.576179] (-) TimerEvent: {}
+[5.676752] (-) TimerEvent: {}
+[5.779243] (-) TimerEvent: {}
+[5.880790] (-) TimerEvent: {}
+[5.982332] (-) TimerEvent: {}
+[6.082951] (-) TimerEvent: {}
+[6.184427] (-) TimerEvent: {}
+[6.285215] (-) TimerEvent: {}
+[6.386501] (-) TimerEvent: {}
+[6.488060] (-) TimerEvent: {}
+[6.588591] (-) TimerEvent: {}
+[6.689193] (-) TimerEvent: {}
+[6.790695] (-) TimerEvent: {}
+[6.891252] (-) TimerEvent: {}
+[6.992795] (-) TimerEvent: {}
+[7.095324] (-) TimerEvent: {}
+[7.195839] (-) TimerEvent: {}
+[7.299342] (-) TimerEvent: {}
+[7.401853] (-) TimerEvent: {}
+[7.504352] (-) TimerEvent: {}
+[7.605189] (-) TimerEvent: {}
+[7.707450] (-) TimerEvent: {}
+[7.809076] (-) TimerEvent: {}
+[7.910490] (-) TimerEvent: {}
+[8.012049] (-) TimerEvent: {}
+[8.112733] (-) TimerEvent: {}
+[8.214195] (-) TimerEvent: {}
+[8.314694] (-) TimerEvent: {}
+[8.416235] (-) TimerEvent: {}
+[8.517722] (-) TimerEvent: {}
+[8.618437] (-) TimerEvent: {}
+[8.719021] (-) TimerEvent: {}
+[8.820396] (-) TimerEvent: {}
+[8.922913] (-) TimerEvent: {}
+[9.024468] (-) TimerEvent: {}
+[9.125026] (-) TimerEvent: {}
+[9.225677] (-) TimerEvent: {}
+[9.327111] (-) TimerEvent: {}
+[9.428626] (-) TimerEvent: {}
+[9.529191] (-) TimerEvent: {}
+[9.629750] (-) TimerEvent: {}
+[9.731304] (-) TimerEvent: {}
+[9.832807] (-) TimerEvent: {}
+[9.933410] (-) TimerEvent: {}
+[10.034890] (-) TimerEvent: {}
+[10.135421] (-) TimerEvent: {}
+[10.235995] (-) TimerEvent: {}
+[10.336691] (-) TimerEvent: {}
+[10.438076] (-) TimerEvent: {}
+[10.539608] (-) TimerEvent: {}
+[10.641138] (-) TimerEvent: {}
+[10.741741] (-) TimerEvent: {}
+[10.843403] (-) TimerEvent: {}
+[10.943963] (-) TimerEvent: {}
+[11.045380] (-) TimerEvent: {}
+[11.145997] (-) TimerEvent: {}
+[11.246505] (-) TimerEvent: {}
+[11.347991] (-) TimerEvent: {}
+[11.448577] (-) TimerEvent: {}
+[11.549173] (-) TimerEvent: {}
+[11.649722] (-) TimerEvent: {}
+[11.752212] (-) TimerEvent: {}
+[11.853754] (-) TimerEvent: {}
+[11.954297] (-) TimerEvent: {}
+[12.055811] (-) TimerEvent: {}
+[12.156345] (-) TimerEvent: {}
+[12.257924] (-) TimerEvent: {}
+[12.358485] (-) TimerEvent: {}
+[12.459987] (-) TimerEvent: {}
+[12.562527] (-) TimerEvent: {}
+[12.663082] (-) TimerEvent: {}
+[12.764644] (-) TimerEvent: {}
+[12.866175] (-) TimerEvent: {}
+[12.969643] (-) TimerEvent: {}
+[13.070186] (-) TimerEvent: {}
+[13.174696] (-) TimerEvent: {}
+[13.275202] (-) TimerEvent: {}
+[13.375786] (-) TimerEvent: {}
+[13.477250] (-) TimerEvent: {}
+[13.577799] (-) TimerEvent: {}
+[13.678414] (-) TimerEvent: {}
+[13.778997] (-) TimerEvent: {}
+[13.879523] (-) TimerEvent: {}
+[13.980138] (-) TimerEvent: {}
+[14.080664] (-) TimerEvent: {}
+[14.181189] (-) TimerEvent: {}
+[14.281767] (-) TimerEvent: {}
+[14.382283] (-) TimerEvent: {}
+[14.492630] (-) TimerEvent: {}
+[14.593197] (-) TimerEvent: {}
+[14.693813] (-) TimerEvent: {}
+[14.794334] (-) TimerEvent: {}
+[14.894959] (-) TimerEvent: {}
+[14.995539] (-) TimerEvent: {}
+[15.096140] (-) TimerEvent: {}
+[15.196715] (-) TimerEvent: {}
+[15.298066] (-) TimerEvent: {}
+[15.398649] (-) TimerEvent: {}
+[15.500139] (-) TimerEvent: {}
+[15.600790] (-) TimerEvent: {}
+[15.702287] (-) TimerEvent: {}
+[15.803797] (-) TimerEvent: {}
+[15.904362] (-) TimerEvent: {}
+[16.005228] (-) TimerEvent: {}
+[16.106460] (-) TimerEvent: {}
+[16.206996] (-) TimerEvent: {}
+[16.308578] (-) TimerEvent: {}
+[16.411062] (-) TimerEvent: {}
+[16.512605] (-) TimerEvent: {}
+[16.613765] (-) TimerEvent: {}
+[16.714820] (-) TimerEvent: {}
+[16.783175] (fl_div) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[16.815082] (-) TimerEvent: {}
+[16.915906] (-) TimerEvent: {}
+[17.016662] (-) TimerEvent: {}
+[17.117220] (-) TimerEvent: {}
+[17.217814] (-) TimerEvent: {}
+[17.318370] (-) TimerEvent: {}
+[17.418946] (-) TimerEvent: {}
+[17.519645] (-) TimerEvent: {}
+[17.620267] (-) TimerEvent: {}
+[17.721266] (-) TimerEvent: {}
+[17.729001] (fl_div) StdoutLine: {'line': b'[100%] Built target server\n'}
+[17.766605] (fl_div) CommandEnded: {'returncode': 0}
+[17.821847] (-) TimerEvent: {}
+[17.871647] (fl_div) JobProgress: {'identifier': 'fl_div', 'progress': 'install'}
+[17.920643] (fl_div) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/asd/ros2_ws/build/fl_div'], 'cwd': '/home/asd/ros2_ws/build/fl_div', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asd/ros2_ws/install/my_package/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('SYSTEMD_EXEC_PID', '1427'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1394,unix/asd:/tmp/.ICE-unix/1394'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ea28b228_6fec_4643_9eff_49d0a015e4aa'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.WDNJL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.555'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asd/ros2_ws/install/my_package:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/fl_div'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asd/ros2_ws/install/my_package:/opt/ros/iron')]), 'shell': False}
+[17.922071] (-) TimerEvent: {}
+[17.948046] (fl_div) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.949023] (fl_div) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/fl_div/lib/fl_div/server\n'}
+[17.955557] (fl_div) StdoutLine: {'line': b'-- Set runtime path of "/home/asd/ros2_ws/install/fl_div/lib/fl_div/server" to ""\n'}
+[17.956253] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/lib/fl_div/client\n'}
+[17.957099] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/ament_index/resource_index/package_run_dependencies/fl_div\n'}
+[17.958228] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/ament_index/resource_index/parent_prefix_path/fl_div\n'}
+[17.958676] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/environment/ament_prefix_path.sh\n'}
+[17.959056] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/environment/ament_prefix_path.dsv\n'}
+[17.959444] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/environment/path.sh\n'}
+[17.959817] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/environment/path.dsv\n'}
+[17.960116] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/local_setup.bash\n'}
+[17.960421] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/local_setup.sh\n'}
+[17.960684] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/local_setup.zsh\n'}
+[17.960948] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/local_setup.dsv\n'}
+[17.964000] (fl_div) StdoutLine: {'line': b'-- Installing: /home/asd/ros2_ws/install/fl_div/share/fl_div/package.dsv\n'}
+[17.966970] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/ament_index/resource_index/packages/fl_div\n'}
+[17.967500] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/cmake/fl_divConfig.cmake\n'}
+[17.967833] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/cmake/fl_divConfig-version.cmake\n'}
+[17.968173] (fl_div) StdoutLine: {'line': b'-- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/package.xml\n'}
+[17.969954] (fl_div) CommandEnded: {'returncode': 0}
+[18.022907] (-) TimerEvent: {}
+[18.123670] (-) TimerEvent: {}
+[18.124349] (fl_div) JobEnded: {'identifier': 'fl_div', 'rc': 0}
+[18.126554] (-) EventReactorShutdown: {}

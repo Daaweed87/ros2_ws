@@ -1,0 +1,65 @@
+[0.029s] Invoking command in '/home/asd/ros2_ws/build/simple_div': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4
+[0.165s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.709s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.891s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.940s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.015s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.478s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.484s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.115s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.567s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[4.828s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[4.866s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[6.135s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[7.672s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.351s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.434s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[8.515s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.515s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.516s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.684s] -- Configuring done
+[9.112s] -- Generating done
+[9.129s] -- Build files have been written to: /home/asd/ros2_ws/build/simple_div
+[9.258s] [  2%] [32mBuilding CXX object CMakeFiles/server.dir/src/simple_div.cpp.o[0m
+[9.262s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[9.293s] [  5%] Built target ament_cmake_python_copy_simple_div
+[10.394s] running egg_info
+[10.396s] creating simple_div.egg-info
+[10.397s] writing simple_div.egg-info/PKG-INFO
+[10.397s] writing dependency_links to simple_div.egg-info/dependency_links.txt
+[10.398s] writing top-level names to simple_div.egg-info/top_level.txt
+[10.398s] writing manifest file 'simple_div.egg-info/SOURCES.txt'
+[10.418s] reading manifest file 'simple_div.egg-info/SOURCES.txt'
+[10.423s] writing manifest file 'simple_div.egg-info/SOURCES.txt'
+[10.504s] [  5%] Built target ament_cmake_python_build_simple_div_egg
+[10.601s] [  5%] Built target simple_div__rosidl_generator_type_description
+[10.646s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[10.687s] [ 11%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.909s] [ 11%] Built target simple_div__cpp
+[12.040s] [ 13%] [32mBuilding C object CMakeFiles/simple_div__rosidl_generator_c.dir/rosidl_generator_c/simple_div/msg/detail/two_floats__type_support.c.o[0m
+[12.043s] [ 16%] [32mBuilding C object CMakeFiles/simple_div__rosidl_generator_c.dir/rosidl_generator_c/simple_div/msg/detail/two_floats__functions.c.o[0m
+[12.047s] [ 19%] [32mBuilding C object CMakeFiles/simple_div__rosidl_generator_c.dir/rosidl_generator_c/simple_div/msg/detail/two_floats__description.c.o[0m
+[13.413s] [ 22%] [32m[1mLinking C shared library libsimple_div__rosidl_generator_c.so[0m
+[14.194s] [ 22%] Built target simple_div__rosidl_generator_c
+[14.230s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.231s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.250s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.378s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_div__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/simple_div/msg/two_floats__type_support.cpp.o[0m
+[15.530s] [ 36%] [32mBuilding CXX object CMakeFiles/simple_div__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/simple_div/msg/detail/two_floats__type_support_c.cpp.o[0m
+[15.572s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksimple_div/TwoFloats.hpp: No such file or directory
+[15.573s]     2 | #include [01;31m[K"simple_div/TwoFloats.hpp"[m[K // Importáljuk a saját üzenet típust
+[15.573s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.573s] compilation terminated.
+[15.577s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/simple_div.cpp.o] Error 1
+[15.577s] gmake[1]: *** [CMakeFiles/Makefile2:623: CMakeFiles/server.dir/all] Error 2
+[15.578s] gmake[1]: *** Waiting for unfinished jobs....
+[15.591s] [ 38%] [32mBuilding CXX object CMakeFiles/simple_div__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/simple_div/msg/detail/dds_fastrtps/two_floats__type_support.cpp.o[0m
+[17.546s] [ 41%] [32m[1mLinking CXX shared library libsimple_div__rosidl_typesupport_fastrtps_c.so[0m
+[17.585s] [ 44%] [32m[1mLinking CXX shared library libsimple_div__rosidl_typesupport_cpp.so[0m
+[17.892s] [ 44%] Built target simple_div__rosidl_typesupport_cpp
+[18.021s] [ 44%] Built target simple_div__rosidl_typesupport_fastrtps_c
+[18.209s] [ 47%] [32m[1mLinking CXX shared library libsimple_div__rosidl_typesupport_fastrtps_cpp.so[0m
+[18.504s] [ 47%] Built target simple_div__rosidl_typesupport_fastrtps_cpp
+[18.508s] gmake: *** [Makefile:146: all] Error 2
+[18.515s] Invoked command in '/home/asd/ros2_ws/build/simple_div' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4

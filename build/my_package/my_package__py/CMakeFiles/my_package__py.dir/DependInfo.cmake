@@ -17,6 +17,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/msg/__init__.py" "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/msg/_add_two_ints2.py" "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/msg/_add_two_ints2_s.c" "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/msg/_two_floats.py" "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/msg/_two_floats_s.c" "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/srv/__init__.py" "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/srv/_add_two_ints2.py" "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/srv/_add_two_ints2_s.c" "/home/asd/ros2_ws/build/my_package/rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c"

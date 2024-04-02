@@ -1,0 +1,24 @@
+[0.374s] Invoking command in '/home/asd/ros2_ws/build/simple_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4
+[0.473s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.991s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[1.142s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.192s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.263s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.568s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.575s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[3.178s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.594s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[4.903s] -- Found my_package: 0.0.0 (/home/asd/ros2_ws/install/my_package/share/my_package/cmake)
+[8.086s] -- Configuring done
+[8.145s] -- Generating done
+[8.155s] -- Build files have been written to: /home/asd/ros2_ws/build/simple_div
+[8.278s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/simple_div.cpp.o[0m
+[9.445s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksimple_div/TwoFloats.hpp: No such file or directory
+[9.445s]     2 | #include [01;31m[K"simple_div/TwoFloats.hpp"[m[K // Importáljuk a saját üzenet típust
+[9.445s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.446s] compilation terminated.
+[9.455s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/simple_div.cpp.o] Error 1
+[9.455s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/server.dir/all] Error 2
+[9.455s] gmake: *** [Makefile:146: all] Error 2
+[9.461s] Invoked command in '/home/asd/ros2_ws/build/simple_div' returned '2': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "my_package/srv/detail/add_two_ints2__type_support.h"
+#include "my_package/srv/detail/add_two_ints2__functions.h"
 #include "my_package/srv/detail/add_two_ints2__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
-#include "my_package/srv/detail/add_two_ints2__functions.h"
+#include "my_package/srv/detail/add_two_ints2__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

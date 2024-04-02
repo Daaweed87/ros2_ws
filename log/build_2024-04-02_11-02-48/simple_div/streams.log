@@ -1,0 +1,74 @@
+[0.079s] Invoking command in '/home/asd/ros2_ws/build/simple_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4
+[0.309s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.393s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/simple_div.cpp.o[0m
+[9.816s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:33:51:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs::msg[m[K’ does not name a type
+[9.816s]    33 |     void div_callback_string(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg) const
+[9.817s]       |                                                   [01;31m[K^~~~~~[m[K
+[9.817s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:33:69:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+[9.817s]    33 | d div_callback_string(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K) const
+[9.818s]       |                                                              [01;31m[K^~~[m[K
+[9.818s] 
+[9.818s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:33:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[9.818s]    33 | d div_callback_string[34m[K([m[Kconst std_msgs::msg::String::SharedPtr[01;31m[K [m[K[32m[Kmsg[m[K) const
+[9.819s]       |                      [34m[K~[m[K                                      [01;31m[K^[m[K[32m[K~~~[m[K
+[9.819s]       |                                                             [32m[K)[m[K
+[9.819s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:33:59:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[9.819s]    33 |     void div_callback_string(const std_msgs::msg::String::[01;31m[KSharedPtr[m[K msg) const
+[9.820s]       |                                                           [01;31m[K^~~~~~~~~[m[K
+[9.820s]       |                                                                    [32m[K;[m[K
+[9.825s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:33:69:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+[9.825s]    33 | d div_callback_string(const std_msgs::msg::String::SharedPtr [01;31m[Kmsg[m[K) const
+[9.825s]       |                                                              [01;31m[K^~~[m[K
+[9.826s] 
+[10.002s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:39:41:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[10.003s]    39 |     rclcpp::Subscription<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr subscription_string_;
+[10.003s]       |                                         [01;31m[K^~~~~~[m[K
+[10.003s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:39:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.003s]    39 |     rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr subscription_string_;
+[10.004s]       |                                               [01;31m[K^[m[K
+[10.004s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:39:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[10.004s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:39:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[10.005s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:39:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[10.005s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:39:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[10.005s]    39 |     rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K subscription_string_;
+[10.006s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[10.006s]       |                                                           [32m[K;[m[K
+[10.017s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:39:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_string_[m[K’ does not name a type
+[10.017s]    39 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksubscription_string_[m[K;
+[10.022s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[10.105s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:[m[K In constructor ‘[01m[KSimpleDiv::SimpleDiv()[m[K’:
+[10.105s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_string_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscription_[m[K’?
+[10.106s]    12 |         [01;31m[Ksubscription_string_[m[K = this->create_subscription<std_msgs::msg::String>(
+[10.106s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[10.106s]       |         [32m[Ksubscription_[m[K
+[10.107s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:12:73:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[10.107s]    12 | ubscription_string_ = this->create_subscription<std_msgs::msg::[01;31m[KString[m[K>(
+[10.107s]       |                                                                [01;31m[K^~~~~~[m[K
+[10.108s] 
+[10.113s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:12:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSimpleDiv::create_subscription<<expression error> >(const char [14], int, std::_Bind_helper<false, void (SimpleDiv::*)(...), SimpleDiv*, const std::_Placeholder<1>&>::type)[m[K’
+[10.113s]    12 | ubscription_string_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+[10.114s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[10.114s] 
+[10.114s]    13 | [01;31m[K   "input_numbers", 10, std::bind(&SimpleDiv::div_callback_string, this, std::placeholders::_1))[m[K;
+[10.114s]       |    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.115s] 
+[10.115s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:1611[m[K,
+[10.115s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[10.115s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[10.116s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[10.116s]                  from [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:1[m[K:
+[10.116s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[10.116s]    92 | [01;36m[KNode[m[K::create_subscription(
+[10.117s]       | [01;36m[K^~~~[m[K
+[10.117s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node_impl.hpp:92:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[10.117s] [01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:12:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.118s]    12 | ubscription_string_ = [01;31m[Kthis->create_subscription<std_msgs::msg::String>([m[K
+[10.118s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[10.129s] 
+[10.129s]    13 | [01;31m[K   "input_numbers", 10, std::bind(&SimpleDiv::div_callback_string, this, std::placeholders::_1))[m[K;
+[10.130s]       |    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.130s] 
+[17.340s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/simple_div.cpp.o] Error 1
+[17.341s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/server.dir/all] Error 2
+[17.342s] gmake: *** [Makefile:146: all] Error 2
+[17.349s] Invoked command in '/home/asd/ros2_ws/build/simple_div' returned '2': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4

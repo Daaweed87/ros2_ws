@@ -1,0 +1,68 @@
+[0.046s] Invoking command in '/home/asd/ros2_ws/build/simple_div': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4
+[0.158s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.670s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.811s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.860s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.929s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.019s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.167s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.173s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.752s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.089s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[4.304s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[4.341s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[5.636s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[7.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.857s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[7.943s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.943s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.944s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.084s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[8.084s]   add_executable cannot create target "simple_div" because another target
+[8.084s]   with the same name already exists.  The existing target is a custom target
+[8.090s]   created in source directory "/home/asd/ros2_ws/src/simple_div".  See
+[8.090s]   documentation for policy CMP0002 for more details.
+[8.090s] 
+[8.090s] [0m
+[8.091s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:128 (target_compile_definitions):
+[8.091s]   target_compile_definitions called with non-compilable target type
+[8.091s] Call Stack (most recent call first):
+[8.091s]   CMakeLists.txt:18 (ament_target_dependencies)
+[8.092s] 
+[8.092s] [0m
+[8.092s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:141 (target_include_directories):
+[8.093s]   target_include_directories called with non-compilable target type
+[8.093s] Call Stack (most recent call first):
+[8.093s]   CMakeLists.txt:18 (ament_target_dependencies)
+[8.093s] 
+[8.094s] [0m
+[8.094s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):
+[8.094s]   Utility target "simple_div" must not be used as the target of a
+[8.094s]   target_link_libraries call.
+[8.095s] Call Stack (most recent call first):
+[8.095s]   CMakeLists.txt:18 (ament_target_dependencies)
+[8.095s] 
+[8.096s] [0m
+[8.096s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:147 (target_include_directories):
+[8.096s]   target_include_directories called with non-compilable target type
+[8.096s] Call Stack (most recent call first):
+[8.097s]   CMakeLists.txt:18 (ament_target_dependencies)
+[8.097s] 
+[8.097s] [0m
+[8.098s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:151 (target_link_libraries):
+[8.098s]   Utility target "simple_div" must not be used as the target of a
+[8.098s]   target_link_libraries call.
+[8.099s] Call Stack (most recent call first):
+[8.099s]   CMakeLists.txt:18 (ament_target_dependencies)
+[8.099s] 
+[8.099s] [0m
+[8.100s] [31mCMake Error at CMakeLists.txt:22 (install):
+[8.100s]   install TARGETS given target "simple_div" which is not an executable,
+[8.100s]   library, or module.
+[8.101s] 
+[8.101s] [0m
+[8.110s] -- Configuring incomplete, errors occurred!
+[8.110s] See also "/home/asd/ros2_ws/build/simple_div/CMakeFiles/CMakeOutput.log".
+[8.133s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[8.138s] Invoked command in '/home/asd/ros2_ws/build/simple_div' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/simple_div -- -j4 -l4

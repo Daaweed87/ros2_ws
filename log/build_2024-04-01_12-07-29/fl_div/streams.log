@@ -1,0 +1,126 @@
+[0.046s] Invoking command in '/home/asd/ros2_ws/build/fl_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4
+[0.310s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[1.372s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.429s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.050s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[3.337s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[3.362s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[4.249s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.695s] -- Found my_package: 0.0.0 (/home/asd/ros2_ws/install/my_package/share/my_package/cmake)
+[9.122s] -- Configuring done
+[9.284s] -- Generating done
+[9.294s] -- Build files have been written to: /home/asd/ros2_ws/build/fl_div
+[9.388s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[9.390s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[9.472s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/fl_div_client.cpp.o[0m
+[9.508s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/fl_div_server.cpp.o[0m
+[18.849s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)[m[K’:
+[18.849s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:23:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> >, std::allocator<void> >::publish(std::shared_ptr<std_msgs::msg::Float64_<std::allocator<void> > >&)[m[K’
+[18.849s]    23 |     [01;31m[Kpublisher->publish(result_msg)[m[K;
+[18.849s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[18.887s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[18.890s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[18.890s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[18.903s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[18.904s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[18.904s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[18.904s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[18.905s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[18.905s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[18.905s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[18.906s]                  from [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1[m[K:
+[18.906s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:227:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [with T = T; MessageT = std_msgs::msg::Float64_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[18.906s]   227 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, ROSMessageTypeDeleter> msg)
+[18.907s]       |   [01;36m[K^~~~~~~[m[K
+[18.907s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:227:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.907s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:23:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<std_msgs::msg::Float64_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<std_msgs::msg::Float64_<std::allocator<void> > > >[m[K’
+[18.912s]    23 |     [01;36m[Kpublisher->publish(result_msg)[m[K;
+[18.912s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[18.912s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[18.912s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[18.913s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[18.913s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[18.913s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[18.914s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[18.914s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[18.914s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[18.914s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[18.915s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[18.915s]                  from [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1[m[K:
+[18.915s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:268:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = std_msgs::msg::Float64_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[18.916s]   268 |   [01;36m[Kpublish[m[K(const T & msg)
+[18.916s]       |   [01;36m[K^~~~~~~[m[K
+[18.916s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:268:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.916s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[18.917s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[18.917s]                  from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+[18.917s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[18.917s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:165[m[K,
+[18.918s]                  from [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1[m[K:
+[18.918s] /usr/include/c++/11/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void][m[K’:
+[18.918s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:268:3:[m[K   required by substitution of ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, std_msgs::msg::Float64_<std::allocator<void> > >::value), void> rclcpp::Publisher<std_msgs::msg::Float64_<std::allocator<void> >, std::allocator<void> >::publish<T>(const T&) [with T = std::shared_ptr<std_msgs::msg::Float64_<std::allocator<void> > >][m[K’
+[18.919s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:23:23:[m[K   required from here
+[18.924s] [01m[K/usr/include/c++/11/type_traits:2579:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[18.924s]  2579 |     using [01;31m[Kenable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+[18.924s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[18.925s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[18.925s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[18.925s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[18.926s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[18.926s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[18.926s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[18.927s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[18.927s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[18.927s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[18.927s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[18.928s]                  from [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1[m[K:
+[18.928s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:298:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [with T = T; MessageT = std_msgs::msg::Float64_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[18.928s]   298 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, PublishedTypeDeleter> msg)
+[18.929s]       |   [01;36m[K^~~~~~~[m[K
+[18.929s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:298:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.929s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:23:23:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<std_msgs::msg::Float64_<std::allocator<void> > >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<std_msgs::msg::Float64_<std::allocator<void> > > >[m[K’
+[18.929s]    23 |     [01;36m[Kpublisher->publish(result_msg)[m[K;
+[18.930s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[18.930s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[18.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[18.930s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[18.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[18.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[18.931s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[18.932s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[18.932s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[18.932s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[18.933s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[18.933s]                  from [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:1[m[K:
+[18.933s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:340:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = std_msgs::msg::Float64_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[18.933s]   340 |   [01;36m[Kpublish[m[K(const T & msg)
+[18.934s]       |   [01;36m[K^~~~~~~[m[K
+[18.934s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:340:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.934s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:359:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = std_msgs::msg::Float64_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s][m[K’
+[18.934s]   359 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+[18.935s]       |   [01;36m[K^~~~~~~[m[K
+[18.935s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:359:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<std_msgs::msg::Float64_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_s&[m[K’}
+[18.935s]   359 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+[18.936s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.936s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:365:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = std_msgs::msg::Float64_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[18.936s]   365 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+[18.936s]       |   [01;36m[K^~~~~~~[m[K
+[18.937s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:365:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<std_msgs::msg::Float64_<std::allocator<void> > >[m[K’ to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+[18.937s]   365 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+[18.937s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[18.937s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:379:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [with MessageT = std_msgs::msg::Float64_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = std_msgs::msg::Float64_<std::allocator<void> >][m[K’
+[18.938s]   379 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+[18.938s]       |   [01;36m[K^~~~~~~[m[K
+[18.938s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/publisher.hpp:379:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<std_msgs::msg::Float64_<std::allocator<void> > >[m[K’ to ‘[01m[Krclcpp::LoanedMessage<std_msgs::msg::Float64_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+[18.939s]   379 | ublish([01;36m[Krclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg[m[K)
+[18.939s]       |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[18.939s] 
+[22.686s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/fl_div_server.cpp.o] Error 1
+[22.687s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[22.687s] gmake[1]: *** Waiting for unfinished jobs....
+[24.268s] [ 75%] [32m[1mLinking CXX executable client[0m
+[25.801s] [ 75%] Built target client
+[25.805s] gmake: *** [Makefile:146: all] Error 2
+[25.811s] Invoked command in '/home/asd/ros2_ws/build/fl_div' returned '2': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4

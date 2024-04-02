@@ -1,0 +1,6 @@
+{
+  "package_name": "simple_div",
+  "non_idl_tuples": [
+    "/home/asd/ros2_ws/src/simple_div:msg/TwoFloats.msg"
+  ]
+}

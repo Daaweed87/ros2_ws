@@ -1,0 +1,18 @@
+[0.035s] Invoking command in '/home/asd/ros2_ws/build/float_division': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/float_division -- -j4 -l4
+[0.211s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/input_numbers_client.cpp.o[0m
+[0.211s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/input_numbers_server.cpp.o[0m
+[1.252s] [01m[K/home/asd/ros2_ws/src/float_division/src/input_numbers_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_package/srv/DivideTwoFloats.hpp: No such file or directory
+[1.252s]     2 | #include [01;31m[K"my_package/srv/DivideTwoFloats.hpp"[m[K
+[1.252s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.253s] compilation terminated.
+[1.261s] gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/input_numbers_client.cpp.o] Error 1
+[1.261s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+[1.261s] gmake[1]: *** Waiting for unfinished jobs....
+[1.286s] [01m[K/home/asd/ros2_ws/src/float_division/src/input_numbers_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmy_package/srv/DivideTwoFloats.hpp: No such file or directory
+[1.286s]     2 | #include [01;31m[K"my_package/srv/DivideTwoFloats.hpp"[m[K // Importáljuk a saját szolgáltatás fájlt
+[1.286s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.287s] compilation terminated.
+[1.295s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/input_numbers_server.cpp.o] Error 1
+[1.295s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[1.296s] gmake: *** [Makefile:146: all] Error 2
+[1.301s] Invoked command in '/home/asd/ros2_ws/build/float_division' returned '2': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/float_division -- -j4 -l4

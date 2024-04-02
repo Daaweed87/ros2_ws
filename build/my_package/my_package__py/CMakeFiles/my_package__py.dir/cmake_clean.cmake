@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/my_package/msg/__init__.py"
   "../rosidl_generator_py/my_package/msg/_add_two_ints2.py"
   "../rosidl_generator_py/my_package/msg/_add_two_ints2_s.c"
+  "../rosidl_generator_py/my_package/msg/_two_floats.py"
+  "../rosidl_generator_py/my_package/msg/_two_floats_s.c"
   "../rosidl_generator_py/my_package/srv/__init__.py"
   "../rosidl_generator_py/my_package/srv/_add_two_ints2.py"
   "../rosidl_generator_py/my_package/srv/_add_two_ints2_s.c"

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_package__rosidl_generator_py.dir/rosidl_generator_py/my_package/msg/_add_two_ints2_s.c.o"
   "CMakeFiles/my_package__rosidl_generator_py.dir/rosidl_generator_py/my_package/msg/_add_two_ints2_s.c.o.d"
+  "CMakeFiles/my_package__rosidl_generator_py.dir/rosidl_generator_py/my_package/msg/_two_floats_s.c.o"
+  "CMakeFiles/my_package__rosidl_generator_py.dir/rosidl_generator_py/my_package/msg/_two_floats_s.c.o.d"
   "CMakeFiles/my_package__rosidl_generator_py.dir/rosidl_generator_py/my_package/srv/_add_two_ints2_s.c.o"
   "CMakeFiles/my_package__rosidl_generator_py.dir/rosidl_generator_py/my_package/srv/_add_two_ints2_s.c.o.d"
   "rosidl_generator_py/my_package/libmy_package__rosidl_generator_py.pdb"

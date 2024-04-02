@@ -1,0 +1,7 @@
+[01m[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ksimple_div/TwoFloats.hpp: No such file or directory
+    2 | #include [01;31m[K"simple_div/TwoFloats.hpp"[m[K // Importáljuk a saját üzenet típust
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/simple_div.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/server.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

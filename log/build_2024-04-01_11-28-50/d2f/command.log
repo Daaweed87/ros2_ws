@@ -1,0 +1,2 @@
+Invoking command in '/home/asd/ros2_ws/build/d2f': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/d2f -- -j4 -l4
+Invoked command in '/home/asd/ros2_ws/build/d2f' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/d2f -- -j4 -l4

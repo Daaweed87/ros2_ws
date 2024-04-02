@@ -1,0 +1,30 @@
+[0.156s] Invoking command in '/home/asd/ros2_ws/build/fl_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4
+[0.341s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.343s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.439s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/fl_div_server.cpp.o[0m
+[0.440s] [ 75%] Built target client
+[19.423s] [100%] [32m[1mLinking CXX executable server[0m
+[20.361s] [100%] Built target server
+[20.399s] Invoked command in '/home/asd/ros2_ws/build/fl_div' returned '0': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4
+[20.510s] Invoking command in '/home/asd/ros2_ws/build/fl_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asd/ros2_ws/build/fl_div
+[20.533s] -- Install configuration: ""
+[20.534s] -- Installing: /home/asd/ros2_ws/install/fl_div/lib/fl_div/server
+[20.544s] -- Set runtime path of "/home/asd/ros2_ws/install/fl_div/lib/fl_div/server" to ""
+[20.545s] -- Installing: /home/asd/ros2_ws/install/fl_div/lib/fl_div/client
+[20.549s] -- Set runtime path of "/home/asd/ros2_ws/install/fl_div/lib/fl_div/client" to ""
+[20.549s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/ament_index/resource_index/package_run_dependencies/fl_div
+[20.549s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/ament_index/resource_index/parent_prefix_path/fl_div
+[20.550s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/environment/ament_prefix_path.sh
+[20.550s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/environment/ament_prefix_path.dsv
+[20.551s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/environment/path.sh
+[20.551s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/environment/path.dsv
+[20.551s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/local_setup.bash
+[20.552s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/local_setup.sh
+[20.552s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/local_setup.zsh
+[20.552s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/local_setup.dsv
+[20.553s] -- Installing: /home/asd/ros2_ws/install/fl_div/share/fl_div/package.dsv
+[20.553s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/ament_index/resource_index/packages/fl_div
+[20.553s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/cmake/fl_divConfig.cmake
+[20.553s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/cmake/fl_divConfig-version.cmake
+[20.554s] -- Up-to-date: /home/asd/ros2_ws/install/fl_div/share/fl_div/package.xml
+[20.560s] Invoked command in '/home/asd/ros2_ws/build/fl_div' returned '0': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/asd/ros2_ws/build/fl_div

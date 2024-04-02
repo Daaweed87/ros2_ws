@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target input_numbers[0m
+[100%] Built target input_numbers
+-- Install configuration: ""
+-- Up-to-date: /home/asd/ros2_ws/install/simple_div/lib/simple_div/input_numbers
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div//launch
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/package.xml
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/ament_index/resource_index/package_run_dependencies/simple_div
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/ament_index/resource_index/parent_prefix_path/simple_div
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/ament_prefix_path.sh
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/ament_prefix_path.dsv
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/path.sh
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/path.dsv
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.bash
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.sh
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.zsh
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.dsv
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/package.dsv
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/ament_index/resource_index/packages/simple_div
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/cmake/simple_divConfig.cmake
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/cmake/simple_divConfig-version.cmake
+-- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/package.xml

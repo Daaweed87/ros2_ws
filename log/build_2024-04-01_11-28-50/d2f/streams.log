@@ -1,0 +1,50 @@
+[0.054s] Invoking command in '/home/asd/ros2_ws/build/d2f': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/d2f -- -j4 -l4
+[0.164s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.696s] -- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)
+[0.919s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.989s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.104s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.221s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.323s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[4.114s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[4.283s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[4.945s] [31mCMake Error at /opt/ros/iron/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[4.946s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name d2f
+[4.946s]   --arguments-file
+[4.946s]   /home/asd/ros2_ws/build/d2f/rosidl_adapter__arguments__d2f.json
+[4.947s]   --output-dir /home/asd/ros2_ws/build/d2f/rosidl_adapter/d2f --output-file
+[4.947s]   /home/asd/ros2_ws/build/d2f/rosidl_adapter/d2f.idls) returned error code 1:
+[4.947s] 
+[4.947s]   Traceback (most recent call last):
+[4.948s] 
+[4.948s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[4.948s]       return _run_code(code, main_globals, None,
+[4.949s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[4.949s]       exec(code, run_globals)
+[4.949s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[4.950s]       sys.exit(main())
+[4.950s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/main.py", line 53, in main
+[4.950s]       abs_idl_file = convert_to_idl(
+[4.951s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[4.951s]       return convert_msg_to_idl(
+[4.951s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[4.951s]       msg = parse_message_string(package_name, input_file.stem, content)
+[4.952s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string
+[4.952s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[4.962s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 389, in __init__
+[4.963s]       self.base_type = BaseType(
+[4.963s]     File "/opt/ros/iron/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 206, in __init__
+[4.963s]       raise InvalidResourceName(
+[4.964s] 
+[4.964s]   rosidl_adapter.parser.InvalidResourceName: 'd2f' is an invalid message
+[4.964s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[4.964s] 
+[4.965s] Call Stack (most recent call first):
+[4.965s]   /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[4.965s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[4.965s] 
+[4.966s] [0m
+[4.966s] -- Configuring incomplete, errors occurred!
+[4.966s] See also "/home/asd/ros2_ws/build/d2f/CMakeFiles/CMakeOutput.log".
+[4.976s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[4.982s] Invoked command in '/home/asd/ros2_ws/build/d2f' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/d2f -- -j4 -l4

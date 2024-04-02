@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from d2f/msg/DivTwoFloats.msg
+// generated code does not contain a copyright notice
+
+
+module d2f {
+  module msg {
+    struct DivTwoFloats {
+      double a;
+
+      double b;
+    };
+  };
+};

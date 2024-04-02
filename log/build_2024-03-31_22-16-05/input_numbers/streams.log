@@ -1,0 +1,22 @@
+[0.036s] Invoking command in '/home/asd/ros2_ws/build/input_numbers': /usr/bin/cmake --build /home/asd/ros2_ws/build/input_numbers -- -j4 -l4
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target input_numbers[0m
+[0.279s] [ 50%] [32mBuilding CXX object CMakeFiles/input_numbers.dir/src/input_numbers.cpp.o[0m
+[9.632s] [01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:44:16:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[9.632s]    44 |     int szam1_;
+[9.632s]       |                [01;31m[K^[m[K
+[9.633s] [01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:7:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[9.633s]     7 | [01;36m[K{[m[K
+[9.633s]       | [01;36m[K^[m[K
+[9.691s] [01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:[m[K In member function ‘[01m[Kvoid InputNumbersNode::masodik_szam_callback(std_msgs::msg::Int32_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.691s] [01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kszam2_[m[K’ was not declared in this scope; did you mean ‘[01m[Kszam1_[m[K’?
+[9.692s]    33 |         [01;31m[Kszam2_[m[K = msg->data;
+[9.692s]       |         [01;31m[K^~~~~~[m[K
+[9.692s]       |         [32m[Kszam1_[m[K
+[9.693s] [01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:[m[K At global scope:
+[9.693s] [01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:44:16:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[9.693s]    44 |     int szam1_;
+[9.693s]       |                [01;31m[K^[m[K
+[15.868s] gmake[2]: *** [CMakeFiles/input_numbers.dir/build.make:76: CMakeFiles/input_numbers.dir/src/input_numbers.cpp.o] Error 1
+[15.871s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/input_numbers.dir/all] Error 2
+[15.872s] gmake: *** [Makefile:146: all] Error 2
+[15.875s] Invoked command in '/home/asd/ros2_ws/build/input_numbers' returned '2': /usr/bin/cmake --build /home/asd/ros2_ws/build/input_numbers -- -j4 -l4

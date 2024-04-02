@@ -1,0 +1,4 @@
+source;share/d2f/local_setup.bash
+source;share/d2f/local_setup.dsv
+source;share/d2f/local_setup.sh
+source;share/d2f/local_setup.zsh

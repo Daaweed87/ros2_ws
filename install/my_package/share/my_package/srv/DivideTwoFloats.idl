@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_package/srv/DivideTwoFloats.srv
+// generated code does not contain a copyright notice
+
+
+module my_package {
+  module srv {
+    struct DivideTwoFloats_Request {
+      double a;
+
+      double b;
+    };
+    struct DivideTwoFloats_Response {
+      double res;
+    };
+  };
+};

@@ -1,0 +1,29 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/input_numbers.dir/src/input_numbers.cpp.o[0m
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:[m[K In function ‘[01m[Kbool isStringAValidNumber(const string&)[m[K’:
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:10:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   10 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:[m[K In function ‘[01m[Kdouble stod_with_comma(const string&)[m[K’:
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:14:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   14 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable input_numbers[0m
+[100%] Built target input_numbers
+-- Install configuration: ""
+-- Installing: /home/asd/ros2_ws/install/input_numbers/lib/input_numbers/input_numbers
+-- Set runtime path of "/home/asd/ros2_ws/install/input_numbers/lib/input_numbers/input_numbers" to ""
+-- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/ament_index/resource_index/package_run_dependencies/input_numbers
+-- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/ament_index/resource_index/parent_prefix_path/input_numbers
+-- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/environment/ament_prefix_path.sh
+-- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/environment/path.sh
+-- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/environment/path.dsv
+-- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/local_setup.bash
+-- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/local_setup.sh
+-- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/local_setup.zsh
+-- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/local_setup.dsv
+-- Installing: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/package.dsv
+-- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/ament_index/resource_index/packages/input_numbers
+-- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/cmake/input_numbersConfig.cmake
+-- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/cmake/input_numbersConfig-version.cmake
+-- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/package.xml

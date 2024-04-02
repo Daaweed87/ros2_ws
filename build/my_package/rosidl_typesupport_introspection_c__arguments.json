@@ -4,6 +4,7 @@
   "template_dir": "/opt/ros/iron/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
     "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package:msg/AddTwoInts2.idl",
+    "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package:msg/TwoFloats.idl",
     "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package:srv/AddTwoInts2.idl"
   ],
   "ros_interface_dependencies": [
@@ -58,6 +59,7 @@
     "/opt/ros/iron/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/iron/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
     "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package/msg/AddTwoInts2.idl",
+    "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package/msg/TwoFloats.idl",
     "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package/srv/AddTwoInts2.idl",
     "/opt/ros/iron/share/example_interfaces/action/Fibonacci.idl",
     "/opt/ros/iron/share/example_interfaces/msg/Bool.idl",

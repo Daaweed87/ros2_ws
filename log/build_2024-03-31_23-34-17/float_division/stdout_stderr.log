@@ -1,0 +1,16 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/input_numbers_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/input_numbers_client.cpp.o[0m
+[01m[K/home/asd/ros2_ws/src/float_division/src/input_numbers_server.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kinstall/my_package/include/my_package/my_package/srv/DivideTwoFloats.hpp: No such file or directory
+    2 | #include [01;31m[K"install/my_package/include/my_package/my_package/srv/DivideTwoFloats.hpp"[m[K // Importáljuk a saját szolgáltatás fájlt
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/input_numbers_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/asd/ros2_ws/src/float_division/src/input_numbers_client.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kinstall/my_package/include/my_package/my_package/srv/DivideTwoFloats.hpp: No such file or directory
+    2 | #include [01;31m[K"install/my_package/include/my_package/my_package/srv/DivideTwoFloats.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/input_numbers_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

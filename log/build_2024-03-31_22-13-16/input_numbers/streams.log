@@ -1,0 +1,41 @@
+[0.032s] Invoking command in '/home/asd/ros2_ws/build/input_numbers': /usr/bin/cmake /home/asd/ros2_ws/src/input_numbers -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/input_numbers
+[0.083s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.571s] -- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)
+[0.723s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.773s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.855s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.943s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.110s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[2.116s] -- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.688s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.959s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[4.434s] -- Configuring done
+[4.483s] -- Generating done
+[4.507s] -- Build files have been written to: /home/asd/ros2_ws/build/input_numbers
+[4.511s] Invoked command in '/home/asd/ros2_ws/build/input_numbers' returned '0': /usr/bin/cmake /home/asd/ros2_ws/src/input_numbers -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/asd/ros2_ws/install/input_numbers
+[4.516s] Invoking command in '/home/asd/ros2_ws/build/input_numbers': /usr/bin/cmake --build /home/asd/ros2_ws/build/input_numbers -- -j4 -l4
+[4.661s] [35m[1mConsolidate compiler generated dependencies of target input_numbers[0m
+[4.753s] [ 50%] [32mBuilding CXX object CMakeFiles/input_numbers.dir/src/input_numbers.cpp.o[0m
+[20.245s] [100%] [32m[1mLinking CXX executable input_numbers[0m
+[21.032s] [100%] Built target input_numbers
+[21.067s] Invoked command in '/home/asd/ros2_ws/build/input_numbers' returned '0': /usr/bin/cmake --build /home/asd/ros2_ws/build/input_numbers -- -j4 -l4
+[21.268s] Invoking command in '/home/asd/ros2_ws/build/input_numbers': /usr/bin/cmake --install /home/asd/ros2_ws/build/input_numbers
+[21.292s] -- Install configuration: ""
+[21.293s] -- Installing: /home/asd/ros2_ws/install/input_numbers/lib/input_numbers/input_numbers
+[21.300s] -- Set runtime path of "/home/asd/ros2_ws/install/input_numbers/lib/input_numbers/input_numbers" to ""
+[21.301s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/ament_index/resource_index/package_run_dependencies/input_numbers
+[21.301s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/ament_index/resource_index/parent_prefix_path/input_numbers
+[21.302s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/environment/ament_prefix_path.sh
+[21.302s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/environment/ament_prefix_path.dsv
+[21.303s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/environment/path.sh
+[21.303s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/environment/path.dsv
+[21.304s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/local_setup.bash
+[21.304s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/local_setup.sh
+[21.304s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/local_setup.zsh
+[21.305s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/local_setup.dsv
+[21.305s] -- Installing: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/package.dsv
+[21.306s] -- Up-to-date: /home/asd/ros2_ws/install/input_numbers/share/ament_index/resource_index/packages/input_numbers
+[21.306s] -- Installing: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/cmake/input_numbersConfig.cmake
+[21.307s] -- Installing: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/cmake/input_numbersConfig-version.cmake
+[21.307s] -- Installing: /home/asd/ros2_ws/install/input_numbers/share/input_numbers/package.xml
+[21.312s] Invoked command in '/home/asd/ros2_ws/build/input_numbers' returned '0': /usr/bin/cmake --install /home/asd/ros2_ws/build/input_numbers

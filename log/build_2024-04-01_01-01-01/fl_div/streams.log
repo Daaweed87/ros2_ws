@@ -1,0 +1,15 @@
+[0.048s] Invoking command in '/home/asd/ros2_ws/build/fl_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4
+[0.294s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.347s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/fl_div_client.cpp.o[0m
+[0.370s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/fl_div_server.cpp.o[0m
+[10.461s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[10.461s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:30:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[10.461s]    30 |     rclcpp::spin([01;31m[Knode[m[K);
+[10.462s]       |                  [01;31m[K^~~~[m[K
+[14.449s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/fl_div_server.cpp.o] Error 1
+[14.450s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[14.451s] gmake[1]: *** Waiting for unfinished jobs....
+[16.414s] [ 75%] [32m[1mLinking CXX executable client[0m
+[17.808s] [ 75%] Built target client
+[17.812s] gmake: *** [Makefile:146: all] Error 2
+[17.818s] Invoked command in '/home/asd/ros2_ws/build/fl_div' returned '2': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target server[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/simple_div.cpp.o[0m
+[100%] [32m[1mLinking CXX executable server[0m
+[100%] Built target server
+-- Install configuration: ""
+-- Installing: /home/asd/ros2_ws/install/simple_div/lib/simple_div/server
+-- Set runtime path of "/home/asd/ros2_ws/install/simple_div/lib/simple_div/server" to ""
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/ament_index/resource_index/package_run_dependencies/simple_div
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/ament_index/resource_index/parent_prefix_path/simple_div
+-- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/ament_prefix_path.sh
+-- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/path.sh
+-- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/environment/path.dsv
+-- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.bash
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.sh
+-- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.zsh
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/local_setup.dsv
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/package.dsv
+-- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/ament_index/resource_index/packages/simple_div
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/cmake/simple_divConfig.cmake
+-- Up-to-date: /home/asd/ros2_ws/install/simple_div/share/simple_div/cmake/simple_divConfig-version.cmake
+-- Installing: /home/asd/ros2_ws/install/simple_div/share/simple_div/package.xml

@@ -1,0 +1,22 @@
+[0.513s] Invoking command in '/home/asd/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/my_package -- -j4 -l4
+[0.685s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[1.184s] -- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)
+[1.309s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.353s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.424s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.826s] -- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)
+[4.552s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[4.720s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[4.757s] [31mCMake Error at /opt/ros/iron/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[4.758s]   rosidl_generate_interfaces() the passed file 'msg/AddTwoInts2.msg' doesn't
+[4.758s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[4.758s]   '/home/asd/ros2_ws/src/my_package'
+[4.759s] Call Stack (most recent call first):
+[4.759s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[4.759s] 
+[4.760s] [0m
+[4.760s] -- Configuring incomplete, errors occurred!
+[4.760s] See also "/home/asd/ros2_ws/build/my_package/CMakeFiles/CMakeOutput.log".
+[4.773s] gmake: *** [Makefile:1085: cmake_check_build_system] Error 1
+[4.794s] Invoked command in '/home/asd/ros2_ws/build/my_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/asd/ros2_ws/build/my_package -- -j4 -l4

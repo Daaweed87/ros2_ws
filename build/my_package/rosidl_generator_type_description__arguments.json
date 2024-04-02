@@ -3,6 +3,7 @@
   "output_dir": "/home/asd/ros2_ws/build/my_package/rosidl_generator_type_description/my_package",
   "idl_tuples": [
     "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package:msg/AddTwoInts2.idl",
+    "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package:msg/TwoFloats.idl",
     "/home/asd/ros2_ws/build/my_package/rosidl_adapter/my_package:srv/AddTwoInts2.idl"
   ],
   "include_paths": [

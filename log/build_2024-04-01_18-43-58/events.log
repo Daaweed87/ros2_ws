@@ -1,0 +1,257 @@
+[0.000000] (-) TimerEvent: {}
+[0.000692] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000786] (-) JobUnselected: {'identifier': 'd2f'}
+[0.000864] (-) JobUnselected: {'identifier': 'div'}
+[0.000940] (-) JobUnselected: {'identifier': 'div'}
+[0.001015] (-) JobUnselected: {'identifier': 'fl_div'}
+[0.001090] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001196] (simple_div) JobQueued: {'identifier': 'simple_div', 'dependencies': OrderedDict()}
+[0.001277] (simple_div) JobStarted: {'identifier': 'simple_div'}
+[0.075781] (simple_div) JobProgress: {'identifier': 'simple_div', 'progress': 'cmake'}
+[0.077578] (simple_div) JobProgress: {'identifier': 'simple_div', 'progress': 'build'}
+[0.079728] (simple_div) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/simple_div', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/simple_div', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('SYSTEMD_EXEC_PID', '1400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1372,unix/asd:/tmp/.ICE-unix/1372'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/cd21766a_f79d_4225_af3e_b17ac03fd133'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Y6PKL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.401'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/simple_div'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.097621] (-) TimerEvent: {}
+[0.198263] (-) TimerEvent: {}
+[0.254423] (simple_div) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simple_div\x1b[0m\n'}
+[0.298785] (-) TimerEvent: {}
+[0.334403] (simple_div) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_div.dir/src/simple_div.cpp.o\x1b[0m\n'}
+[0.398977] (-) TimerEvent: {}
+[0.500257] (-) TimerEvent: {}
+[0.601475] (-) TimerEvent: {}
+[0.702210] (-) TimerEvent: {}
+[0.804316] (-) TimerEvent: {}
+[0.905050] (-) TimerEvent: {}
+[1.007424] (-) TimerEvent: {}
+[1.110737] (-) TimerEvent: {}
+[1.211597] (-) TimerEvent: {}
+[1.312476] (-) TimerEvent: {}
+[1.413087] (-) TimerEvent: {}
+[1.513603] (-) TimerEvent: {}
+[1.614268] (-) TimerEvent: {}
+[1.715528] (-) TimerEvent: {}
+[1.816779] (-) TimerEvent: {}
+[1.917584] (-) TimerEvent: {}
+[2.018549] (-) TimerEvent: {}
+[2.119757] (-) TimerEvent: {}
+[2.221315] (-) TimerEvent: {}
+[2.323341] (-) TimerEvent: {}
+[2.434008] (-) TimerEvent: {}
+[2.534784] (-) TimerEvent: {}
+[2.636764] (-) TimerEvent: {}
+[2.737433] (-) TimerEvent: {}
+[2.839962] (-) TimerEvent: {}
+[2.951414] (-) TimerEvent: {}
+[3.057640] (-) TimerEvent: {}
+[3.160754] (-) TimerEvent: {}
+[3.265587] (-) TimerEvent: {}
+[3.366718] (-) TimerEvent: {}
+[3.467365] (-) TimerEvent: {}
+[3.567903] (-) TimerEvent: {}
+[3.668614] (-) TimerEvent: {}
+[3.769868] (-) TimerEvent: {}
+[3.870519] (-) TimerEvent: {}
+[3.971089] (-) TimerEvent: {}
+[4.071614] (-) TimerEvent: {}
+[4.172461] (-) TimerEvent: {}
+[4.273007] (-) TimerEvent: {}
+[4.373530] (-) TimerEvent: {}
+[4.474382] (-) TimerEvent: {}
+[4.574886] (-) TimerEvent: {}
+[4.675403] (-) TimerEvent: {}
+[4.775906] (-) TimerEvent: {}
+[4.876450] (-) TimerEvent: {}
+[4.976930] (-) TimerEvent: {}
+[5.077488] (-) TimerEvent: {}
+[5.178243] (-) TimerEvent: {}
+[5.278869] (-) TimerEvent: {}
+[5.379471] (-) TimerEvent: {}
+[5.480069] (-) TimerEvent: {}
+[5.580547] (-) TimerEvent: {}
+[5.681452] (-) TimerEvent: {}
+[5.782015] (-) TimerEvent: {}
+[5.882505] (-) TimerEvent: {}
+[5.982963] (-) TimerEvent: {}
+[6.083473] (-) TimerEvent: {}
+[6.184643] (-) TimerEvent: {}
+[6.285486] (-) TimerEvent: {}
+[6.386038] (-) TimerEvent: {}
+[6.486610] (-) TimerEvent: {}
+[6.587120] (-) TimerEvent: {}
+[6.687621] (-) TimerEvent: {}
+[6.788138] (-) TimerEvent: {}
+[6.888688] (-) TimerEvent: {}
+[6.989251] (-) TimerEvent: {}
+[7.089834] (-) TimerEvent: {}
+[7.191040] (-) TimerEvent: {}
+[7.291519] (-) TimerEvent: {}
+[7.392071] (-) TimerEvent: {}
+[7.492538] (-) TimerEvent: {}
+[7.592995] (-) TimerEvent: {}
+[7.693484] (-) TimerEvent: {}
+[7.794119] (-) TimerEvent: {}
+[7.894652] (-) TimerEvent: {}
+[7.995212] (-) TimerEvent: {}
+[8.095709] (-) TimerEvent: {}
+[8.196210] (-) TimerEvent: {}
+[8.296724] (-) TimerEvent: {}
+[8.397222] (-) TimerEvent: {}
+[8.497789] (-) TimerEvent: {}
+[8.598340] (-) TimerEvent: {}
+[8.699175] (-) TimerEvent: {}
+[8.799682] (-) TimerEvent: {}
+[8.900279] (-) TimerEvent: {}
+[9.001410] (-) TimerEvent: {}
+[9.102036] (-) TimerEvent: {}
+[9.202551] (-) TimerEvent: {}
+[9.303075] (-) TimerEvent: {}
+[9.403616] (-) TimerEvent: {}
+[9.504364] (-) TimerEvent: {}
+[9.605390] (-) TimerEvent: {}
+[9.706064] (-) TimerEvent: {}
+[9.806798] (-) TimerEvent: {}
+[9.907369] (-) TimerEvent: {}
+[10.007974] (-) TimerEvent: {}
+[10.108495] (-) TimerEvent: {}
+[10.209072] (-) TimerEvent: {}
+[10.309618] (-) TimerEvent: {}
+[10.410253] (-) TimerEvent: {}
+[10.510864] (-) TimerEvent: {}
+[10.611380] (-) TimerEvent: {}
+[10.711911] (-) TimerEvent: {}
+[10.812646] (-) TimerEvent: {}
+[10.913196] (-) TimerEvent: {}
+[11.013857] (-) TimerEvent: {}
+[11.114413] (-) TimerEvent: {}
+[11.214927] (-) TimerEvent: {}
+[11.315850] (-) TimerEvent: {}
+[11.417746] (-) TimerEvent: {}
+[11.439277] (simple_div) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.439612] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[11.439800] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.439982] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.440234] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.440488] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.440741] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.440994] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.441284] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.441550] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.441872] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[11.442151] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:1\x1b[m\x1b[K:\n'}
+[11.442403] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[11.442655] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:16:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.442923] (simple_div) StderrLine: {'line': b'   16 |                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Received request to divide %d by %d"\x1b[m\x1b[K, \x1b[32m\x1b[Kmsg->a\x1b[m\x1b[K, msg->b);\n'}
+[11.443207] (simple_div) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K\n'}
+[11.443446] (simple_div) StderrLine: {'line': b'      |                                                                                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.443681] (simple_div) StderrLine: {'line': b'      |                                                                                             \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_a_type {aka long int}\x1b[m\x1b[K\n'}
+[11.443920] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:16:78:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.444190] (simple_div) StderrLine: {'line': b'   16 | CLCPP_INFO(this->get_logger(), "Received request to divide \x1b[01;36m\x1b[K%d\x1b[m\x1b[K by %d", msg->a, msg->b);\n'}
+[11.444425] (simple_div) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.444659] (simple_div) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.444893] (simple_div) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.445151] (simple_div) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.445422] (simple_div) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[11.445751] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[11.446041] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[11.446293] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[11.446544] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[11.446796] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[11.447079] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[11.447350] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[11.447602] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[11.447863] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[11.448157] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[11.448408] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:1\x1b[m\x1b[K:\n'}
+[11.448681] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:16:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.448987] (simple_div) StderrLine: {'line': b'   16 |                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Received request to divide %d by %d"\x1b[m\x1b[K, msg->a, \x1b[32m\x1b[Kmsg->b\x1b[m\x1b[K);\n'}
+[11.452133] (simple_div) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K          \x1b[32m\x1b[K~~~~~~\x1b[m\x1b[K\n'}
+[11.452414] (simple_div) StderrLine: {'line': b'      |                                                                                                     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[11.452651] (simple_div) StderrLine: {'line': b'      |                                                                                                     \x1b[32m\x1b[Kexample_interfaces::srv::AddTwoInts_Request_<std::allocator<void> >::_b_type {aka long int}\x1b[m\x1b[K\n'}
+[11.452933] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:16:84:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[11.453170] (simple_div) StderrLine: {'line': b'   16 | INFO(this->get_logger(), "Received request to divide %d by \x1b[01;36m\x1b[K%d\x1b[m\x1b[K", msg->a, msg->b);\n'}
+[11.453406] (simple_div) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[11.453709] (simple_div) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[11.454003] (simple_div) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[11.454252] (simple_div) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[11.480771] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.481161] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:61:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kservice_exists\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.481406] (simple_div) StderrLine: {'line': b'   61 |     while (!rclcpp::\x1b[01;31m\x1b[Kservice_exists\x1b[m\x1b[K<example_interfaces::srv::AddTwoInts>("input_numbers")) {\n'}
+[11.481701] (simple_div) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.481948] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:61:71:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[11.482210] (simple_div) StderrLine: {'line': b'   61 | (!rclcpp::service_exists<example_interfaces::srv::AddTwoInts\x1b[01;31m\x1b[K>\x1b[m\x1b[K("input_numbers")) {\n'}
+[11.482457] (simple_div) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[11.482693] (simple_div) StderrLine: {'line': b'\n'}
+[11.518028] (-) TimerEvent: {}
+[11.621030] (-) TimerEvent: {}
+[11.721777] (-) TimerEvent: {}
+[11.822418] (-) TimerEvent: {}
+[11.925364] (-) TimerEvent: {}
+[12.026383] (-) TimerEvent: {}
+[12.126974] (-) TimerEvent: {}
+[12.227509] (-) TimerEvent: {}
+[12.328244] (-) TimerEvent: {}
+[12.428698] (-) TimerEvent: {}
+[12.529824] (-) TimerEvent: {}
+[12.630392] (-) TimerEvent: {}
+[12.730874] (-) TimerEvent: {}
+[12.831461] (-) TimerEvent: {}
+[12.931993] (-) TimerEvent: {}
+[13.032617] (-) TimerEvent: {}
+[13.133213] (-) TimerEvent: {}
+[13.233742] (-) TimerEvent: {}
+[13.334257] (-) TimerEvent: {}
+[13.434816] (-) TimerEvent: {}
+[13.535388] (-) TimerEvent: {}
+[13.635943] (-) TimerEvent: {}
+[13.736467] (-) TimerEvent: {}
+[13.837073] (-) TimerEvent: {}
+[13.937814] (-) TimerEvent: {}
+[14.038343] (-) TimerEvent: {}
+[14.138843] (-) TimerEvent: {}
+[14.239265] (-) TimerEvent: {}
+[14.339886] (-) TimerEvent: {}
+[14.440463] (-) TimerEvent: {}
+[14.540960] (-) TimerEvent: {}
+[14.641469] (-) TimerEvent: {}
+[14.742050] (-) TimerEvent: {}
+[14.842549] (-) TimerEvent: {}
+[14.943196] (-) TimerEvent: {}
+[15.043695] (-) TimerEvent: {}
+[15.144178] (-) TimerEvent: {}
+[15.244822] (-) TimerEvent: {}
+[15.345428] (-) TimerEvent: {}
+[15.445877] (-) TimerEvent: {}
+[15.546489] (-) TimerEvent: {}
+[15.647055] (-) TimerEvent: {}
+[15.747562] (-) TimerEvent: {}
+[15.848009] (-) TimerEvent: {}
+[15.948581] (-) TimerEvent: {}
+[16.049203] (-) TimerEvent: {}
+[16.149836] (-) TimerEvent: {}
+[16.250313] (-) TimerEvent: {}
+[16.351002] (-) TimerEvent: {}
+[16.451512] (-) TimerEvent: {}
+[16.552108] (-) TimerEvent: {}
+[16.652595] (-) TimerEvent: {}
+[16.753659] (-) TimerEvent: {}
+[16.854297] (-) TimerEvent: {}
+[16.954920] (-) TimerEvent: {}
+[17.055458] (-) TimerEvent: {}
+[17.156036] (-) TimerEvent: {}
+[17.257017] (-) TimerEvent: {}
+[17.357572] (-) TimerEvent: {}
+[17.458130] (-) TimerEvent: {}
+[17.558691] (-) TimerEvent: {}
+[17.659456] (-) TimerEvent: {}
+[17.759976] (-) TimerEvent: {}
+[17.860463] (-) TimerEvent: {}
+[17.960903] (-) TimerEvent: {}
+[18.061784] (-) TimerEvent: {}
+[18.162378] (-) TimerEvent: {}
+[18.258111] (simple_div) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/simple_div.dir/build.make:76: CMakeFiles/simple_div.dir/src/simple_div.cpp.o] Error 1\n'}
+[18.261503] (simple_div) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_div.dir/all] Error 2\n'}
+[18.261848] (simple_div) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[18.262837] (-) TimerEvent: {}
+[18.266742] (simple_div) CommandEnded: {'returncode': 2}
+[18.363412] (-) TimerEvent: {}
+[18.389901] (simple_div) JobEnded: {'identifier': 'simple_div', 'rc': 2}
+[18.393691] (-) EventReactorShutdown: {}

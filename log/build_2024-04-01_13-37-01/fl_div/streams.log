@@ -1,0 +1,15 @@
+[0.048s] Invoking command in '/home/asd/ros2_ws/build/fl_div': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4
+[0.245s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.305s] [ 50%] Built target client
+[0.331s] [ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/fl_div_server.cpp.o[0m
+[10.217s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:[m[K In function ‘[01m[Kvoid add(std::shared_ptr<my_package::srv::AddTwoInts2_Request_<std::allocator<void> > >, std::shared_ptr<my_package::srv::AddTwoInts2_Response_<std::allocator<void> > >)[m[K’:
+[10.217s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:19:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct my_package::msg::AddTwoInts2_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct my_package::msg::AddTwoInts2_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksum[m[K’
+[10.217s]    19 |     message->[01;31m[Ksum[m[K = response->sum;
+[10.217s]       |              [01;31m[K^~~[m[K
+[10.230s] [01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_server.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+[10.230s]    20 |     [01;31m[Kpublisher[m[K->publish(*message);
+[10.230s]       |     [01;31m[K^~~~~~~~~[m[K
+[13.861s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/fl_div_server.cpp.o] Error 1
+[13.861s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+[13.864s] gmake: *** [Makefile:146: all] Error 2
+[13.867s] Invoked command in '/home/asd/ros2_ws/build/fl_div' returned '2': AMENT_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/asd/ros2_ws/install/my_package:/opt/ros/iron LD_LIBRARY_PATH=/home/asd/ros2_ws/install/my_package/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/asd/ros2_ws/build/fl_div -- -j4 -l4

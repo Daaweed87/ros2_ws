@@ -1,0 +1,10 @@
+[01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_client.cpp:51:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   51 |     }
+      |      [01;31m[K^[m[K
+[01m[K/home/asd/ros2_ws/src/fl_div/src/fl_div_client.cpp:45:33:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   45 | int main(int argc, char** argv) [01;36m[K{[m[K
+      |                                 [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/fl_div_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

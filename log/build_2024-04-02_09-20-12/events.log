@@ -1,0 +1,388 @@
+[0.000000] (-) TimerEvent: {}
+[0.000551] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000644] (-) JobUnselected: {'identifier': 'd2f'}
+[0.000730] (-) JobUnselected: {'identifier': 'div'}
+[0.000813] (-) JobUnselected: {'identifier': 'div'}
+[0.000896] (-) JobUnselected: {'identifier': 'fl_div'}
+[0.000983] (-) JobUnselected: {'identifier': 'simple_div'}
+[0.001101] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.001191] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.029170] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.109902] (-) TimerEvent: {}
+[0.219068] (-) TimerEvent: {}
+[0.320262] (-) TimerEvent: {}
+[0.359551] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.359726] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/my_package', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd/ros2_ws/src/simple_div/msg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d81d4cb7be2c4fa53a8a725e660baa1d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1400,unix/asd:/tmp/.ICE-unix/1400'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/90903db9_bd63_4d62_88ea_5d4458a03af9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9GDDL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/my_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d81d4cb7be2c4fa53a8a725e660baa1d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.420451] (-) TimerEvent: {}
+[0.521208] (-) TimerEvent: {}
+[0.574974] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.621828] (-) TimerEvent: {}
+[0.724211] (-) TimerEvent: {}
+[0.824764] (-) TimerEvent: {}
+[0.925220] (-) TimerEvent: {}
+[1.025876] (-) TimerEvent: {}
+[1.132565] (-) TimerEvent: {}
+[1.139205] (my_package) StdoutLine: {'line': b'-- Found example_interfaces: 0.10.2 (/opt/ros/iron/share/example_interfaces/cmake)\n'}
+[1.233575] (-) TimerEvent: {}
+[1.264171] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[1.312921] (my_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[1.334105] (-) TimerEvent: {}
+[1.395520] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.434809] (-) TimerEvent: {}
+[1.488325] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.536376] (-) TimerEvent: {}
+[1.636991] (-) TimerEvent: {}
+[1.739452] (-) TimerEvent: {}
+[1.840007] (-) TimerEvent: {}
+[1.940542] (-) TimerEvent: {}
+[2.041306] (-) TimerEvent: {}
+[2.141921] (-) TimerEvent: {}
+[2.243410] (-) TimerEvent: {}
+[2.343962] (-) TimerEvent: {}
+[2.445639] (-) TimerEvent: {}
+[2.546122] (-) TimerEvent: {}
+[2.647458] (-) TimerEvent: {}
+[2.747946] (-) TimerEvent: {}
+[2.849606] (-) TimerEvent: {}
+[2.951014] (-) TimerEvent: {}
+[3.052558] (-) TimerEvent: {}
+[3.153078] (-) TimerEvent: {}
+[3.253662] (-) TimerEvent: {}
+[3.355221] (-) TimerEvent: {}
+[3.455767] (-) TimerEvent: {}
+[3.556922] (-) TimerEvent: {}
+[3.657477] (-) TimerEvent: {}
+[3.758056] (-) TimerEvent: {}
+[3.859344] (-) TimerEvent: {}
+[3.911073] (my_package) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.0 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[3.960220] (-) TimerEvent: {}
+[4.060787] (-) TimerEvent: {}
+[4.161384] (-) TimerEvent: {}
+[4.262870] (-) TimerEvent: {}
+[4.364473] (-) TimerEvent: {}
+[4.464983] (-) TimerEvent: {}
+[4.565595] (-) TimerEvent: {}
+[4.635177] (my_package) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[4.668252] (-) TimerEvent: {}
+[4.685188] (my_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[4.768795] (-) TimerEvent: {}
+[4.869648] (-) TimerEvent: {}
+[4.970196] (-) TimerEvent: {}
+[5.070665] (-) TimerEvent: {}
+[5.171131] (-) TimerEvent: {}
+[5.272048] (-) TimerEvent: {}
+[5.373597] (-) TimerEvent: {}
+[5.474575] (-) TimerEvent: {}
+[5.575036] (-) TimerEvent: {}
+[5.675550] (-) TimerEvent: {}
+[5.784130] (-) TimerEvent: {}
+[5.884692] (-) TimerEvent: {}
+[5.985982] (-) TimerEvent: {}
+[6.087007] (-) TimerEvent: {}
+[6.187482] (-) TimerEvent: {}
+[6.288086] (-) TimerEvent: {}
+[6.327726] (my_package) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[6.389184] (-) TimerEvent: {}
+[6.489804] (-) TimerEvent: {}
+[6.591334] (-) TimerEvent: {}
+[6.692888] (-) TimerEvent: {}
+[6.793423] (-) TimerEvent: {}
+[6.893981] (-) TimerEvent: {}
+[6.994553] (-) TimerEvent: {}
+[7.096047] (-) TimerEvent: {}
+[7.196570] (-) TimerEvent: {}
+[7.297184] (-) TimerEvent: {}
+[7.397789] (-) TimerEvent: {}
+[7.498364] (-) TimerEvent: {}
+[7.598896] (-) TimerEvent: {}
+[7.699510] (-) TimerEvent: {}
+[7.800263] (-) TimerEvent: {}
+[7.901547] (-) TimerEvent: {}
+[8.003021] (-) TimerEvent: {}
+[8.019604] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.103639] (-) TimerEvent: {}
+[8.204182] (-) TimerEvent: {}
+[8.304743] (-) TimerEvent: {}
+[8.407260] (-) TimerEvent: {}
+[8.507787] (-) TimerEvent: {}
+[8.608341] (-) TimerEvent: {}
+[8.669808] (my_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.708936] (-) TimerEvent: {}
+[8.746768] (my_package) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[8.809492] (-) TimerEvent: {}
+[8.824275] (my_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.824664] (my_package) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.824955] (my_package) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.909875] (-) TimerEvent: {}
+[9.011053] (-) TimerEvent: {}
+[9.073352] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.111357] (-) TimerEvent: {}
+[9.212165] (-) TimerEvent: {}
+[9.312751] (-) TimerEvent: {}
+[9.413799] (-) TimerEvent: {}
+[9.447966] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[9.466692] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/asd/ros2_ws/build/my_package\n'}
+[9.514633] (-) TimerEvent: {}
+[9.615271] (-) TimerEvent: {}
+[9.616916] (my_package) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[9.687841] (my_package) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_my_package\n'}
+[9.715462] (-) TimerEvent: {}
+[9.816363] (-) TimerEvent: {}
+[9.916919] (-) TimerEvent: {}
+[10.017517] (-) TimerEvent: {}
+[10.118084] (-) TimerEvent: {}
+[10.218592] (-) TimerEvent: {}
+[10.319144] (-) TimerEvent: {}
+[10.419699] (-) TimerEvent: {}
+[10.521240] (-) TimerEvent: {}
+[10.621805] (-) TimerEvent: {}
+[10.669548] (my_package) StdoutLine: {'line': b'[  1%] Built target my_package__rosidl_generator_type_description\n'}
+[10.711618] (my_package) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.722374] (-) TimerEvent: {}
+[10.748401] (my_package) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.822535] (-) TimerEvent: {}
+[10.830097] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[10.832383] (my_package) StdoutLine: {'line': b'writing my_package.egg-info/PKG-INFO\n'}
+[10.833012] (my_package) StdoutLine: {'line': b'writing dependency_links to my_package.egg-info/dependency_links.txt\n'}
+[10.833941] (my_package) StdoutLine: {'line': b'writing top-level names to my_package.egg-info/top_level.txt\n'}
+[10.842332] (my_package) StdoutLine: {'line': b"reading manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[10.844861] (my_package) StdoutLine: {'line': b"writing manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[10.922706] (-) TimerEvent: {}
+[10.929720] (my_package) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_my_package_egg\n'}
+[11.023164] (-) TimerEvent: {}
+[11.123624] (-) TimerEvent: {}
+[11.224181] (-) TimerEvent: {}
+[11.324735] (-) TimerEvent: {}
+[11.425356] (-) TimerEvent: {}
+[11.526907] (-) TimerEvent: {}
+[11.628330] (-) TimerEvent: {}
+[11.728933] (-) TimerEvent: {}
+[11.829789] (-) TimerEvent: {}
+[11.930579] (-) TimerEvent: {}
+[12.031167] (-) TimerEvent: {}
+[12.131709] (-) TimerEvent: {}
+[12.232409] (-) TimerEvent: {}
+[12.333275] (-) TimerEvent: {}
+[12.434294] (-) TimerEvent: {}
+[12.533577] (my_package) StdoutLine: {'line': b'[  5%] Built target my_package__cpp\n'}
+[12.534897] (-) TimerEvent: {}
+[12.636504] (-) TimerEvent: {}
+[12.737298] (-) TimerEvent: {}
+[12.840126] (-) TimerEvent: {}
+[12.941346] (-) TimerEvent: {}
+[13.010198] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_package__rosidl_generator_c\x1b[0m\n'}
+[13.041764] (-) TimerEvent: {}
+[13.066193] (my_package) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/add_two_ints2__description.c.o\x1b[0m\n'}
+[13.072057] (my_package) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/add_two_ints2__functions.c.o\x1b[0m\n'}
+[13.075144] (my_package) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/add_two_ints2__type_support.c.o\x1b[0m\n'}
+[13.078842] (my_package) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/two_floats__description.c.o\x1b[0m\n'}
+[13.141728] (-) TimerEvent: {}
+[13.217970] (my_package) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/two_floats__functions.c.o\x1b[0m\n'}
+[13.240693] (my_package) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/msg/detail/two_floats__type_support.c.o\x1b[0m\n'}
+[13.242272] (-) TimerEvent: {}
+[13.254750] (my_package) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/srv/detail/add_two_ints2__description.c.o\x1b[0m\n'}
+[13.293175] (my_package) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/srv/detail/add_two_ints2__functions.c.o\x1b[0m\n'}
+[13.342452] (-) TimerEvent: {}
+[13.367831] (my_package) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_generator_c.dir/rosidl_generator_c/my_package/srv/detail/add_two_ints2__type_support.c.o\x1b[0m\n'}
+[13.442660] (-) TimerEvent: {}
+[13.543985] (-) TimerEvent: {}
+[13.585005] (my_package) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libmy_package__rosidl_generator_c.so\x1b[0m\n'}
+[13.644224] (-) TimerEvent: {}
+[13.745200] (-) TimerEvent: {}
+[13.810638] (my_package) StdoutLine: {'line': b'[ 24%] Built target my_package__rosidl_generator_c\n'}
+[13.845402] (-) TimerEvent: {}
+[13.850062] (my_package) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[13.851749] (my_package) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.852927] (my_package) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.859813] (my_package) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.945548] (-) TimerEvent: {}
+[14.046065] (-) TimerEvent: {}
+[14.146558] (-) TimerEvent: {}
+[14.247050] (-) TimerEvent: {}
+[14.349297] (-) TimerEvent: {}
+[14.450051] (-) TimerEvent: {}
+[14.550598] (-) TimerEvent: {}
+[14.651128] (-) TimerEvent: {}
+[14.751686] (-) TimerEvent: {}
+[14.852186] (-) TimerEvent: {}
+[14.952700] (-) TimerEvent: {}
+[15.053170] (-) TimerEvent: {}
+[15.153628] (-) TimerEvent: {}
+[15.254560] (-) TimerEvent: {}
+[15.275710] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_cpp\x1b[0m\n'}
+[15.335945] (my_package) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_package/msg/add_two_ints2__type_support.cpp.o\x1b[0m\n'}
+[15.354735] (-) TimerEvent: {}
+[15.455451] (-) TimerEvent: {}
+[15.556235] (-) TimerEvent: {}
+[15.565666] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[15.630624] (my_package) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_package/msg/detail/add_two_ints2__type_support.c.o\x1b[0m\n'}
+[15.656416] (-) TimerEvent: {}
+[15.688688] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[15.695226] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[15.756617] (-) TimerEvent: {}
+[15.763280] (my_package) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_package/msg/detail/add_two_ints2__type_support_c.cpp.o\x1b[0m\n'}
+[15.763672] (my_package) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_package/msg/detail/dds_fastrtps/add_two_ints2__type_support.cpp.o\x1b[0m\n'}
+[15.787391] (my_package) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_package/msg/detail/two_floats__type_support.c.o\x1b[0m\n'}
+[15.857201] (-) TimerEvent: {}
+[15.958434] (-) TimerEvent: {}
+[15.971314] (my_package) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/my_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_package/srv/detail/add_two_ints2__type_support.c.o\x1b[0m\n'}
+[16.058620] (-) TimerEvent: {}
+[16.159339] (-) TimerEvent: {}
+[16.204943] (my_package) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking C shared library libmy_package__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[16.259524] (-) TimerEvent: {}
+[16.360242] (-) TimerEvent: {}
+[16.391130] (my_package) StdoutLine: {'line': b'[ 44%] Built target my_package__rosidl_typesupport_introspection_c\n'}
+[16.436427] (my_package) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.460449] (-) TimerEvent: {}
+[16.561333] (-) TimerEvent: {}
+[16.662360] (-) TimerEvent: {}
+[16.763084] (-) TimerEvent: {}
+[16.863771] (-) TimerEvent: {}
+[16.964438] (-) TimerEvent: {}
+[17.032772] (my_package) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_package/msg/two_floats__type_support.cpp.o\x1b[0m\n'}
+[17.064699] (-) TimerEvent: {}
+[17.165379] (-) TimerEvent: {}
+[17.266127] (-) TimerEvent: {}
+[17.290230] (my_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_package/msg/detail/two_floats__type_support_c.cpp.o\x1b[0m\n'}
+[17.366316] (-) TimerEvent: {}
+[17.466978] (-) TimerEvent: {}
+[17.567691] (-) TimerEvent: {}
+[17.668538] (-) TimerEvent: {}
+[17.769285] (-) TimerEvent: {}
+[17.820889] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_c\x1b[0m\n'}
+[17.869501] (-) TimerEvent: {}
+[17.882146] (my_package) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_package/msg/add_two_ints2__type_support.cpp.o\x1b[0m\n'}
+[17.965155] (my_package) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_package/msg/detail/dds_fastrtps/two_floats__type_support.cpp.o\x1b[0m\n'}
+[17.969651] (-) TimerEvent: {}
+[18.070321] (-) TimerEvent: {}
+[18.078824] (my_package) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_package/msg/two_floats__type_support.cpp.o\x1b[0m\n'}
+[18.170504] (-) TimerEvent: {}
+[18.271252] (-) TimerEvent: {}
+[18.293787] (my_package) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_package/srv/add_two_ints2__type_support.cpp.o\x1b[0m\n'}
+[18.371462] (-) TimerEvent: {}
+[18.480263] (-) TimerEvent: {}
+[18.511920] (my_package) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.580456] (-) TimerEvent: {}
+[18.671152] (my_package) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_package/srv/add_two_ints2__type_support.cpp.o\x1b[0m\n'}
+[18.680665] (-) TimerEvent: {}
+[18.762141] (my_package) StdoutLine: {'line': b'[ 61%] Built target my_package__rosidl_typesupport_c\n'}
+[18.771211] (my_package) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_package/srv/detail/add_two_ints2__type_support_c.cpp.o\x1b[0m\n'}
+[18.780845] (-) TimerEvent: {}
+[18.796877] (my_package) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[18.880983] (-) TimerEvent: {}
+[18.981672] (-) TimerEvent: {}
+[19.082627] (-) TimerEvent: {}
+[19.183293] (-) TimerEvent: {}
+[19.283975] (-) TimerEvent: {}
+[19.384674] (-) TimerEvent: {}
+[19.485372] (-) TimerEvent: {}
+[19.586398] (-) TimerEvent: {}
+[19.687091] (-) TimerEvent: {}
+[19.787786] (-) TimerEvent: {}
+[19.888699] (-) TimerEvent: {}
+[19.989634] (-) TimerEvent: {}
+[20.090307] (-) TimerEvent: {}
+[20.190983] (-) TimerEvent: {}
+[20.199497] (my_package) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_package/srv/detail/dds_fastrtps/add_two_ints2__type_support.cpp.o\x1b[0m\n'}
+[20.291234] (-) TimerEvent: {}
+[20.392068] (-) TimerEvent: {}
+[20.432526] (my_package) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[20.492238] (-) TimerEvent: {}
+[20.561650] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_package__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[20.592416] (-) TimerEvent: {}
+[20.640113] (my_package) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_package/msg/detail/add_two_ints2__type_support.cpp.o\x1b[0m\n'}
+[20.692617] (-) TimerEvent: {}
+[20.699960] (my_package) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[20.792814] (-) TimerEvent: {}
+[20.868480] (my_package) StdoutLine: {'line': b'[ 72%] Built target my_package__rosidl_typesupport_fastrtps_c\n'}
+[20.893007] (-) TimerEvent: {}
+[20.910955] (my_package) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_package/msg/detail/two_floats__type_support.cpp.o\x1b[0m\n'}
+[20.993189] (-) TimerEvent: {}
+[21.049412] (my_package) StdoutLine: {'line': b'[ 74%] Built target my_package__rosidl_typesupport_cpp\n'}
+[21.079136] (my_package) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/my_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_package/srv/detail/add_two_ints2__type_support.cpp.o\x1b[0m\n'}
+[21.093364] (-) TimerEvent: {}
+[21.194373] (-) TimerEvent: {}
+[21.295063] (-) TimerEvent: {}
+[21.395757] (-) TimerEvent: {}
+[21.496466] (-) TimerEvent: {}
+[21.597230] (-) TimerEvent: {}
+[21.698183] (-) TimerEvent: {}
+[21.799095] (-) TimerEvent: {}
+[21.900086] (-) TimerEvent: {}
+[22.000971] (-) TimerEvent: {}
+[22.106096] (-) TimerEvent: {}
+[22.206903] (-) TimerEvent: {}
+[22.307610] (-) TimerEvent: {}
+[22.408337] (-) TimerEvent: {}
+[22.509066] (-) TimerEvent: {}
+[22.613298] (-) TimerEvent: {}
+[22.714325] (-) TimerEvent: {}
+[22.815061] (-) TimerEvent: {}
+[22.915727] (-) TimerEvent: {}
+[22.923446] (my_package) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[23.017002] (-) TimerEvent: {}
+[23.113373] (my_package) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libmy_package__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[23.117683] (-) TimerEvent: {}
+[23.219122] (-) TimerEvent: {}
+[23.284544] (my_package) StdoutLine: {'line': b'[ 79%] Built target my_package__rosidl_typesupport_fastrtps_cpp\n'}
+[23.319339] (-) TimerEvent: {}
+[23.420100] (-) TimerEvent: {}
+[23.487775] (my_package) StdoutLine: {'line': b'[ 79%] Built target my_package__rosidl_typesupport_introspection_cpp\n'}
+[23.526147] (-) TimerEvent: {}
+[23.606926] (my_package) StdoutLine: {'line': b'[ 79%] Built target my_package\n'}
+[23.626246] (-) TimerEvent: {}
+[23.692524] (my_package) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[23.726632] (-) TimerEvent: {}
+[23.827103] (-) TimerEvent: {}
+[23.927575] (-) TimerEvent: {}
+[24.028049] (-) TimerEvent: {}
+[24.128488] (-) TimerEvent: {}
+[24.229095] (-) TimerEvent: {}
+[24.329660] (-) TimerEvent: {}
+[24.430203] (-) TimerEvent: {}
+[24.530802] (-) TimerEvent: {}
+[24.635224] (-) TimerEvent: {}
+[24.735800] (-) TimerEvent: {}
+[24.836306] (-) TimerEvent: {}
+[24.936932] (-) TimerEvent: {}
+[25.037471] (-) TimerEvent: {}
+[25.138051] (-) TimerEvent: {}
+[25.238608] (-) TimerEvent: {}
+[25.339144] (-) TimerEvent: {}
+[25.439678] (-) TimerEvent: {}
+[25.540297] (-) TimerEvent: {}
+[25.640860] (-) TimerEvent: {}
+[25.741428] (-) TimerEvent: {}
+[25.842068] (-) TimerEvent: {}
+[25.942955] (-) TimerEvent: {}
+[26.043480] (-) TimerEvent: {}
+[26.144091] (-) TimerEvent: {}
+[26.245808] (-) TimerEvent: {}
+[26.347325] (-) TimerEvent: {}
+[26.447867] (-) TimerEvent: {}
+[26.550761] (-) TimerEvent: {}
+[26.651294] (-) TimerEvent: {}
+[26.752236] (-) TimerEvent: {}
+[26.854008] (-) TimerEvent: {}
+[26.954531] (-) TimerEvent: {}
+[27.055051] (-) TimerEvent: {}
+[27.156643] (-) TimerEvent: {}
+[27.257257] (-) TimerEvent: {}
+[27.357822] (-) TimerEvent: {}
+[27.459329] (-) TimerEvent: {}
+[27.560858] (-) TimerEvent: {}
+[27.662234] (-) TimerEvent: {}
+[27.762897] (-) TimerEvent: {}
+[27.774310] (my_package) StderrLine: {'line': b'Segmentation fault (core dumped)\n'}
+[27.775660] (my_package) StderrLine: {'line': b'gmake[2]: *** [my_package__py/CMakeFiles/my_package__py.dir/build.make:138: rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c] Error 139\n'}
+[27.775946] (my_package) StderrLine: {'line': b"gmake[2]: *** Deleting file 'rosidl_generator_py/my_package/_my_package_s.ep.rosidl_typesupport_fastrtps_c.c'\n"}
+[27.776310] (my_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:621: my_package__py/CMakeFiles/my_package__py.dir/all] Error 2\n'}
+[27.777474] (my_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[27.782842] (my_package) CommandEnded: {'returncode': 2}
+[27.863112] (-) TimerEvent: {}
+[27.963728] (-) TimerEvent: {}
+[28.064199] (-) TimerEvent: {}
+[28.165174] (-) TimerEvent: {}
+[28.265800] (-) TimerEvent: {}
+[28.307991] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 2}
+[28.310890] (-) EventReactorShutdown: {}

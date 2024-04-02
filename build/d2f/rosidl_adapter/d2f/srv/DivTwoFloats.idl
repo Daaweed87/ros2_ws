@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from d2f/srv/DivTwoFloats.srv
+// generated code does not contain a copyright notice
+
+
+module d2f {
+  module srv {
+    struct DivTwoFloats_Request {
+      double a;
+
+      double b;
+    };
+    struct DivTwoFloats_Response {
+      double sum;
+    };
+  };
+};

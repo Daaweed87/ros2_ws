@@ -1,0 +1,110 @@
+[35m[1mConsolidate compiler generated dependencies of target input_numbers[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/input_numbers.dir/src/input_numbers.cpp.o[0m
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_package[m[K’ was not declared in this scope
+   62 |         const std::shared_ptr<[01;31m[Kmy_package[m[K::srv::AddTwoInts2::Request> request,
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   62 |   const std::shared_ptr<my_package::srv::AddTwoInts2::Request[01;31m[K>[m[K request,
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_package[m[K’ was not declared in this scope
+   62 |         const std::shared_ptr<[01;31m[Kmy_package[m[K::srv::AddTwoInts2::Request> request,
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   62 |   const std::shared_ptr<my_package::srv::AddTwoInts2::Request[01;31m[K>[m[K request,
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_package[m[K’ was not declared in this scope
+   62 |         const std::shared_ptr<[01;31m[Kmy_package[m[K::srv::AddTwoInts2::Request> request,
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   62 |   const std::shared_ptr<my_package::srv::AddTwoInts2::Request[01;31m[K>[m[K request,
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:15:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   62 |         const [01;31m[Kstd[m[K::shared_ptr<my_package::srv::AddTwoInts2::Request> request,
+      |               [01;31m[K^~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_package[m[K’ has not been declared
+   62 |         const std::shared_ptr<[01;31m[Kmy_package[m[K::srv::AddTwoInts2::Request> request,
+      |                               [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:62:9:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   62 |         [01;31m[Kconst[m[K std::shared_ptr<my_package::srv::AddTwoInts2::Request> request,
+      |         [01;31m[K^~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_package[m[K’ was not declared in this scope
+   63 |         std::shared_ptr<[01;31m[Kmy_package[m[K::srv::AddTwoInts2::Response> response)
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 |       std::shared_ptr<my_package::srv::AddTwoInts2::Response[01;31m[K>[m[K response)
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_package[m[K’ was not declared in this scope
+   63 |         std::shared_ptr<[01;31m[Kmy_package[m[K::srv::AddTwoInts2::Response> response)
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 |       std::shared_ptr<my_package::srv::AddTwoInts2::Response[01;31m[K>[m[K response)
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_package[m[K’ was not declared in this scope
+   63 |         std::shared_ptr<[01;31m[Kmy_package[m[K::srv::AddTwoInts2::Response> response)
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   63 |       std::shared_ptr<my_package::srv::AddTwoInts2::Response[01;31m[K>[m[K response)
+      |                                                             [01;31m[K^[m[K
+
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:9:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   63 |         [01;31m[Kstd[m[K::shared_ptr<my_package::srv::AddTwoInts2::Response> response)
+      |         [01;31m[K^~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_package[m[K’ has not been declared
+   63 |         std::shared_ptr<[01;31m[Kmy_package[m[K::srv::AddTwoInts2::Response> response)
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:63:9:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   63 |         [01;31m[Kstd[m[K::shared_ptr<my_package::srv::AddTwoInts2::Response> response)
+      |         [01;31m[K^~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:[m[K In member function ‘[01m[Kvoid InputNumbers::add(...)[m[K’:
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:66:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kresponse[m[K’ was not declared in this scope
+   66 |         [01;31m[Kresponse[m[K->sum = request->a / request->b;
+      |         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:66:25:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+   66 |         response->sum = [01;31m[Krequest[m[K->a / request->b;
+      |                         [01;31m[K^~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:78:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_package[m[K’ was not declared in this scope
+   78 |     auto service = node->create_service<[01;31m[Kmy_package[m[K::srv::AddTwoInts2>(
+      |                                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:78:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   78 |     auto service = node->[01;31m[Kcreate_service<my_package::srv::AddTwoInts2>[m[K(
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:78:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KInputNumbers::create_service<<expression error> >(const char [13], void (InputNumbers::*)(...))[m[K’
+   78 |     auto service = [01;31m[Knode->create_service<my_package::srv::AddTwoInts2>([m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   79 | [01;31m[K        "add_two_ints", &InputNumbers::add)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                           
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:1[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:299:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  299 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:299:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:78:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   78 |     auto service = [01;31m[Knode->create_service<my_package::srv::AddTwoInts2>([m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   79 | [01;31m[K        "add_two_ints", &InputNumbers::add)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                           
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:1[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:315:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  315 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:315:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/asd/ros2_ws/src/input_numbers/src/input_numbers.cpp:78:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   78 |     auto service = [01;31m[Knode->create_service<my_package::srv::AddTwoInts2>([m[K
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   79 | [01;31m[K        "add_two_ints", &InputNumbers::add)[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                           
+gmake[2]: *** [CMakeFiles/input_numbers.dir/build.make:76: CMakeFiles/input_numbers.dir/src/input_numbers.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/input_numbers.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.000268] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000377] (-) JobUnselected: {'identifier': 'd2f'}
+[0.000445] (-) JobUnselected: {'identifier': 'div'}
+[0.000502] (-) JobUnselected: {'identifier': 'div'}
+[0.000816] (-) JobUnselected: {'identifier': 'fl_div'}
+[0.000893] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000962] (simple_div) JobQueued: {'identifier': 'simple_div', 'dependencies': OrderedDict()}
+[0.001030] (simple_div) JobStarted: {'identifier': 'simple_div'}
+[0.026878] (simple_div) JobProgress: {'identifier': 'simple_div', 'progress': 'cmake'}
+[0.029106] (simple_div) JobProgress: {'identifier': 'simple_div', 'progress': 'build'}
+[0.030710] (simple_div) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/simple_div', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/simple_div', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd/ros2_ws/src/simple_div/msg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d81d4cb7be2c4fa53a8a725e660baa1d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1400,unix/asd:/tmp/.ICE-unix/1400'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/90903db9_bd63_4d62_88ea_5d4458a03af9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9GDDL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/simple_div'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d81d4cb7be2c4fa53a8a725e660baa1d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.098494] (-) TimerEvent: {}
+[0.162887] (simple_div) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.201039] (-) TimerEvent: {}
+[0.301565] (-) TimerEvent: {}
+[0.402134] (-) TimerEvent: {}
+[0.502706] (-) TimerEvent: {}
+[0.603261] (-) TimerEvent: {}
+[0.706851] (-) TimerEvent: {}
+[0.736146] (simple_div) StdoutLine: {'line': b'-- Found rclcpp: 21.0.5 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.807133] (-) TimerEvent: {}
+[0.882119] (simple_div) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.907324] (-) TimerEvent: {}
+[0.928031] (simple_div) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.998495] (simple_div) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.007564] (-) TimerEvent: {}
+[1.090525] (simple_div) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.107754] (-) TimerEvent: {}
+[1.208310] (-) TimerEvent: {}
+[1.308856] (-) TimerEvent: {}
+[1.409429] (-) TimerEvent: {}
+[1.518331] (-) TimerEvent: {}
+[1.618896] (-) TimerEvent: {}
+[1.719479] (-) TimerEvent: {}
+[1.820065] (-) TimerEvent: {}
+[1.921355] (-) TimerEvent: {}
+[2.021994] (-) TimerEvent: {}
+[2.122529] (-) TimerEvent: {}
+[2.223024] (-) TimerEvent: {}
+[2.306522] (simple_div) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[2.312486] (simple_div) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.3 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.323223] (-) TimerEvent: {}
+[2.423699] (-) TimerEvent: {}
+[2.524408] (-) TimerEvent: {}
+[2.625066] (-) TimerEvent: {}
+[2.725738] (-) TimerEvent: {}
+[2.826379] (-) TimerEvent: {}
+[2.920247] (simple_div) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.926515] (-) TimerEvent: {}
+[3.027108] (-) TimerEvent: {}
+[3.127657] (-) TimerEvent: {}
+[3.228363] (-) TimerEvent: {}
+[3.328928] (-) TimerEvent: {}
+[3.429888] (-) TimerEvent: {}
+[3.530386] (-) TimerEvent: {}
+[3.630908] (-) TimerEvent: {}
+[3.731452] (-) TimerEvent: {}
+[3.832068] (-) TimerEvent: {}
+[3.932610] (-) TimerEvent: {}
+[4.033195] (-) TimerEvent: {}
+[4.133745] (-) TimerEvent: {}
+[4.234293] (-) TimerEvent: {}
+[4.242125] (simple_div) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[4.334492] (-) TimerEvent: {}
+[4.435084] (-) TimerEvent: {}
+[4.465635] (simple_div) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[4.505752] (simple_div) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[4.535266] (-) TimerEvent: {}
+[4.635807] (-) TimerEvent: {}
+[4.737189] (-) TimerEvent: {}
+[4.838406] (-) TimerEvent: {}
+[4.940344] (-) TimerEvent: {}
+[5.040848] (-) TimerEvent: {}
+[5.142309] (-) TimerEvent: {}
+[5.242906] (-) TimerEvent: {}
+[5.345513] (-) TimerEvent: {}
+[5.446804] (-) TimerEvent: {}
+[5.547540] (-) TimerEvent: {}
+[5.647969] (-) TimerEvent: {}
+[5.748601] (-) TimerEvent: {}
+[5.814125] (simple_div) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[5.849241] (-) TimerEvent: {}
+[5.950745] (-) TimerEvent: {}
+[6.051337] (-) TimerEvent: {}
+[6.151885] (-) TimerEvent: {}
+[6.252484] (-) TimerEvent: {}
+[6.353005] (-) TimerEvent: {}
+[6.456596] (-) TimerEvent: {}
+[6.557365] (-) TimerEvent: {}
+[6.658566] (-) TimerEvent: {}
+[6.759128] (-) TimerEvent: {}
+[6.859758] (-) TimerEvent: {}
+[6.961288] (-) TimerEvent: {}
+[7.062459] (-) TimerEvent: {}
+[7.163961] (-) TimerEvent: {}
+[7.264541] (-) TimerEvent: {}
+[7.347827] (simple_div) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.365053] (-) TimerEvent: {}
+[7.465686] (-) TimerEvent: {}
+[7.567231] (-) TimerEvent: {}
+[7.667837] (-) TimerEvent: {}
+[7.768341] (-) TimerEvent: {}
+[7.869896] (-) TimerEvent: {}
+[7.970449] (-) TimerEvent: {}
+[7.982540] (simple_div) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.068394] (simple_div) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[8.071009] (-) TimerEvent: {}
+[8.142913] (simple_div) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.143391] (simple_div) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[8.143635] (simple_div) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[8.171545] (-) TimerEvent: {}
+[8.272289] (-) TimerEvent: {}
+[8.293429] (simple_div) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:128 (target_compile_definitions):\n'}
+[8.293895] (simple_div) StderrLine: {'line': b'  target_compile_definitions called with non-compilable target type\n'}
+[8.294143] (simple_div) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.294421] (simple_div) StderrLine: {'line': b'  CMakeLists.txt:19 (ament_target_dependencies)\n'}
+[8.294679] (simple_div) StderrLine: {'line': b'\n'}
+[8.294972] (simple_div) StderrLine: {'line': b'\x1b[0m\n'}
+[8.295917] (simple_div) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:141 (target_include_directories):\n'}
+[8.296220] (simple_div) StderrLine: {'line': b'  target_include_directories called with non-compilable target type\n'}
+[8.296499] (simple_div) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.296750] (simple_div) StderrLine: {'line': b'  CMakeLists.txt:19 (ament_target_dependencies)\n'}
+[8.297002] (simple_div) StderrLine: {'line': b'\n'}
+[8.297249] (simple_div) StderrLine: {'line': b'\x1b[0m\n'}
+[8.297526] (simple_div) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):\n'}
+[8.297776] (simple_div) StderrLine: {'line': b'  Utility target "simple_div" must not be used as the target of a\n'}
+[8.298023] (simple_div) StderrLine: {'line': b'  target_link_libraries call.\n'}
+[8.298269] (simple_div) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.298537] (simple_div) StderrLine: {'line': b'  CMakeLists.txt:19 (ament_target_dependencies)\n'}
+[8.298784] (simple_div) StderrLine: {'line': b'\n'}
+[8.299032] (simple_div) StderrLine: {'line': b'\x1b[0m\n'}
+[8.299301] (simple_div) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:147 (target_include_directories):\n'}
+[8.299551] (simple_div) StderrLine: {'line': b'  target_include_directories called with non-compilable target type\n'}
+[8.299839] (simple_div) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.300123] (simple_div) StderrLine: {'line': b'  CMakeLists.txt:19 (ament_target_dependencies)\n'}
+[8.302602] (simple_div) StderrLine: {'line': b'\n'}
+[8.303015] (simple_div) StderrLine: {'line': b'\x1b[0m\n'}
+[8.303309] (simple_div) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:151 (target_link_libraries):\n'}
+[8.303604] (simple_div) StderrLine: {'line': b'  Utility target "simple_div" must not be used as the target of a\n'}
+[8.308881] (simple_div) StderrLine: {'line': b'  target_link_libraries call.\n'}
+[8.309234] (simple_div) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.309487] (simple_div) StderrLine: {'line': b'  CMakeLists.txt:19 (ament_target_dependencies)\n'}
+[8.309739] (simple_div) StderrLine: {'line': b'\n'}
+[8.309987] (simple_div) StderrLine: {'line': b'\x1b[0m\n'}
+[8.310255] (simple_div) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:22 (install):\n'}
+[8.310503] (simple_div) StderrLine: {'line': b'  install TARGETS given target "simple_div" which is not an executable,\n'}
+[8.310751] (simple_div) StderrLine: {'line': b'  library, or module.\n'}
+[8.311019] (simple_div) StderrLine: {'line': b'\n'}
+[8.311267] (simple_div) StderrLine: {'line': b'\x1b[0m\n'}
+[8.316041] (simple_div) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.316349] (simple_div) StdoutLine: {'line': b'See also "/home/asd/ros2_ws/build/simple_div/CMakeFiles/CMakeOutput.log".\n'}
+[8.339625] (simple_div) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[8.344547] (simple_div) CommandEnded: {'returncode': 2}
+[8.372680] (-) TimerEvent: {}
+[8.481205] (-) TimerEvent: {}
+[8.485053] (simple_div) JobEnded: {'identifier': 'simple_div', 'rc': 2}
+[8.486984] (-) EventReactorShutdown: {}

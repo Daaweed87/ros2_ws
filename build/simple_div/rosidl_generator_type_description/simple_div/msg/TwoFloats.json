@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "simple_div/msg/TwoFloats",
+      "fields": [
+        {
+          "name": "first_number",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "second_number",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "simple_div/msg/TwoFloats",
+      "hash_string": "RIHS01_2e1b0a5562d0670026ea438a3bfb8245e145c8ea36e1b4d4b86166470af228e2"
+    }
+  ]
+}

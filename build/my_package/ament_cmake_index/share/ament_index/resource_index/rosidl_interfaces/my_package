@@ -1,5 +1,7 @@
 msg/AddTwoInts2.idl
 msg/AddTwoInts2.msg
+msg/TwoFloats.idl
+msg/TwoFloats.msg
 srv/AddTwoInts2.idl
 srv/AddTwoInts2.srv
 srv/AddTwoInts2_Request.msg

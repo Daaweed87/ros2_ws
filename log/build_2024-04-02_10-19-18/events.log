@@ -1,0 +1,247 @@
+[0.000000] (-) TimerEvent: {}
+[0.000303] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000402] (-) JobUnselected: {'identifier': 'd2f'}
+[0.000497] (-) JobUnselected: {'identifier': 'div'}
+[0.000580] (-) JobUnselected: {'identifier': 'div'}
+[0.000662] (-) JobUnselected: {'identifier': 'fl_div'}
+[0.000743] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000828] (simple_div) JobQueued: {'identifier': 'simple_div', 'dependencies': OrderedDict([('my_package', '/home/asd/ros2_ws/install/my_package')])}
+[0.000919] (simple_div) JobStarted: {'identifier': 'simple_div'}
+[0.035811] (simple_div) JobProgress: {'identifier': 'simple_div', 'progress': 'cmake'}
+[0.037684] (simple_div) JobProgress: {'identifier': 'simple_div', 'progress': 'build'}
+[0.049332] (simple_div) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asd/ros2_ws/build/simple_div', '--', '-j4', '-l4'], 'cwd': '/home/asd/ros2_ws/build/simple_div', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'asd'), ('LC_TIME', 'hu_HU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/asd/ros2_ws/install/my_package/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/asd'), ('OLDPWD', '/home/asd/ros2_ws/src/simple_div/msg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'hu_HU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1400'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d81d4cb7be2c4fa53a8a725e660baa1d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'asd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asd:@/tmp/.ICE-unix/1400,unix/asd:/tmp/.ICE-unix/1400'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'hu_HU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/90903db9_bd63_4d62_88ea_5d4458a03af9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'hu_HU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.9GDDL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asd/ros2_ws/install/my_package:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'hu_HU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'hu_HU.UTF-8'), ('LC_IDENTIFICATION', 'hu_HU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asd/ros2_ws/build/simple_div'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d81d4cb7be2c4fa53a8a725e660baa1d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/asd/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'hu_HU.UTF-8'), ('LC_PAPER', 'hu_HU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asd/ros2_ws/install/my_package:/opt/ros/iron')]), 'shell': False}
+[0.098158] (-) TimerEvent: {}
+[0.198664] (-) TimerEvent: {}
+[0.231058] (simple_div) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[0.299209] (-) TimerEvent: {}
+[0.309992] (simple_div) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/simple_div.cpp.o\x1b[0m\n'}
+[0.399843] (-) TimerEvent: {}
+[0.501310] (-) TimerEvent: {}
+[0.602919] (-) TimerEvent: {}
+[0.703420] (-) TimerEvent: {}
+[0.805015] (-) TimerEvent: {}
+[0.905506] (-) TimerEvent: {}
+[1.006097] (-) TimerEvent: {}
+[1.107659] (-) TimerEvent: {}
+[1.208185] (-) TimerEvent: {}
+[1.308747] (-) TimerEvent: {}
+[1.409285] (-) TimerEvent: {}
+[1.510858] (-) TimerEvent: {}
+[1.612382] (-) TimerEvent: {}
+[1.713898] (-) TimerEvent: {}
+[1.816400] (-) TimerEvent: {}
+[1.918964] (-) TimerEvent: {}
+[2.019523] (-) TimerEvent: {}
+[2.122029] (-) TimerEvent: {}
+[2.224517] (-) TimerEvent: {}
+[2.326073] (-) TimerEvent: {}
+[2.427605] (-) TimerEvent: {}
+[2.529152] (-) TimerEvent: {}
+[2.630098] (-) TimerEvent: {}
+[2.731280] (-) TimerEvent: {}
+[2.831793] (-) TimerEvent: {}
+[2.932321] (-) TimerEvent: {}
+[3.033917] (-) TimerEvent: {}
+[3.135031] (-) TimerEvent: {}
+[3.236989] (-) TimerEvent: {}
+[3.339494] (-) TimerEvent: {}
+[3.441023] (-) TimerEvent: {}
+[3.541611] (-) TimerEvent: {}
+[3.643098] (-) TimerEvent: {}
+[3.744658] (-) TimerEvent: {}
+[3.845135] (-) TimerEvent: {}
+[3.945778] (-) TimerEvent: {}
+[4.046398] (-) TimerEvent: {}
+[4.147516] (-) TimerEvent: {}
+[4.249400] (-) TimerEvent: {}
+[4.349978] (-) TimerEvent: {}
+[4.451515] (-) TimerEvent: {}
+[4.552061] (-) TimerEvent: {}
+[4.653606] (-) TimerEvent: {}
+[4.755103] (-) TimerEvent: {}
+[4.855692] (-) TimerEvent: {}
+[4.957234] (-) TimerEvent: {}
+[5.057766] (-) TimerEvent: {}
+[5.159369] (-) TimerEvent: {}
+[5.260835] (-) TimerEvent: {}
+[5.362445] (-) TimerEvent: {}
+[5.463947] (-) TimerEvent: {}
+[5.565487] (-) TimerEvent: {}
+[5.666015] (-) TimerEvent: {}
+[5.768548] (-) TimerEvent: {}
+[5.869110] (-) TimerEvent: {}
+[5.970771] (-) TimerEvent: {}
+[6.072175] (-) TimerEvent: {}
+[6.173666] (-) TimerEvent: {}
+[6.275272] (-) TimerEvent: {}
+[6.375811] (-) TimerEvent: {}
+[6.477348] (-) TimerEvent: {}
+[6.577883] (-) TimerEvent: {}
+[6.678425] (-) TimerEvent: {}
+[6.780014] (-) TimerEvent: {}
+[6.881567] (-) TimerEvent: {}
+[6.982200] (-) TimerEvent: {}
+[7.083033] (-) TimerEvent: {}
+[7.183740] (-) TimerEvent: {}
+[7.284789] (-) TimerEvent: {}
+[7.385303] (-) TimerEvent: {}
+[7.485892] (-) TimerEvent: {}
+[7.587411] (-) TimerEvent: {}
+[7.688936] (-) TimerEvent: {}
+[7.790463] (-) TimerEvent: {}
+[7.891081] (-) TimerEvent: {}
+[7.992595] (-) TimerEvent: {}
+[8.094083] (-) TimerEvent: {}
+[8.194696] (-) TimerEvent: {}
+[8.295408] (-) TimerEvent: {}
+[8.396772] (-) TimerEvent: {}
+[8.497478] (-) TimerEvent: {}
+[8.600796] (-) TimerEvent: {}
+[8.702359] (-) TimerEvent: {}
+[8.803887] (-) TimerEvent: {}
+[8.904751] (-) TimerEvent: {}
+[9.005999] (-) TimerEvent: {}
+[9.107542] (-) TimerEvent: {}
+[9.208084] (-) TimerEvent: {}
+[9.308653] (-) TimerEvent: {}
+[9.410197] (-) TimerEvent: {}
+[9.510764] (-) TimerEvent: {}
+[9.611420] (-) TimerEvent: {}
+[9.712855] (-) TimerEvent: {}
+[9.813416] (-) TimerEvent: {}
+[9.913970] (-) TimerEvent: {}
+[10.007586] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:32:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.008166] (simple_div) StderrLine: {'line': b'   32 |     rclcpp::Publisher<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::Float64>::SharedPtr publisher_;\n'}
+[10.008488] (simple_div) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.008783] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:32:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.009066] (simple_div) StderrLine: {'line': b'   32 |     rclcpp::Publisher<std_msgs::msg::Float64\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[10.009346] (simple_div) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.009762] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:32:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[10.009999] (simple_div) StderrLine: {'line': b'   32 |     rclcpp::Publisher<std_msgs::msg::Float64>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[10.010243] (simple_div) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[10.010517] (simple_div) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[10.014599] (-) TimerEvent: {}
+[10.016155] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:32:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.027437] (simple_div) StderrLine: {'line': b'   32 |     rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[10.027772] (simple_div) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.028174] (simple_div) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[10.074382] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSimpleDiv::SimpleDiv()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.075080] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:11:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.075342] (simple_div) StderrLine: {'line': b'   11 |         \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::Float64>("division_result", 10);\n'}
+[10.075582] (simple_div) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.075858] (simple_div) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[10.096385] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:11:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.096889] (simple_div) StderrLine: {'line': b'   11 |         publisher_ = this->create_publisher<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::Float64>("division_result", 10);\n'}
+[10.097177] (simple_div) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.097735] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:11:28:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[10.098039] (simple_div) StderrLine: {'line': b'   11 |         publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<std_msgs::msg::Float64>\x1b[m\x1b[K("division_result", 10);\n'}
+[10.098368] (simple_div) StderrLine: {'line': b'      |                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.098651] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:11:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KSimpleDiv::create_publisher<<expression error> >(const char [16], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.099014] (simple_div) StderrLine: {'line': b'   11 |  publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::Float64>("division_result", 10)\x1b[m\x1b[K;\n'}
+[10.099333] (simple_div) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.099635] (simple_div) StderrLine: {'line': b'\n'}
+[10.100271] (simple_div) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[10.100601] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[10.100859] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[10.101111] (simple_div) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:1\x1b[m\x1b[K:\n'}
+[10.101390] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:196:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.101651] (simple_div) StderrLine: {'line': b'  196 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[10.101900] (simple_div) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.102184] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:196:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.102453] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:11:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[10.102718] (simple_div) StderrLine: {'line': b'   11 |  publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::Float64>("division_result", 10)\x1b[m\x1b[K;\n'}
+[10.103008] (simple_div) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.103366] (simple_div) StderrLine: {'line': b'\n'}
+[10.108281] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimpleDiv::div_callback(my_package::msg::TwoFloats_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.108739] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:17:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[10.109032] (simple_div) StderrLine: {'line': b'   17 |         \x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::Float64 result_msg;\n'}
+[10.109290] (simple_div) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[10.116053] (-) TimerEvent: {}
+[10.134049] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:20:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresult_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.134814] (simple_div) StderrLine: {'line': b'   20 |             \x1b[01;31m\x1b[Kresult_msg\x1b[m\x1b[K.data = msg->first_number / msg->second_number;\n'}
+[10.135012] (simple_div) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.163132] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:26:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresult_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.164021] (simple_div) StderrLine: {'line': b'   26 |             \x1b[01;31m\x1b[Kresult_msg\x1b[m\x1b[K.data = std::numeric_limits<double>::quiet_NaN(); // If division by zero, set result to NaN\n'}
+[10.164378] (simple_div) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.187872] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:28:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[10.188438] (simple_div) StderrLine: {'line': b'   28 |         \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(result_msg);\n'}
+[10.188631] (simple_div) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.188811] (simple_div) StderrLine: {'line': b'      |         \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[10.213012] (simple_div) StderrLine: {'line': b'\x1b[01m\x1b[K/home/asd/ros2_ws/src/simple_div/src/simple_div.cpp:28:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresult_msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[10.213481] (simple_div) StderrLine: {'line': b'   28 |         publisher_->publish(\x1b[01;31m\x1b[Kresult_msg\x1b[m\x1b[K);\n'}
+[10.213731] (simple_div) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.217527] (-) TimerEvent: {}
+[10.318204] (-) TimerEvent: {}
+[10.419699] (-) TimerEvent: {}
+[10.520245] (-) TimerEvent: {}
+[10.621793] (-) TimerEvent: {}
+[10.723324] (-) TimerEvent: {}
+[10.823874] (-) TimerEvent: {}
+[10.925437] (-) TimerEvent: {}
+[11.025989] (-) TimerEvent: {}
+[11.127103] (-) TimerEvent: {}
+[11.228111] (-) TimerEvent: {}
+[11.328632] (-) TimerEvent: {}
+[11.429193] (-) TimerEvent: {}
+[11.529781] (-) TimerEvent: {}
+[11.631346] (-) TimerEvent: {}
+[11.731873] (-) TimerEvent: {}
+[11.833408] (-) TimerEvent: {}
+[11.933950] (-) TimerEvent: {}
+[12.035564] (-) TimerEvent: {}
+[12.136041] (-) TimerEvent: {}
+[12.236529] (-) TimerEvent: {}
+[12.337186] (-) TimerEvent: {}
+[12.437724] (-) TimerEvent: {}
+[12.538306] (-) TimerEvent: {}
+[12.639267] (-) TimerEvent: {}
+[12.740401] (-) TimerEvent: {}
+[12.841005] (-) TimerEvent: {}
+[12.943217] (-) TimerEvent: {}
+[13.044030] (-) TimerEvent: {}
+[13.144577] (-) TimerEvent: {}
+[13.245152] (-) TimerEvent: {}
+[13.347218] (-) TimerEvent: {}
+[13.448312] (-) TimerEvent: {}
+[13.548783] (-) TimerEvent: {}
+[13.650288] (-) TimerEvent: {}
+[13.750869] (-) TimerEvent: {}
+[13.852383] (-) TimerEvent: {}
+[13.953020] (-) TimerEvent: {}
+[14.053547] (-) TimerEvent: {}
+[14.155138] (-) TimerEvent: {}
+[14.256594] (-) TimerEvent: {}
+[14.358149] (-) TimerEvent: {}
+[14.458788] (-) TimerEvent: {}
+[14.560222] (-) TimerEvent: {}
+[14.660763] (-) TimerEvent: {}
+[14.762348] (-) TimerEvent: {}
+[14.863855] (-) TimerEvent: {}
+[14.965458] (-) TimerEvent: {}
+[15.065994] (-) TimerEvent: {}
+[15.167505] (-) TimerEvent: {}
+[15.269064] (-) TimerEvent: {}
+[15.370749] (-) TimerEvent: {}
+[15.472119] (-) TimerEvent: {}
+[15.573604] (-) TimerEvent: {}
+[15.675201] (-) TimerEvent: {}
+[15.776698] (-) TimerEvent: {}
+[15.878257] (-) TimerEvent: {}
+[15.979785] (-) TimerEvent: {}
+[16.080415] (-) TimerEvent: {}
+[16.180909] (-) TimerEvent: {}
+[16.281451] (-) TimerEvent: {}
+[16.382010] (-) TimerEvent: {}
+[16.482773] (-) TimerEvent: {}
+[16.584142] (-) TimerEvent: {}
+[16.685617] (-) TimerEvent: {}
+[16.786290] (-) TimerEvent: {}
+[16.886817] (-) TimerEvent: {}
+[16.988336] (-) TimerEvent: {}
+[17.038030] (simple_div) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/simple_div.cpp.o] Error 1\n'}
+[17.039035] (simple_div) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/server.dir/all] Error 2\n'}
+[17.042139] (simple_div) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[17.045519] (simple_div) CommandEnded: {'returncode': 2}
+[17.088865] (-) TimerEvent: {}
+[17.159969] (simple_div) JobEnded: {'identifier': 'simple_div', 'rc': 2}
+[17.171707] (-) EventReactorShutdown: {}
