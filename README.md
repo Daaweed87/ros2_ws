@@ -54,10 +54,6 @@ Git (necessary only if you instend to use the further step os this tutorial)
 
 		source  /opt/ros/iron/setup.bash
 
-4. Build the package using colcon:
-
-	   colcon build --packages-select simple_div
-
 ## Usage
 
 1. Open a new terminal window.
