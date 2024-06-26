@@ -44,7 +44,7 @@ Git (necessary only if you instend to use the further step os this tutorial)
 ## Installation
 1. Clone the repository.
 
-	   git clone https://github.com/Daaweed87/ros2_ws
+	   git clone https://github.com/davidszur/ros2_ws
 
 2. Navigate to your ROS 2 workspace directory:
    
